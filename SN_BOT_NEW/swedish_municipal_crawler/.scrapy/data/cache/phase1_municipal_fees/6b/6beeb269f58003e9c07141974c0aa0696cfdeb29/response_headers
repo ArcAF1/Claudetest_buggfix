@@ -1,9 +1,0 @@
-Server: nginx/1.22.1
-Date: Sun, 25 May 2025 21:24:16 GMT
-Content-Type: text/html; charset=UTF-8
-X-Pingback: https://www.alvesta.se/xmlrpc.php
-Link: <https://www.alvesta.se/wp-json/>; rel="https://api.w.org/"
-Link: <https://www.alvesta.se/wp-json/wp/v2/pages/3663>; rel="alternate"; title="JSON"; type="application/json"
-Link: <https://www.alvesta.se/?p=3663>; rel=shortlink
-X-Fastcgi-Cache: MISS
-Content-Encoding: gzip

@@ -1,9 +1,0 @@
-Date: Sun, 25 May 2025 18:57:56 GMT
-Server: Apache
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Headers: origin,referer,x-readspeaker-api-key,x-requested-with
-Pragma: no-cache
-Cache-Control: private,no-store,no-cache,must-revalidate,post-check=0,pre-check=0,max-age=0,s-maxage=0
-Accept-Ranges: none
-Last-Modified: Sun, 25 May 2025 18:57:56 GMT
-Location: https://vtdnntts-eu.readspeaker.com/cgi-bin/vtapi4/d26c896f1a20cd5604ef95fa75466c2c.mp3

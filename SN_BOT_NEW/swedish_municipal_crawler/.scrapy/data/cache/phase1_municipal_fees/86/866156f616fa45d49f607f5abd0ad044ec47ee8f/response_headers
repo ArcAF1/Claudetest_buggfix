@@ -1,9 +1,0 @@
-Server: nginx/1.26.1
-Date: Sun, 25 May 2025 21:16:12 GMT
-Content-Type: text/html; charset=UTF-8
-X-Powered-By: PHP/8.2.20
-X-Litespeed-Tag: 8632_HTTP.200
-Link: <https://www.alingsas.se/wp-json/>; rel="https://api.w.org/"
-Link: <https://www.alingsas.se/wp-json/wp/v2/pages/1829>; rel="alternate"; title="JSON"; type="application/json"
-Link: <https://www.alingsas.se/?p=1829>; rel=shortlink
-Content-Encoding: gzip

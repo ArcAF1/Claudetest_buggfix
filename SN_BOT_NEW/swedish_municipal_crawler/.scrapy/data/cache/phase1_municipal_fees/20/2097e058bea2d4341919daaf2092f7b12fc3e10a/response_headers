@@ -1,6 +1,0 @@
-Strict-Transport-Security: max-age=31536000
-X-Frame-Options: SAMEORIGIN
-X-Content-Type-Options: nosniff
-Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
-Content-Type: text/html;charset=ISO-8859-1
-Date: Sun, 25 May 2025 21:04:02 GMT
