@@ -2,7 +2,11 @@ import hashlib
 import re
 import logging
 from datetime import datetime
-from scrapy.exceptions import DropItem
+try:  # Scrapy might not be installed in minimal test environments
+    from scrapy.exceptions import DropItem
+except Exception:  # pragma: no cover - fallback definition
+    class DropItem(Exception):
+        pass
 
 class EnhancedDuplicatesPipeline:
     """Enhanced duplicate detection with intelligent merging and quality scoring"""
