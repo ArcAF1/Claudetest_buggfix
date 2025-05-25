@@ -9,7 +9,11 @@ Validates the three specific Phase 1 data points:
 
 import logging
 from datetime import datetime
-from scrapy.exceptions import DropItem
+try:
+    from scrapy.exceptions import DropItem
+except Exception:  # pragma: no cover - fallback if Scrapy is missing
+    class DropItem(Exception):
+        pass
 from typing import Dict, List, Optional
 
 class Phase1ValidationPipeline:

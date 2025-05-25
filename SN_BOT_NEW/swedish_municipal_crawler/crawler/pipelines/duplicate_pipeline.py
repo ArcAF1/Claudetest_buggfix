@@ -1,6 +1,10 @@
 import hashlib
 import logging
-from scrapy.exceptions import DropItem
+try:  # Scrapy may not be installed when running tests
+    from scrapy.exceptions import DropItem
+except Exception:  # pragma: no cover - fallback
+    class DropItem(Exception):
+        pass
 
 class DuplicatesPipeline:
     """Pipeline to filter out duplicate fee items"""

@@ -7,7 +7,11 @@ Ensures one entry per municipality for Phase 1 data and keeps the highest qualit
 import logging
 import hashlib
 from datetime import datetime
-from scrapy.exceptions import DropItem
+try:
+    from scrapy.exceptions import DropItem
+except Exception:  # pragma: no cover - fallback if Scrapy is missing
+    class DropItem(Exception):
+        pass
 from typing import Dict, Optional
 
 class Phase1DuplicatesPipeline:

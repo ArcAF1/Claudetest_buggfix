@@ -4,7 +4,10 @@ import sqlite3
 import logging
 from datetime import datetime
 from pathlib import Path
-import pandas as pd
+try:
+    import pandas as pd  # type: ignore
+except Exception:  # pragma: no cover - fallback when pandas is missing
+    pd = None
 from collections import defaultdict, Counter
 
 class EnhancedSwedishFeeDataPipeline:
@@ -84,7 +87,8 @@ class EnhancedSwedishFeeDataPipeline:
             
             spider.logger.info(f"Enhanced data pipeline initialized:")
             spider.logger.info(f"  CSV: {self.csv_file_path}")
-            spider.logger.info(f"  Excel: {self.excel_file_path}")
+            if pd is not None:
+                spider.logger.info(f"  Excel: {self.excel_file_path}")
             spider.logger.info(f"  Database: {self.db_path}")
             
         except Exception as e:
@@ -416,6 +420,9 @@ class EnhancedSwedishFeeDataPipeline:
     
     def _generate_excel_output(self):
         """Generate comprehensive Excel file with multiple sheets"""
+        if pd is None:
+            self.logger.warning("Pandas not available - skipping Excel output")
+            return
         try:
             with pd.ExcelWriter(self.excel_file_path, engine='openpyxl') as writer:
                 # Sheet 1: All fees data

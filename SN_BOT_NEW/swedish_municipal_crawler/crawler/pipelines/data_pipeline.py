@@ -1,6 +1,9 @@
 import json
 import csv
-import pandas as pd
+try:
+    import pandas as pd  # type: ignore
+except Exception:  # pragma: no cover - optional
+    pd = None
 from datetime import datetime
 import logging
 import os
@@ -78,22 +81,23 @@ class SwedishFeeDataPipeline:
         
         # Create Excel file with multiple sheets
         excel_file = os.path.join(self.output_dir, f'swedish_municipal_fees_{timestamp}.xlsx')
-        with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
-            # Main data sheet
-            df.to_excel(writer, sheet_name='Municipal_Fees', index=False)
-            
-            # Summary by municipality
-            municipality_summary = df.groupby('municipality').agg({
-                'fee_name': 'count',
-                'amount_numeric': ['mean', 'min', 'max']
-            }).round(2)
-            municipality_summary.columns = ['Fee_Count', 'Avg_Amount', 'Min_Amount', 'Max_Amount']
-            municipality_summary.to_excel(writer, sheet_name='Municipality_Summary')
-            
-            # Category breakdown
-            if 'category' in df.columns:
-                category_summary = df['category'].value_counts()
-                category_summary.to_excel(writer, sheet_name='Category_Breakdown')
+        if pd is not None:
+            with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
+                # Main data sheet
+                df.to_excel(writer, sheet_name='Municipal_Fees', index=False)
+
+                # Summary by municipality
+                municipality_summary = df.groupby('municipality').agg({
+                    'fee_name': 'count',
+                    'amount_numeric': ['mean', 'min', 'max']
+                }).round(2)
+                municipality_summary.columns = ['Fee_Count', 'Avg_Amount', 'Min_Amount', 'Max_Amount']
+                municipality_summary.to_excel(writer, sheet_name='Municipality_Summary')
+
+                # Category breakdown
+                if 'category' in df.columns:
+                    category_summary = df['category'].value_counts()
+                    category_summary.to_excel(writer, sheet_name='Category_Breakdown')
         
         # Log final statistics
         self.logger.info(f"Data export complete:")
@@ -102,7 +106,8 @@ class SwedishFeeDataPipeline:
         self.logger.info(f"  Files created:")
         self.logger.info(f"    JSON: {json_file}")
         self.logger.info(f"    CSV: {csv_file}")
-        self.logger.info(f"    Excel: {excel_file}")
+        if pd is not None:
+            self.logger.info(f"    Excel: {excel_file}")
         self.logger.info(f"    Statistics: {stats_file}")
         
         # Log category breakdown
