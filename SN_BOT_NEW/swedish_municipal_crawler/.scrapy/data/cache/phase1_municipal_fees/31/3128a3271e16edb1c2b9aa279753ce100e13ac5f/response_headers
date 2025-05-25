@@ -1,0 +1,10 @@
+Content-Length: 135
+Cache-Control: no-cache
+Location: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/
+Content-Security-Policy: base-uri 'none'; connect-src 'self' https://mamstream.riksdagen.se https://socket.riksdagen.se wss://socket.riksdagen.se https://data.riksdagen.se *.readspeaker.com *.riks.utv https://webbanalys.riksdagen.se; default-src 'self'; font-src 'self' data:; frame-ancestors 'self' *.riksdagen.se; frame-src 'self' https://www.youtube-nocookie.com data: https://www.riksdagen.se https://gruppbokning.riksdagen.se https://app-eu.readspeaker.com; img-src 'self' data: *.riksdagen.se *.ytimg.com; manifest-src 'self'; media-src 'self' data: blob: *.riksdagen.se *.readspeaker.com; report-uri https://csp.riksdagen.se; script-src 'self' 'unsafe-eval' 'unsafe-inline'; style-src 'self' 'unsafe-eval' 'unsafe-inline'; worker-src 'self' blob:;
+Permissions-Policy: accelerometer=(),autoplay=(self),camera=(),display-capture=(),document-domain=(),encrypted-media=(),fullscreen=(self),geolocation=(),gyroscope=(),magnetometer=(),microphone=(),midi=(),payment=(),picture-in-picture=(self),publickey-credentials-get=(),screen-wake-lock=(),sync-xhr=(self),usb=(),web-share=(),xr-spatial-tracking=()
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=16070400
+X-Content-Type-Options: nosniff
+Refresh: 0;url=https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/offentlighets-och-sekretesslag-2009400_sfs-2009-400/
+Date: Sun, 25 May 2025 19:02:56 GMT

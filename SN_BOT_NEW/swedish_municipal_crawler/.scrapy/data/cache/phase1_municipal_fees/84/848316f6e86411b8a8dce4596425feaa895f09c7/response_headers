@@ -1,0 +1,18 @@
+Content-Length: 671
+Date: Sun, 25 May 2025 21:06:36 GMT
+Content-Type: text/html
+Last-Modified: Mon, 19 May 2025 07:08:50 GMT
+Etag: "682ad902-29f"
+Expires: Sun, 25 May 2025 21:06:35 GMT
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self'; img-src 'self' blob: data: https://www.mittskolval.se https://mittskolval.se https://maps.gstatic.com https://*.googleapis.com https://*.ggpht.com; connect-src https://www.mittskolval.se wss://ws-eu.pusher.com https://sockjs-eu.pusher.com https://maps.googleapis.com https://*.tiles.mapbox.com https://api.mapbox.com https://events.mapbox.com https://o4508318550589440.ingest.de.sentry.io; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src-elem 'self' https://maps.googleapis.com; child-src data: blob:; worker-src 'self' data: blob:;
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: geolocation=(self), fullscreen=(self), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), payment=()
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Accept-Ranges: bytes

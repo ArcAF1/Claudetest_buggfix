@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phase 1 Municipal Data Dashboard</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet">
+    
+    <style>
+        .dashboard-card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .dashboard-card:hover {
+            transform: translateY(-2px);
+        }
+        .metric-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .metric-card.success {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+        }
+        .metric-card.warning {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        .metric-card.info {
+            background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+        .status-badge {
+            font-size: 0.8em;
+            padding: 0.3em 0.6em;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+        }
+        .spinner-border {
+            width: 3rem;
+            height: 3rem;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .phase1-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            margin-bottom: 2rem;
+        }
+        .data-table-container {
+            background: white;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .missing-data-item {
+            background: #f8f9fa;
+            border-left: 4px solid #dc3545;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            color: #212529;
+        }
+        .export-buttons {
+            margin: 20px 0;
+        }
+        .field-coverage-bar {
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 5px 0;
+        }
+        .field-coverage-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #28a745, #20c997);
+            transition: width 0.5s ease;
+        }
+        .text-muted {
+            color: #6c757d !important;
+        }
+        .bg-dark {
+            color: #ffffff !important;
+        }
+        .text-light {
+            color: #f8f9fa !important;
+        }
+        body {
+            color: #212529;
+        }
+        .card-body {
+            color: #212529;
+        }
+        .table {
+            color: #212529;
+        }
+        #crawler-log {
+            background-color: #212529 !important;
+            color: #ffffff !important;
+        }
+        .status-badge {
+            color: #ffffff !important;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-chart-line me-2"></i>
+                Phase 1 Municipal Data Dashboard
+            </a>
+            <div class="navbar-nav ms-auto">
+                <span class="navbar-text">
+                    <i class="fas fa-database me-1"></i>
+                    Swedish Municipal Fee Data
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="phase1-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1><i class="fas fa-analytics me-2"></i>Phase 1 Data Analysis</h1>
+                    <p class="lead mb-0">
+                        Monitoring three key municipal data points:
+                        <strong>Timtaxa Livsmedel</strong>, 
+                        <strong>Debitering Model</strong>, and 
+                        <strong>Timtaxa Bygglov</strong>
+                    </p>
+                </div>
+                <div class="col-md-4 text-end">
+                    <div class="export-buttons">
+                        <div class="btn-group" role="group">
+                            <button type="button" class="btn btn-light" onclick="exportData('excel')">
+                                <i class="fas fa-file-excel me-1"></i>Excel
+                            </button>
+                            <button type="button" class="btn btn-light" onclick="exportData('csv')">
+                                <i class="fas fa-file-csv me-1"></i>CSV
+                            </button>
+                            <button type="button" class="btn btn-light" onclick="exportData('json')">
+                                <i class="fas fa-file-code me-1"></i>JSON
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <!-- Crawler Control Section -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card dashboard-card">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                        <h5><i class="fas fa-spider me-2"></i>Phase 1 Crawler Control</h5>
+                        <div class="d-flex gap-2">
+                            <button id="startCrawlerBtn" class="btn btn-primary" onclick="startCrawler()">
+                                <i class="fas fa-play"></i> Start Crawler
+                            </button>
+                            <button id="pauseCrawlerBtn" class="btn btn-warning" onclick="pauseCrawler()" style="display: none;">
+                                <i class="fas fa-pause"></i> Pause Crawler
+                            </button>
+                            <button id="exportResultsBtn" class="btn btn-success" onclick="exportCurrentResults()">
+                                <i class="fas fa-download"></i> Export Current Results
+                            </button>
+                            <button id="refreshStatsBtn" class="btn btn-info" onclick="refreshStats()">
+                                <i class="fas fa-sync"></i> Refresh Stats
+                            </button>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h6>Crawler Status</h6>
+                                <div id="crawler-status" class="alert alert-secondary">
+                                    <i class="fas fa-info-circle me-1"></i>Ready to start crawling
+                                </div>
+                                <div id="crawler-progress" style="display: none;">
+                                    <div class="progress mb-2">
+                                        <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" 
+                                             role="progressbar" style="width: 0%"></div>
+                                    </div>
+                                    <small id="progress-text" class="text-muted">Initializing...</small>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <h6>Crawler Options</h6>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="crawlerMode" id="testMode" value="test" checked>
+                                    <label class="form-check-label" for="testMode">
+                                        Test Mode (10 municipalities)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="crawlerMode" id="quickMode" value="quick">
+                                    <label class="form-check-label" for="quickMode">
+                                        Quick Mode (50 municipalities)
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="crawlerMode" id="fullMode" value="full">
+                                    <label class="form-check-label" for="fullMode">
+                                        Full Mode (all municipalities)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <h6>Live Log <span class="badge bg-secondary" id="log-status">Disconnected</span></h6>
+                                <div id="crawler-log" class="bg-dark text-light p-3 rounded" style="height: 300px; overflow-y: auto; font-family: monospace; font-size: 0.85em;">
+                                    <div class="text-muted">Crawler log will appear here...</div>
+                                </div>
+                                <div class="mt-2">
+                                    <button class="btn btn-sm btn-outline-secondary" onclick="clearLog()">
+                                        <i class="fas fa-trash me-1"></i>Clear Log
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary" onclick="toggleAutoScroll()">
+                                        <i class="fas fa-arrows-alt-v me-1"></i><span id="autoscroll-text">Auto-scroll: ON</span>
+                                    </button>
+                                    <button class="btn btn-sm btn-outline-secondary" onclick="exportLog()">
+                                        <i class="fas fa-download me-1"></i>Export Log
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="loading">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p class="mt-3">Loading Phase 1 data...</p>
+        </div>
+
+        <!-- Main Content -->
+        <div id="main-content" style="display: none;">
+            <!-- Overview Cards -->
+            <div class="row mb-4">
+                <div class="col-md-3">
+                    <div class="card dashboard-card metric-card">
+                        <div class="card-body text-center">
+                            <i class="fas fa-city fa-2x mb-2"></i>
+                            <h3 id="total-municipalities">-</h3>
+                            <p class="mb-0">Total Municipalities</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card dashboard-card metric-card success">
+                        <div class="card-body text-center">
+                            <i class="fas fa-check-circle fa-2x mb-2"></i>
+                            <h3 id="complete-data">-</h3>
+                            <p class="mb-0">Complete Data</p>
+                            <small id="completion-rate">-</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card dashboard-card metric-card warning">
+                        <div class="card-body text-center">
+                            <i class="fas fa-exclamation-triangle fa-2x mb-2"></i>
+                            <h3 id="partial-data">-</h3>
+                            <p class="mb-0">Partial Data</p>
+                            <small id="partial-rate">-</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card dashboard-card metric-card info">
+                        <div class="card-body text-center">
+                            <i class="fas fa-calendar fa-2x mb-2"></i>
+                            <h3 id="last-updated">-</h3>
+                            <p class="mb-0">Last Updated</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Field Coverage -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-chart-bar me-2"></i>Field Coverage Analysis</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h6>Timtaxa Livsmedel</h6>
+                                    <div class="field-coverage-bar">
+                                        <div class="field-coverage-fill" id="coverage-livsmedel" style="width: 0%"></div>
+                                    </div>
+                                    <small class="text-muted" id="coverage-livsmedel-text">0 municipalities (0%)</small>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Debitering Model</h6>
+                                    <div class="field-coverage-bar">
+                                        <div class="field-coverage-fill" id="coverage-debitering" style="width: 0%"></div>
+                                    </div>
+                                    <small class="text-muted" id="coverage-debitering-text">0 municipalities (0%)</small>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Timtaxa Bygglov</h6>
+                                    <div class="field-coverage-bar">
+                                        <div class="field-coverage-fill" id="coverage-bygglov" style="width: 0%"></div>
+                                    </div>
+                                    <small class="text-muted" id="coverage-bygglov-text">0 municipalities (0%)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Charts Row -->
+            <div class="row mb-4">
+                <!-- Timtaxa Comparison Chart -->
+                <div class="col-md-8">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-chart-line me-2"></i>Timtaxa Comparison</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container">
+                                <canvas id="timtaxaChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Debitering Distribution -->
+                <div class="col-md-4">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-chart-pie me-2"></i>Billing Model Distribution</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-container">
+                                <canvas id="debiteringChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Statistics Row -->
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-trophy me-2"></i>Top 10 Highest Timtaxa Livsmedel</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="top-livsmedel-list">
+                                <div class="text-center text-muted">
+                                    <i class="fas fa-spinner fa-spin"></i> Loading...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-trophy me-2"></i>Top 10 Highest Timtaxa Bygglov</h5>
+                        </div>
+                        <div class="card-body">
+                            <div id="top-bygglov-list">
+                                <div class="text-center text-muted">
+                                    <i class="fas fa-spinner fa-spin"></i> Loading...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Table -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="data-table-container">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5><i class="fas fa-table me-2"></i>Municipality Data</h5>
+                            <div class="d-flex gap-2">
+                                <select id="status-filter" class="form-select form-select-sm" style="width: auto;">
+                                    <option value="">All Status</option>
+                                    <option value="complete">Complete</option>
+                                    <option value="partial">Partial</option>
+                                </select>
+                                <input type="text" id="search-input" class="form-control form-control-sm" placeholder="Search municipalities..." style="width: 200px;">
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table id="municipalities-table" class="table table-striped table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>Municipality</th>
+                                        <th>Timtaxa Livsmedel</th>
+                                        <th>Debitering Model</th>
+                                        <th>Timtaxa Bygglov</th>
+                                        <th>Completeness</th>
+                                        <th>Quality</th>
+                                        <th>Status</th>
+                                        <th>Source</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="municipalities-tbody">
+                                    <tr>
+                                        <td colspan="8" class="text-center">
+                                            <i class="fas fa-spinner fa-spin"></i> Loading data...
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Missing Data Analysis -->
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="card dashboard-card">
+                        <div class="card-header">
+                            <h5><i class="fas fa-exclamation-circle me-2"></i>Missing Data Analysis</h5>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h6>Missing Timtaxa Livsmedel</h6>
+                                    <div id="missing-livsmedel" class="missing-data-container">
+                                        <div class="text-center text-muted">
+                                            <i class="fas fa-spinner fa-spin"></i> Loading...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Missing Debitering Model</h6>
+                                    <div id="missing-debitering" class="missing-data-container">
+                                        <div class="text-center text-muted">
+                                            <i class="fas fa-spinner fa-spin"></i> Loading...
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <h6>Missing Timtaxa Bygglov</h6>
+                                    <div id="missing-bygglov" class="missing-data-container">
+                                        <div class="text-center text-muted">
+                                            <i class="fas fa-spinner fa-spin"></i> Loading...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-12">
+                                    <h6>Municipalities Missing All Data</h6>
+                                    <div id="missing-all" class="missing-data-container">
+                                        <div class="text-center text-muted">
+                                            <i class="fas fa-spinner fa-spin"></i> Loading...
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- DataTables -->
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <!-- Socket.IO for real-time communication -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+
+    <script>
+        let municipalitiesData = [];
+        let dataTable;
+        let timtaxaChart;
+        let debiteringChart;
+        // Global variables
+        let socket;
+        let autoScroll = true;
+        let logEntries = [];
+
+        // Initialize dashboard
+        $(document).ready(function() {
+            loadDashboardData();
+            setupEventListeners();
+            initializeSocket();
+        });
+
+        function setupEventListeners() {
+            // Search functionality
+            $('#search-input').on('keyup', function() {
+                if (dataTable) {
+                    dataTable.search(this.value).draw();
+                }
+            });
+
+            // Status filter
+            $('#status-filter').on('change', function() {
+                loadMunicipalitiesData();
+            });
+        }
+
+        async function loadDashboardData() {
+            try {
+                // Load overview data
+                await loadOverviewData();
+                
+                // Load municipalities data
+                await loadMunicipalitiesData();
+                
+                // Load comparison data
+                await loadComparisonData();
+                
+                // Load missing data
+                await loadMissingData();
+                
+                // Hide loading and show content
+                $('#loading').hide();
+                $('#main-content').show();
+                
+            } catch (error) {
+                console.error('Error loading dashboard data:', error);
+                showError('Failed to load dashboard data');
+            }
+        }
+
+        async function loadOverviewData() {
+            try {
+                const response = await fetch('/api/phase1/overview');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                // Update overview cards
+                $('#total-municipalities').text(data.total_municipalities);
+                $('#complete-data').text(data.complete_data);
+                $('#partial-data').text(data.partial_data);
+                $('#completion-rate').text(`${data.completion_rate}%`);
+                $('#partial-rate').text(`${data.partial_rate}%`);
+                
+                // Update last updated
+                if (data.latest_extraction) {
+                    const date = new Date(data.latest_extraction);
+                    $('#last-updated').text(date.toLocaleDateString('sv-SE'));
+                }
+                
+                // Update field coverage
+                updateFieldCoverage(data.coverage);
+                
+            } catch (error) {
+                console.error('Error loading overview:', error);
+                throw error;
+            }
+        }
+
+        function updateFieldCoverage(coverage) {
+            // Update coverage bars and text
+            Object.keys(coverage).forEach(field => {
+                const fieldData = coverage[field];
+                const percentage = fieldData.percentage;
+                
+                $(`#coverage-${field.replace('timtaxa_', '').replace('debitering_', 'debitering')}`).css('width', `${percentage}%`);
+                $(`#coverage-${field.replace('timtaxa_', '').replace('debitering_', 'debitering')}-text`).text(`${fieldData.count} municipalities (${percentage}%)`);
+            });
+        }
+
+        async function loadMunicipalitiesData() {
+            try {
+                const statusFilter = $('#status-filter').val();
+                const url = `/api/phase1/municipalities${statusFilter ? `?status=${statusFilter}` : ''}`;
+                
+                const response = await fetch(url);
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                municipalitiesData = data;
+                updateMunicipalitiesTable(data);
+                
+            } catch (error) {
+                console.error('Error loading municipalities:', error);
+                throw error;
+            }
+        }
+
+        function updateMunicipalitiesTable(data) {
+            const tbody = $('#municipalities-tbody');
+            tbody.empty();
+            
+            if (data.length === 0) {
+                tbody.append('<tr><td colspan="8" class="text-center text-muted">No data available</td></tr>');
+                return;
+            }
+            
+            data.forEach(municipality => {
+                const row = `
+                    <tr>
+                        <td><strong>${municipality.municipality}</strong></td>
+                        <td>${municipality.timtaxa_livsmedel ? municipality.timtaxa_livsmedel + ' kr' : '<span class="text-muted">Missing</span>'}</td>
+                        <td>${municipality.debitering_livsmedel || '<span class="text-muted">Missing</span>'}</td>
+                        <td>${municipality.timtaxa_bygglov ? municipality.timtaxa_bygglov + ' kr' : '<span class="text-muted">Missing</span>'}</td>
+                        <td>
+                            <div class="progress" style="height: 20px;">
+                                <div class="progress-bar" role="progressbar" style="width: ${municipality.data_completeness}%">
+                                    ${municipality.data_completeness}%
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="badge ${getQualityBadgeClass(municipality.data_quality)}">
+                                ${municipality.data_quality}%
+                            </span>
+                        </td>
+                        <td>
+                            <span class="badge status-badge ${getStatusBadgeClass(municipality.status)}">
+                                ${municipality.status}
+                            </span>
+                        </td>
+                        <td>
+                            <a href="${municipality.source_url}" target="_blank" class="btn btn-sm btn-outline-primary">
+                                <i class="fas fa-external-link-alt"></i> ${municipality.source_type}
+                            </a>
+                        </td>
+                    </tr>
+                `;
+                tbody.append(row);
+            });
+            
+            // Initialize or update DataTable
+            if (dataTable) {
+                dataTable.destroy();
+            }
+            
+            dataTable = $('#municipalities-table').DataTable({
+                pageLength: 25,
+                order: [[0, 'asc']],
+                columnDefs: [
+                    { orderable: false, targets: [7] }
+                ]
+            });
+        }
+
+        function getStatusBadgeClass(status) {
+            switch (status) {
+                case 'complete': return 'bg-success';
+                case 'partial': return 'bg-warning';
+                default: return 'bg-secondary';
+            }
+        }
+
+        function getQualityBadgeClass(quality) {
+            if (quality >= 90) return 'bg-success';
+            if (quality >= 70) return 'bg-info';
+            if (quality >= 50) return 'bg-warning';
+            return 'bg-danger';
+        }
+
+        async function loadComparisonData() {
+            try {
+                const response = await fetch('/api/phase1/comparison');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                // Create timtaxa comparison chart
+                createTimtaxaChart(data);
+                
+                // Create debitering distribution chart
+                createDebiteringChart(data);
+                
+                // Update top lists
+                updateTopLists(data);
+                
+            } catch (error) {
+                console.error('Error loading comparison data:', error);
+                throw error;
+            }
+        }
+
+        function createTimtaxaChart(data) {
+            const ctx = document.getElementById('timtaxaChart').getContext('2d');
+            
+            // Take top 15 municipalities for better visibility
+            const topMunicipalities = data.municipalities.slice(0, 15);
+            const livsmedelData = data.timtaxa_livsmedel.slice(0, 15);
+            const bygglovData = data.timtaxa_bygglov.slice(0, 15);
+            
+            timtaxaChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: topMunicipalities,
+                    datasets: [{
+                        label: 'Timtaxa Livsmedel',
+                        data: livsmedelData,
+                        backgroundColor: 'rgba(54, 162, 235, 0.8)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    }, {
+                        label: 'Timtaxa Bygglov',
+                        data: bygglovData,
+                        backgroundColor: 'rgba(255, 99, 132, 0.8)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            title: {
+                                display: true,
+                                text: 'Hourly Rate (kr)'
+                            }
+                        },
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Municipality'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Top 15 Municipalities by Timtaxa'
+                        }
+                    }
+                }
+            });
+        }
+
+        function createDebiteringChart(data) {
+            const ctx = document.getElementById('debiteringChart').getContext('2d');
+            
+            // Count debitering models
+            const debiteringCounts = {};
+            data.debitering_livsmedel.forEach(model => {
+                if (model) {
+                    debiteringCounts[model] = (debiteringCounts[model] || 0) + 1;
+                }
+            });
+            
+            const labels = Object.keys(debiteringCounts);
+            const values = Object.values(debiteringCounts);
+            
+            debiteringChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        data: values,
+                        backgroundColor: [
+                            'rgba(75, 192, 192, 0.8)',
+                            'rgba(255, 206, 86, 0.8)',
+                            'rgba(153, 102, 255, 0.8)'
+                        ],
+                        borderColor: [
+                            'rgba(75, 192, 192, 1)',
+                            'rgba(255, 206, 86, 1)',
+                            'rgba(153, 102, 255, 1)'
+                        ],
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        },
+                        title: {
+                            display: true,
+                            text: 'Billing Model Distribution'
+                        }
+                    }
+                }
+            });
+        }
+
+        function updateTopLists(data) {
+            // Update top livsmedel list
+            const topLivsmedelHtml = data.top_livsmedel.municipalities.map((municipality, index) => {
+                const value = data.top_livsmedel.values[index];
+                return `
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span><strong>${index + 1}.</strong> ${municipality}</span>
+                        <span class="badge bg-primary">${value} kr</span>
+                    </div>
+                `;
+            }).join('');
+            $('#top-livsmedel-list').html(topLivsmedelHtml);
+            
+            // Update top bygglov list
+            const topBygglovHtml = data.top_bygglov.municipalities.map((municipality, index) => {
+                const value = data.top_bygglov.values[index];
+                return `
+                    <div class="d-flex justify-content-between align-items-center py-2 border-bottom">
+                        <span><strong>${index + 1}.</strong> ${municipality}</span>
+                        <span class="badge bg-danger">${value} kr</span>
+                    </div>
+                `;
+            }).join('');
+            $('#top-bygglov-list').html(topBygglovHtml);
+        }
+
+        async function loadMissingData() {
+            try {
+                const response = await fetch('/api/phase1/missing-data');
+                const data = await response.json();
+                
+                if (data.error) {
+                    throw new Error(data.error);
+                }
+                
+                // Update missing data sections
+                updateMissingDataSection('missing-livsmedel', data.timtaxa_livsmedel);
+                updateMissingDataSection('missing-debitering', data.debitering_livsmedel);
+                updateMissingDataSection('missing-bygglov', data.timtaxa_bygglov);
+                updateMissingDataSection('missing-all', data.all_fields);
+                
+            } catch (error) {
+                console.error('Error loading missing data:', error);
+                throw error;
+            }
+        }
+
+        function updateMissingDataSection(elementId, missingData) {
+            const container = $(`#${elementId}`);
+            
+            if (missingData.length === 0) {
+                container.html('<div class="text-success"><i class="fas fa-check"></i> No missing data</div>');
+                return;
+            }
+            
+            const html = missingData.slice(0, 10).map(item => {
+                return `
+                    <div class="missing-data-item">
+                        <strong>${item.municipality}</strong>
+                        <small class="text-muted d-block">${item.source_type}: ${item.source_url}</small>
+                    </div>
+                `;
+            }).join('');
+            
+            const moreCount = missingData.length - 10;
+            const moreHtml = moreCount > 0 ? `<div class="text-muted mt-2">... and ${moreCount} more</div>` : '';
+            
+            container.html(html + moreHtml);
+        }
+
+        function exportData(format) {
+            window.open(`/api/phase1/export/${format}`, '_blank');
+        }
+
+        function showError(message) {
+            $('#loading').html(`
+                <div class="alert alert-danger" role="alert">
+                    <i class="fas fa-exclamation-triangle me-2"></i>
+                    ${message}
+                </div>
+            `);
+        }
+
+        // Crawler Control Functions
+        let crawlerInterval;
+        let crawlerRunning = false;
+
+        async function startCrawler() {
+            if (crawlerRunning) return;
+            
+            const mode = $('input[name="crawlerMode"]:checked').val();
+            
+            try {
+                // Update UI
+                crawlerRunning = true;
+                $('#startCrawlerBtn').hide();
+                $('#pauseCrawlerBtn').show();
+                $('#crawler-status').removeClass('alert-secondary alert-success alert-danger')
+                                   .addClass('alert-warning')
+                                   .html('<i class="fas fa-spinner fa-spin me-1"></i>Starting crawler...');
+                $('#crawler-progress').show();
+                
+                // Clear log
+                clearLog();
+                addLogMessage(`Starting Phase 1 crawler in ${mode} mode...`, 'info', 'web');
+                
+                // Start crawler
+                const response = await fetch('/api/phase1/start-crawler', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ mode: mode })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    updateCrawlerStatus('Running', 'alert-success');
+                    addLogMessage('Crawler started successfully', 'success', 'web');
+                } else {
+                    throw new Error(result.error || 'Failed to start crawler');
+                }
+                
+            } catch (error) {
+                console.error('Error starting crawler:', error);
+                updateCrawlerStatus('Error: ' + error.message, 'alert-danger');
+                addLogMessage('Error starting crawler: ' + error.message, 'error', 'web');
+                resetCrawlerUI();
+            }
+        }
+
+        async function pauseCrawler() {
+            if (!crawlerRunning) return;
+            
+            try {
+                const response = await fetch('/api/pause_crawler', {
+                    method: 'POST'
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    addLogMessage('Crawler paused by user', 'warning', 'web');
+                    updateCrawlerStatus('Paused', 'alert-warning');
+                } else {
+                    addLogMessage('Error pausing crawler: ' + (result.error || 'Unknown error'), 'error', 'web');
+                }
+                
+            } catch (error) {
+                console.error('Error pausing crawler:', error);
+                addLogMessage('Error pausing crawler: ' + error.message, 'error', 'web');
+            }
+            
+            resetCrawlerUI();
+        }
+
+        function updateCrawlerStatus(message, alertClass) {
+            $('#crawler-status').removeClass('alert-secondary alert-success alert-danger alert-warning')
+                               .addClass(alertClass)
+                               .html('<i class="fas fa-info-circle me-1"></i>' + message);
+        }
+
+        function resetCrawlerUI() {
+            crawlerRunning = false;
+            $('#startCrawlerBtn').show();
+            $('#pauseCrawlerBtn').hide();
+            $('#crawler-progress').hide();
+        }
+
+        async function exportCurrentResults() {
+            try {
+                addLogMessage('Exporting current results...', 'info', 'web');
+                
+                const response = await fetch('/api/export_current_results');
+                const result = await response.json();
+                
+                if (result.success) {
+                    addLogMessage(`Results exported successfully: ${result.filename}`, 'success', 'web');
+                    addLogMessage(`Total municipalities: ${result.total_municipalities}, Complete: ${result.complete_municipalities}`, 'info', 'web');
+                } else {
+                    addLogMessage('Error exporting results: ' + (result.message || 'Unknown error'), 'error', 'web');
+                }
+                
+            } catch (error) {
+                console.error('Error exporting results:', error);
+                addLogMessage('Error exporting results: ' + error.message, 'error', 'web');
+            }
+        }
+        
+        async function refreshStats() {
+            try {
+                const response = await fetch('/api/get_current_stats');
+                const result = await response.json();
+                
+                if (result.success) {
+                    const stats = result.stats;
+                    addLogMessage(`Current Stats - Total: ${stats.total_municipalities}, Complete: ${stats.complete_municipalities}, Partial: ${stats.partial_municipalities}, Success Rate: ${stats.completion_rate}%`, 'info', 'web');
+                    
+                    // Update progress if available
+                    if (stats.total_municipalities > 0) {
+                        const progressPercent = (stats.municipalities_with_data / stats.total_municipalities) * 100;
+                        updateProgress(stats.municipalities_with_data, stats.total_municipalities, progressPercent);
+                    }
+                } else {
+                    addLogMessage('Error getting stats: ' + (result.message || 'Unknown error'), 'error', 'web');
+                }
+                
+            } catch (error) {
+                console.error('Error refreshing stats:', error);
+                addLogMessage('Error refreshing stats: ' + error.message, 'error', 'web');
+            }
+        }
+        
+        // Socket event handlers
+        socket.on('crawler_paused', function(data) {
+            addLogMessage(data.message, 'warning', 'system');
+            updateCrawlerStatus('Paused', 'alert-warning');
+            resetCrawlerUI();
+        });
+        
+        socket.on('data_update', function(data) {
+            // Update overview cards in real-time
+            $('#total-municipalities').text(data.total_municipalities);
+            $('#complete-data').text(data.complete_municipalities);
+            
+            // Calculate and update rates
+            const completionRate = data.total_municipalities > 0 ? 
+                (data.complete_municipalities / data.total_municipalities * 100).toFixed(1) : 0;
+            $('#completion-rate').text(`${completionRate}%`);
+            
+            // Update progress bar if crawler is running
+            if (crawlerRunning && data.total_municipalities > 0) {
+                const progressPercent = (data.complete_municipalities / data.total_municipalities) * 100;
+                updateProgress(data.complete_municipalities, data.total_municipalities, progressPercent);
+            }
+            
+            // Add log message about the update
+            addLogMessage(`📊 Data Update: ${data.complete_municipalities}/${data.total_municipalities} municipalities complete`, 'success', 'system');
+            
+            // Refresh the full dashboard data every 10 updates to keep everything in sync
+            if (!window.updateCounter) window.updateCounter = 0;
+            window.updateCounter++;
+            if (window.updateCounter >= 10) {
+                window.updateCounter = 0;
+                setTimeout(loadDashboardData, 2000); // Refresh after 2 seconds
+            }
+        });
+        
+        function updateProgress(current, total, percentage) {
+            $('#progress-bar').css('width', percentage + '%');
+            $('#progress-text').text(`${current}/${total} municipalities processed (${percentage.toFixed(1)}%)`);
+            $('#crawler-progress').show();
+        }
+        
+        // Auto-refresh stats every 30 seconds when crawler is running
+        setInterval(function() {
+            if (crawlerRunning) {
+                refreshStats();
+            }
+        }, 30000);
+        
+        // Initialize Socket.IO connection
+        function initializeSocket() {
+            socket = io();
+            
+            socket.on('connect', function() {
+                console.log('Connected to server');
+                $('#log-status').removeClass('bg-secondary bg-danger').addClass('bg-success').text('Connected');
+                addLogMessage('Connected to real-time monitoring', 'success', 'system');
+            });
+            
+            socket.on('disconnect', function() {
+                console.log('Disconnected from server');
+                $('#log-status').removeClass('bg-success bg-secondary').addClass('bg-danger').text('Disconnected');
+                addLogMessage('Disconnected from server', 'warning', 'system');
+            });
+            
+            socket.on('crawler_log', function(logEntry) {
+                displayLogEntry(logEntry);
+            });
+            
+            socket.on('crawler_status_update', function(status) {
+                updateCrawlerProgress(status);
+            });
+            
+            socket.on('crawler_finished', function(result) {
+                handleCrawlerFinished(result);
+            });
+            
+            socket.on('status', function(data) {
+                console.log('Status:', data.message);
+            });
+        }
+        
+        // Display log entry in the log container
+        function displayLogEntry(logEntry) {
+            const timestamp = logEntry.timestamp || new Date().toLocaleTimeString();
+            const level = logEntry.level || 'info';
+            const message = logEntry.message || '';
+            const source = logEntry.source || 'crawler';
+            
+            const logClass = {
+                'info': 'text-info',
+                'success': 'text-success',
+                'warning': 'text-warning',
+                'error': 'text-danger',
+                'debug': 'text-muted'
+            }[level] || 'text-light';
+            
+            const sourceIcon = {
+                'system': '<i class="fas fa-cog me-1"></i>',
+                'crawler': '<i class="fas fa-spider me-1"></i>',
+                'web': '<i class="fas fa-globe me-1"></i>'
+            }[source] || '<i class="fas fa-info-circle me-1"></i>';
+            
+            const logHtml = `
+                <div class="log-entry ${logClass}" data-level="${level}" data-source="${source}">
+                    <span class="text-muted">[${timestamp}]</span> 
+                    ${sourceIcon}
+                    <span class="log-message">${escapeHtml(message)}</span>
+                </div>
+            `;
+            
+            const logContainer = $('#crawler-log');
+            
+            // Remove placeholder text if it exists
+            if (logContainer.find('.text-muted').length > 0 && logContainer.find('.log-entry').length === 0) {
+                logContainer.empty();
+            }
+            
+            logContainer.append(logHtml);
+            logEntries.push(logEntry);
+            
+            // Auto-scroll to bottom if enabled
+            if (autoScroll) {
+                logContainer.scrollTop(logContainer[0].scrollHeight);
+            }
+            
+            // Limit log entries to prevent memory issues
+            const logElements = logContainer.find('.log-entry');
+            if (logElements.length > 200) {
+                logElements.first().remove();
+                logEntries = logEntries.slice(-200);
+            }
+        }
+        
+        // Add log message (for local messages)
+        function addLogMessage(message, level = 'info', source = 'web') {
+            const logEntry = {
+                timestamp: new Date().toLocaleTimeString(),
+                message: message,
+                level: level,
+                source: source
+            };
+            displayLogEntry(logEntry);
+        }
+        
+        // Update crawler progress from real-time updates
+        function updateCrawlerProgress(status) {
+            if (status.progress !== undefined) {
+                $('#progress-bar').css('width', status.progress + '%');
+            }
+            if (status.status) {
+                $('#progress-text').text(status.status);
+            }
+            if (status.municipalities_processed !== undefined) {
+                // Update municipalities count in dashboard if needed
+                console.log(`Municipalities processed: ${status.municipalities_processed}`);
+            }
+        }
+        
+        // Handle crawler finished event
+        function handleCrawlerFinished(result) {
+            if (result.success) {
+                updateCrawlerStatus('Completed successfully', 'alert-success');
+                $('#progress-bar').css('width', '100%');
+                $('#progress-text').text('Completed');
+                
+                // Refresh data after a short delay
+                setTimeout(() => {
+                    refreshData();
+                }, 3000);
+            } else {
+                updateCrawlerStatus('Failed: ' + (result.error || 'Unknown error'), 'alert-danger');
+            }
+            
+            resetCrawlerUI();
+        }
+        
+        // Clear log
+        function clearLog() {
+            $('#crawler-log').empty().append('<div class="text-muted">Log cleared...</div>');
+            logEntries = [];
+        }
+        
+        // Toggle auto-scroll
+        function toggleAutoScroll() {
+            autoScroll = !autoScroll;
+            $('#autoscroll-text').text('Auto-scroll: ' + (autoScroll ? 'ON' : 'OFF'));
+            
+            if (autoScroll) {
+                const logContainer = $('#crawler-log');
+                logContainer.scrollTop(logContainer[0].scrollHeight);
+            }
+        }
+        
+        // Export log
+        function exportLog() {
+            if (logEntries.length === 0) {
+                alert('No log entries to export');
+                return;
+            }
+            
+            const logText = logEntries.map(entry => 
+                `[${entry.timestamp}] [${entry.level.toUpperCase()}] [${entry.source}] ${entry.message}`
+            ).join('\n');
+            
+            const blob = new Blob([logText], { type: 'text/plain' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `crawler_log_${new Date().toISOString().slice(0, 19).replace(/:/g, '-')}.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            window.URL.revokeObjectURL(url);
+        }
+        
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+    </script>
+</body>
+</html> 

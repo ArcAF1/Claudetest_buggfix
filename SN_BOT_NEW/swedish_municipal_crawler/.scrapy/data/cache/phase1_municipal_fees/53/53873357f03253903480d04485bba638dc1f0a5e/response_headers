@@ -1,0 +1,22 @@
+Alt-Svc: h3=":443"; ma=2592000
+Content-Encoding: br
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: unsafe-none;
+Cross-Origin-Opener-Policy: same-origin-allow-popups;
+Cross-Origin-Resource-Policy: same-origin;
+Date: Sun, 25 May 2025 20:03:34 GMT
+Etag: "276855-1748203414;br"
+Link: <https://foretagare.helsingborg.se/wp-json/>; rel="https://api.w.org/"
+Link: <https://foretagare.helsingborg.se/wp-json/wp/v2/pages/4117>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://foretagare.helsingborg.se/?p=4117>; rel=shortlink
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Permissions-Policy: microphone=(), camera=(), geolocation=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Litespeed-Cache-Control: public,max-age=604800
+X-Litespeed-Tag: 1722_HTTP.200,1722_page,1722_URL.c4b0695875d9b52d8936dc1c2bc97bba,1722_Po.4117,1722_PGS,1722_
+X-Permitted-Cross-Domain-Policies: none;
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

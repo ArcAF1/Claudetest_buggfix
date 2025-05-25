@@ -1,0 +1,19 @@
+Date: Sun, 25 May 2025 19:57:06 GMT
+Content-Type: text/html; charset=utf-8
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: private
+Set-Cookie: TiPMix=91.92795749359762; path=/; HttpOnly; Domain=www.partille.se; Max-Age=3600; Secure; SameSite=None
+Set-Cookie: x-ms-routing-name=self; path=/; HttpOnly; Domain=www.partille.se; Max-Age=3600; Secure; SameSite=None
+Set-Cookie: ASP.NET_SessionId=ftghokdfwxkqcm5w2srf2rt1; path=/; HttpOnly; SameSite=Lax
+Set-Cookie: ARRAffinity=c096f1bd14bc24e0a4db90626be9ecad7f0fb3f8435b64ac7a1adba273bc2a02;Path=/;HttpOnly;Secure;Domain=www.partille.se
+Set-Cookie: ARRAffinitySameSite=c096f1bd14bc24e0a4db90626be9ecad7f0fb3f8435b64ac7a1adba273bc2a02;Path=/;HttpOnly;SameSite=None;Secure;Domain=www.partille.se
+Vary: Accept-Encoding
+X-Aspnetmvc-Version: 5.2
+X-Aspnet-Version: 4.0.30319
+Request-Context: appId=cid-v1:840f8289-cd84-42ac-82c7-7cb2f0355af7
+X-Powered-By: ASP.NET
+Cf-Cache-Status: DYNAMIC
+Server: cloudflare
+Cf-Ray: 9457998fab371656-ARN
+Content-Encoding: gzip
+Alt-Svc: h3=":443"; ma=86400

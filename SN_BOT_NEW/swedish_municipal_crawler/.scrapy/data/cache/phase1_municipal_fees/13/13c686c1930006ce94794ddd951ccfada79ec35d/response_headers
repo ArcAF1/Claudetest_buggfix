@@ -1,0 +1,10 @@
+Content-Length: 157
+Content-Type: text/html; charset=UTF-8
+Location: https://www.danderyd.se/robots.txt
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self'; connect-src *; font-src *; frame-src *; img-src * data:; media-src *; object-src *; script-src * 'unsafe-inline' 'unsafe-eval'; style-src * 'unsafe-inline';
+Referrer-Policy: strict-origin
+X-Ua-Compatible: IE=edge,chrome=1
+Date: Sun, 25 May 2025 17:29:21 GMT

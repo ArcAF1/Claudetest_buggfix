@@ -1,0 +1,64 @@
+{
+  "crawler_settings": {
+    "download_delay": 2,
+    "concurrent_requests": 1,
+    "timeout": 60,
+    "retry_times": 3,
+    "cache_enabled": true,
+    "cache_expiration": 86400
+  },
+  "cms_detection": {
+    "javascript_timeout": 30000,
+    "detection_threshold": 2,
+    "cache_cms_detection": true
+  },
+  "municipality_classification": {
+    "large_threshold": 100000,
+    "medium_threshold": 50000,
+    "small_threshold": 20000
+  },
+  "extraction_limits": {
+    "max_pages_per_municipality": 50,
+    "max_pdfs_per_municipality": 10,
+    "max_links_per_page": 10
+  },
+  "priority_patterns": [
+    "/avgifter/",
+    "/taxor/",
+    "/taxor-och-avgifter/",
+    "/tjanster/byggnadsnamnden/avgifter/",
+    "/tjanster/miljonamnden/avgifter/",
+    "/foretagare/taxor/",
+    "/invånare/avgifter/",
+    "/kommunservice/avgifter/",
+    "/prislista/",
+    "/kommunfullmaktige/taxor/",
+    "/dokument/taxor/",
+    "/styrdokument/avgifter/"
+  ],
+  "fee_keywords": {
+    "avgift": 20,
+    "taxa": 18,
+    "timtaxa": 15,
+    "bygglov": 12,
+    "livsmedel": 10,
+    "miljö": 10,
+    "serveringstillstånd": 8,
+    "näringsverksamhet": 8,
+    "prislista": 15,
+    "handläggningsavgift": 12,
+    "tillsynsavgift": 11,
+    "ansökningsavgift": 10
+  },
+  "output_formats": [
+    "json",
+    "csv",
+    "xlsx"
+  ],
+  "logging": {
+    "level": "INFO",
+    "file": "data/output/crawler.log",
+    "max_size": "10MB",
+    "backup_count": 5
+  }
+} 

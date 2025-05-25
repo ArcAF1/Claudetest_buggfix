@@ -1,0 +1,22 @@
+Alt-Svc: h3=":443"; ma=2592000
+Content-Encoding: br
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: unsafe-none;
+Cross-Origin-Opener-Policy: same-origin-allow-popups;
+Cross-Origin-Resource-Policy: same-origin;
+Date: Sun, 25 May 2025 20:04:47 GMT
+Etag: "276898-1748203487;br"
+Link: <https://helsingborg.se/wp-json/>; rel="https://api.w.org/"
+Link: <https://helsingborg.se/wp-json/wp/v2/pages/259173>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://helsingborg.se/?p=259173>; rel=shortlink
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Permissions-Policy: microphone=(), camera=(), geolocation=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Litespeed-Cache-Control: public,max-age=604800
+X-Litespeed-Tag: 1721_HTTP.200,1721_page,1721_URL.69de3be4b7d4b6a66458934564e7173f,1721_Po.259173,1721_PGS,1721_
+X-Permitted-Cross-Domain-Policies: none;
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

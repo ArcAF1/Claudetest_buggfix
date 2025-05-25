@@ -1,0 +1,1510 @@
+
+
+
+<!DOCTYPE html>
+<html lang="sv">
+<head prefix="og: http://ogp.me/ns#">
+    <title>Sidan du vill n&#229; kan inte hittas - Uppsala kommun</title>
+    
+    
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<meta name="generator" content="EPiServer CMS Falcon" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="referrer" content="no-referrer" />
+
+
+<link rel="manifest" href="/manifest.json">
+
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="no">
+<meta name="application-name" content="Uppsala.se">
+<meta name="apple-mobile-web-app-title" content="Uppsala.se">
+<meta name="theme-color" content="#202E45">
+<meta name="msapplication-navbutton-color" content="#202E45">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="msapplication-starturl" content="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+<script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations()
+            .then(function (registrations) {
+                var i = 0;
+                for (i; i < registrations.length; i++) {
+                    registrations[i].unregister();
+                }
+            });
+    }
+</script>
+
+
+
+        <meta name="SIgroup" content="Kommunövergripande">
+
+<link href='/dist/css/fonts/fonts.css' rel='stylesheet' type='text/css'>
+
+
+<link rel="apple-touch-icon" href="/Content/Images/white_logo.png">
+<link rel="apple-touch-startup-image" href="/Content/Images/white_logo.png">
+<link href="/favicon.ico?v=2" rel="shortcut icon" type="image/x-icon" />
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="/commoncss?v=bWVEJomTGkdDV4QkaH81hyI1Aj-AYC9y2q3qk0SAK7U1" rel="stylesheet"/>
+
+
+<noscript>
+    
+    <style>
+        .javascripthidden, .show-without-js {
+            display: block !important;
+        }
+
+        .visible-without-js {
+            visibility: visible !important;
+            max-height: none !important;
+            opacity: 1 !important;
+        }
+
+        .height-without-js {
+            height: auto !important;
+            max-height: none !important;
+        }
+
+        .height-alldescendants-without-js * {
+            height: auto !important;
+        }
+
+        .padding-md-widhout-js {
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+        .javascriptactive {
+            display: none;
+        }
+    </style>
+</noscript>
+    
+    
+</head>
+<body id="errorpage" lang="sv" class="">
+    
+
+    
+
+
+
+        <div class="alertbannerlist hide-in-print" aria-label="Viktig information" role="region">
+
+
+    </div>
+
+
+    <div class="curtain">
+        
+        <header id="top" class="siteheader layout-siteheader js-siteheader hide-in-print">
+    <div class="layout-siteheader--corner surface"></div>
+    <div class="layout-siteheader--container siteheader--container">
+        <div class="surfaceplainaccent layout-siteheader--contentwrapper siteheader--contentwrapper">
+            <div class="layout-siteheader--logo">
+                <div class="flip-container siteheader--linklist">
+                    <a class="flip--back" href="#main">Till sidans huvudinnehåll</a>
+                    <a href="/" class="flip--front">
+                        <img src="/Content/Images/Svg/uppsala_logo.svg" alt="Uppsala kommun" class="siteheader--logo" />
+                    </a>
+                </div>
+            </div>
+        <div class="searchpanel js-searchpanel layout-siteheader--searchpanel">
+            <div class="visuallyhidden">S&#246;k efter inneh&#229;ll p&#229; webbplatsen. N&#228;r du b&#246;rjar skriva i s&#246;kf&#228;ltet kommer s&#246;kf&#246;rslag att presenteras under f&#228;ltet. Anv&#228;nd piltangenterna f&#246;r att navigera mellan s&#246;kf&#246;rslagen och enter f&#246;r att v&#228;lja n&#229;got av dem.</div>
+            <form id="quick-search-form" action="/sok/" method="GET" role="search">
+                <div class="searchpanel--quicksearch js-quicksearch">
+                    <input id="quick-query" class="searchpanel--query js-query" name="query" type="search" placeholder="Vad söker du?" autocomplete="off"
+                           aria-owns="autocomplete" aria-label="Sök på hela webbplatsen.">
+                    <span role="button" class="js-placeholder-search" aria-hidden="true">Sök</span>
+                    <button id="quick-searchbutton" class="searchpanel--btnsearch" type="submit" aria-label="Sök"></button>
+                    <button type="button" class="searchpanel--btnclose js-close-searchpanel" aria-label="stäng"></button>
+                </div>
+                    <ul id="autocomplete" class="autocomplete js-autocomplete" role="listbox" aria-label="Sökförslag" aria-live="polite"></ul>
+            </form>
+        </div>
+        </div>
+        <div class="layout-siteheader--menubutton js-menubuttonwrapper">
+            <button class="js-menubutton button menubutton" data-label="Meny" aria-expanded="false" aria-controls="menu">
+                <span class="menubutton--text">
+                    <span class="menubutton--opentext">Meny</span>
+                    <span class="menubutton--closetext">St&#228;ng</span>
+                </span>
+                <span class="js-menubutton-icon menubutton--icon hamburger">
+                    <span class="hamburger--top"></span>
+                    <span class="hamburger--middle"></span>
+                    <span class="hamburger--bottom"></span>
+                </span>
+            </button>
+        </div>
+    </div>
+    <div class="layout-siteheader--corner">
+        
+
+
+<section class="menu js-menu" aria-label="Huvudmeny" id="menu" role="navigation">
+    <div class="menu--content surface">
+        <div class="menu--top"></div>
+
+            <!-- Back Button and Link to Previous Page -->
+            <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+
+                <!-- Back Button only initially visible when in subNavigation and not within localmenu-->
+                <button id="js-main-menu-back"
+                        class='menu--icon menuicon-left menubutton--accordion js-menu--item-hidden'
+                        type="button"
+                        aria-label="G&#229; tillbaka till huvudmenyn"
+                        aria-expanded="false"
+                        aria-controls="js-main-menu">
+
+                    <!-- SVG Icon -->
+                    <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-left" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                        <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                            <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                            </g>
+                        </g>
+                    </svg>
+                    <span class="menu--title">Uppsala kommun</span>
+                </button>
+                <!-- Link to Back Page -->
+                <a id="js-main-menu-backlink" href="/"
+                   aria-label="G&#229; tillbaka till huvudmenyn"
+                   class=' menu--title '
+                   >
+                    <span>Uppsala kommun</span>
+                </a>
+
+
+                <button id="menu-toggle" aria-controls="#js-main-menu" aria-expanded="true"
+                        class='menu--icon menu--title menubutton--accordion menuicon-right js-menu--item-hidden'
+                        aria-label="&#214;ppna huvudmenyn">
+                    <svg id="menu-icon" style="cursor: pointer; text-align: right;" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183"
+                         class='open'>
+                        <g id="pil_länk_H4" data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                            <g id="Group_2061" data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                            </g>
+                        </g>
+                    </svg>
+
+                </button>
+            </div>
+
+        <div class="main-menu-togglearea--menus">
+                <!-- Main Navigation Menu -->
+                <nav id="js-main-menu"
+                     class=''
+                     aria-label="Huvuding&#229;ngar"
+                     aria-expanded="true">
+                    <ul class="menu--items">
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/bygga-och-bo/"
+                                       aria-label="Bygga och bo"
+                                       class=""
+                                       >
+                                        <span>Bygga och bo</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Bygga och bo"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_132296">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/gator-och-trafik/"
+                                       aria-label="Gator och trafik"
+                                       class=""
+                                       >
+                                        <span>Gator och trafik</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Gator och trafik"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_132260">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/foretag-och-naringsliv/"
+                                       aria-label="F&#246;retag och n&#228;ringsliv"
+                                       class=""
+                                       >
+                                        <span>F&#246;retag och n&#228;ringsliv</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r F&#246;retag och n&#228;ringsliv"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_13">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/kultur-och-fritid/"
+                                       aria-label="Kultur och fritid"
+                                       class=""
+                                       >
+                                        <span>Kultur och fritid</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Kultur och fritid"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_12">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/stod-och-omsorg/"
+                                       aria-label="St&#246;d och omsorg"
+                                       class=""
+                                       >
+                                        <span>St&#246;d och omsorg</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r St&#246;d och omsorg"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_11">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/skola-och-forskola/"
+                                       aria-label="Skola och f&#246;rskola"
+                                       class=""
+                                       >
+                                        <span>Skola och f&#246;rskola</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Skola och f&#246;rskola"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_5">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/jobb/"
+                                       aria-label="Jobba i Uppsala kommun"
+                                       class=""
+                                       >
+                                        <span>Jobba i Uppsala kommun</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Jobba i Uppsala kommun"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_264577">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                                <li class="menu-item-collapsable">
+                                    <!-- Menu Item Link -->
+                                    <a href="/kommun-och-politik/"
+                                       aria-label="Kommun och politik"
+                                       class=""
+                                       >
+                                        <span>Kommun och politik</span>
+                                    </a>
+
+                                        <!-- Submenu Toggle Button -->
+                                        <button class="menu--icon menuicon-right menubutton--accordion js-menu--submenutoggle"
+                                                type="button"
+                                                aria-label="Meny f&#246;r Kommun och politik"
+                                                aria-expanded="false"
+                                                aria-controls="submenuCollapse_133599">
+
+                                            <!-- SVG Icon -->
+                                            <svg class="menu-icon--arrowsvg menu-icon--arrowsvg-right" xmlns="http://www.w3.org/2000/svg" width="18.205" height="11.183" viewBox="0 0 18.205 11.183">
+                                                <g data-name="pil länk H4" transform="translate(17.853 0.356) rotate(90)">
+                                                    <g data-name="Group 2061" transform="translate(0.711 16.792) rotate(-90)">
+                                                        <path id="Path_120" data-name="Path 120" d="M16.089,0,8,8,0,0" transform="translate(0)" fill="none" stroke="#a8c7fa" stroke-width="3" />
+                                                    </g>
+                                                </g>
+                                            </svg>
+
+                                        </button>
+                                </li>
+                    </ul>
+                </nav>
+                    <!-- Submenus -->
+                            <nav id="submenuCollapse_132296"
+                                 class='js-menu--submenu'
+                                 aria-label="Bygga och bo"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/bygga-och-bo/"
+                                       aria-label="Bygga och bo"
+                                       class=" menu--title"
+                                       >
+                                        <span>Bygga och bo</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/samhallsbyggnad-och-planering/"
+                                               class=''
+                                               >
+                                                Samh&#228;llsbyggnad och planering
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/hitta-bostad-och-tomter/"
+                                               class=''
+                                               >
+                                                Hitta bostad och tomter
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/bygga-riva-och-installera/"
+                                               class=''
+                                               >
+                                                Bygga, riva och installera
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/miljo-och-sakerhet/"
+                                               class=''
+                                               >
+                                                Milj&#246; och s&#228;kerhet
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/fastighetsagare/"
+                                               class=''
+                                               >
+                                                Fastighets&#228;gare
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/avfall-och-atervinning/"
+                                               class=''
+                                               >
+                                                Avfall och &#229;tervinning
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/vatten-och-avlopp/"
+                                               class=''
+                                               >
+                                                Vatten och avlopp
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/felanmalan/"
+                                               class=''
+                                               >
+                                                Felanm&#228;lan
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/kartor-och-statistik/"
+                                               class=''
+                                               >
+                                                Kartor och statistik
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_132260"
+                                 class='js-menu--submenu'
+                                 aria-label="Gator och trafik"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/gator-och-trafik/"
+                                       aria-label="Gator och trafik"
+                                       class=" menu--title"
+                                       >
+                                        <span>Gator och trafik</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/gator-och-trafik/trafiksakerhet-och-underhall/"
+                                               class=''
+                                               >
+                                                Trafiks&#228;kerhet och underh&#229;ll
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/gator-och-trafik/parkering/"
+                                               class=''
+                                               >
+                                                Parkering
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/gator-och-trafik/utslapp-miljo-och-buller/"
+                                               class=''
+                                               >
+                                                Utsl&#228;pp, milj&#246; och buller
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/gator-och-trafik/cykel/"
+                                               class=''
+                                               >
+                                                Cykel
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/fardtjanst/"
+                                               class=''
+                                               >
+                                                F&#228;rdtj&#228;nst
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/bygga-och-bo/felanmalan/"
+                                               class=''
+                                               >
+                                                Felanm&#228;lan
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_13"
+                                 class='js-menu--submenu'
+                                 aria-label="F&#246;retag och n&#228;ringsliv"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/foretag-och-naringsliv/"
+                                       aria-label="F&#246;retag och n&#228;ringsliv"
+                                       class=" menu--title"
+                                       >
+                                        <span>F&#246;retag och n&#228;ringsliv</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/foretag-och-naringsliv/leverantor-och-utforare/"
+                                               class=''
+                                               >
+                                                Leverant&#246;r och utf&#246;rare
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/foretag-och-naringsliv/naringsliv-och-foretagande/"
+                                               class=''
+                                               >
+                                                N&#228;ringsliv och f&#246;retagande
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/foretag-och-naringsliv/tillstand-och-regler--miljo-och-natur/"
+                                               class=''
+                                               >
+                                                Tillst&#229;nd och regler – milj&#246; och natur
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/foretag-och-naringsliv/tillstand-och-regler--sakerhet-och-halsa/"
+                                               class=''
+                                               >
+                                                Tillst&#229;nd och regler – s&#228;kerhet och h&#228;lsa
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/foretag-och-naringsliv/tillstand-och-regler--forsaljning-livsmedel-och-servering/"
+                                               class=''
+                                               >
+                                                Tillst&#229;nd och regler – f&#246;rs&#228;ljning, livsmedel och servering
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_12"
+                                 class='js-menu--submenu'
+                                 aria-label="Kultur och fritid"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/kultur-och-fritid/"
+                                       aria-label="Kultur och fritid"
+                                       class=" menu--title"
+                                       >
+                                        <span>Kultur och fritid</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/aktiviteter-motion-och-idrott/"
+                                               class=''
+                                               >
+                                                Aktiviteter, motion och idrott
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/natur-parker-och-friluftsliv/"
+                                               class=''
+                                               >
+                                                Natur, parker och friluftsliv
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/konst-kultur-och-sevardheter/"
+                                               class=''
+                                               >
+                                                Konst, kultur och sev&#228;rdheter
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/for-foreningar-och-fria-kulturlivet/"
+                                               class=''
+                                               >
+                                                F&#246;r f&#246;reningar och fria kulturlivet
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/stipendier/"
+                                               class=''
+                                               >
+                                                Stipendier
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kultur-och-fritid/arrangera-evenemang/"
+                                               class=''
+                                               >
+                                                Arrangera evenemang
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_11"
+                                 class='js-menu--submenu'
+                                 aria-label="St&#246;d och omsorg"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/stod-och-omsorg/"
+                                       aria-label="St&#246;d och omsorg"
+                                       class=" menu--title"
+                                       >
+                                        <span>St&#246;d och omsorg</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/vid-en-allvarlig-handelse-eller-kris/"
+                                               class=''
+                                               >
+                                                Vid en allvarlig h&#228;ndelse eller kris
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/funktionsnedsattning/"
+                                               class=''
+                                               >
+                                                Funktionsneds&#228;ttning
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/fardtjanst/"
+                                               class=''
+                                               >
+                                                F&#228;rdtj&#228;nst
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/god-man-och-forvaltare/"
+                                               class=''
+                                               >
+                                                God man och f&#246;rvaltare
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/integration/"
+                                               class=''
+                                               >
+                                                Integration
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/omsorgspriset/omsorgspriset/"
+                                               class=''
+                                               >
+                                                Omsorgspriset
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/gator-och-trafik/parkering/parkering-for-rorelsehindrade/ansok-om-parkeringstillstand-for-rorelsehindrade/"
+                                               class=''
+                                               >
+                                                Parkeringstillst&#229;nd f&#246;r dig som &#228;r r&#246;relsehindrad
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/privatekonomi-och-ekonomiskt-stod/"
+                                               class=''
+                                               >
+                                                Privatekonomi och ekonomiskt st&#246;d
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/socialt-stod-till-vuxna/"
+                                               class=''
+                                               >
+                                                Socialt st&#246;d till vuxna
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/synpunkter-och-forbattringsforslag-pa-varden/"
+                                               class=''
+                                               >
+                                                Synpunkter och f&#246;rb&#228;ttringsf&#246;rslag p&#229; v&#229;rden
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/stod-till-barn-ungdom-och-familj/"
+                                               class=''
+                                               >
+                                                St&#246;d till barn, ungdom och familj
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/tillfallig-vistelse/tillfallig-vistelse-i-uppsala-kommun/"
+                                               class=''
+                                               >
+                                                Tillf&#228;llig vistelse
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/vigsel-och-begravning/"
+                                               class=''
+                                               >
+                                                Vigsel och begravning
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/aldreomsorg-och-senior/"
+                                               class=''
+                                               >
+                                                &#196;ldreomsorg och senior
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/stod-och-omsorg/ny-socialtjanstlag/ny-socialtjanstlag-1-juli-2025/"
+                                               class=''
+                                               >
+                                                Ny socialtj&#228;nstlag
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_5"
+                                 class='js-menu--submenu'
+                                 aria-label="Skola och f&#246;rskola"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/skola-och-forskola/"
+                                       aria-label="Skola och f&#246;rskola"
+                                       class=" menu--title"
+                                       >
+                                        <span>Skola och f&#246;rskola</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/forskola-och-familjedaghem/"
+                                               class=''
+                                               >
+                                                F&#246;rskola och familjedaghem
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/grundskola-och-fritids/"
+                                               class=''
+                                               >
+                                                Grundskola, fritidshem och fritidsklubb
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/gymnasieskola/"
+                                               class=''
+                                               >
+                                                Gymnasieskola
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/komvux/"
+                                               class=''
+                                               >
+                                                Komvux
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/anpassad-skola-och-fritids-anpassad-skola/"
+                                               class=''
+                                               >
+                                                Anpassad skola och fritidshem anpassad skola
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/elevhalsa/"
+                                               class=''
+                                               >
+                                                Elevh&#228;lsa
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/e-tjanster-for-dig-med-barn-eller-ungdom-i-kommunal-forskola-eller-skola/"
+                                               class=''
+                                               >
+                                                E-tj&#228;nster f&#246;r dig med barn eller ungdom i kommunal f&#246;rskola eller skola
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/studie--och-yrkesvagledning/"
+                                               class=''
+                                               >
+                                                Studie- och yrkesv&#228;gledning
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/skola-och-forskola/pedagogiska-priser-2025--allt-du-behover-veta-om-nomineringar-och-priser/"
+                                               class=''
+                                               >
+                                                Pedagogiska priset
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_264577"
+                                 class='js-menu--submenu'
+                                 aria-label="Jobba i Uppsala kommun"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/jobb/"
+                                       aria-label="Jobba i Uppsala kommun"
+                                       class=" menu--title"
+                                       >
+                                        <span>Jobba i Uppsala kommun</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/yrkesomraden/"
+                                               class=''
+                                               >
+                                                Yrkesomr&#229;den
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/tillfalliga/"
+                                               class=''
+                                               >
+                                                Vikariat, praktik och tillf&#228;lliga jobb
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/uppdrag/"
+                                               class=''
+                                               >
+                                                Arvoderade uppdrag
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/formaner-lon/"
+                                               class=''
+                                               >
+                                                F&#246;rm&#229;ner och l&#246;n
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/vardegrund/"
+                                               class=''
+                                               >
+                                                V&#229;r kultur och v&#229;ra v&#228;rderingar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/sa-har-fungerar-det-att-soka-jobb-hos-oss/"
+                                               class=''
+                                               >
+                                                S&#229; h&#228;r fungerar det att s&#246;ka jobb hos oss
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/introduktion/"
+                                               class=''
+                                               >
+                                                Introduktion f&#246;r nyanst&#228;llda
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/jobb/hjalp/"
+                                               class=''
+                                               >
+                                                Tips och hj&#228;lp
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+                            <nav id="submenuCollapse_133599"
+                                 class='js-menu--submenu'
+                                 aria-label="Kommun och politik"
+                                 aria-expanded="false">
+                                <div class="menu--subcategorylink highlightedlinkitem highlightedlinkitem-onsurface">
+                                    <!-- Submenu Back Link -->
+                                    <a href="/kommun-och-politik/"
+                                       aria-label="Kommun och politik"
+                                       class=" menu--title"
+                                       >
+                                        <span>Kommun och politik</span>
+                                    </a>
+                                </div>
+
+                                <ul class="menu--items">
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/sa-fungerar-kommunen/"
+                                               class=''
+                                               >
+                                                S&#229; fungerar kommunen
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/organisation/"
+                                               class=''
+                                               >
+                                                Organisation
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/sa-fungerar-kommunen/fortroendevalda/for-dig-som-fortroendevald/"
+                                               class=''
+                                               >
+                                                F&#246;r dig som f&#246;rtroendevald
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/kommunens-mal-och-budget/"
+                                               class=''
+                                               >
+                                                Kommunens m&#229;l och budget
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/arkiv-och-allmanna-handlingar/"
+                                               class=''
+                                               >
+                                                Arkiv och allm&#228;nna handlingar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/sa-arbetar-vi-med-olika-amnen/"
+                                               class=''
+                                               >
+                                                S&#229; arbetar vi med
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/engagera-dig-och-paverka/"
+                                               class=''
+                                               >
+                                                Engagera dig och p&#229;verka
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/anslagstavla/"
+                                               class=''
+                                               >
+                                                Anslagstavla f&#246;r beslut och kung&#246;relser
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/stadshuset/Stadshuset-din-motesplats/"
+                                               class=''
+                                               >
+                                                Stadshuset - din m&#246;tesplats
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/kartor-och-statistik/"
+                                               class=''
+                                               >
+                                                Kartor och statistik
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/nyheter-och-pressmeddelanden/"
+                                               class=''
+                                               >
+                                                Nyheter och pressmeddelanden
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Submenu Item Link -->
+                                            <a href="/kommun-och-politik/publikationer/"
+                                               class=''
+                                               >
+                                                Publikationer
+                                            </a>
+                                        </li>
+                                </ul>
+                            </nav>
+        </div>
+
+
+        <!-- Additional Navigation Links -->
+        <nav aria-label="Genv&#228;gar till felanm&#228;lan, synpunkter, spr&#229;k och tillg&#228;nglighet">
+                <div class="menu--subcategorylink"><span class="menu--subtitle">G&#229; direkt till</span></div>
+
+                <ul class="layout-singlecolumn" aria-label="Felanm&#228;lan och synpunkter">
+                        <li>
+                            <a href="/bygga-och-bo/felanmalan/" class="surface--link text-sm">Felanm&#228;lan</a>
+                        </li>
+                        <li>
+                            <a href="/lankar-i-sidfoten/synpunkter-och-klagomal/" class="surface--link text-sm">Synpunkter</a>
+                        </li>
+                        <li>
+                            <a href="/lankar-i-sidfoten/visselblasarfunktion/" class="surface--link text-sm">Visselbl&#229;sarfunktion</a>
+                        </li>
+                </ul>
+
+                <ul class="layout-singlecolumn" aria-label="Spr&#229;k och tillg&#228;nglighet">
+                        <li>
+                            <a href="/sprak/finska/" class="surface--link text-sm">Suomeksi (finska)</a>
+                        </li>
+                        <li>
+                            <a href="/sprak/sprak/" class="surface--link text-sm">Spr&#229;k (other languages)</a>
+                        </li>
+                        <li>
+                            <a href="/lankar-i-sidfoten/om-webbplatsen/anpassning-av-innehallet/" class="surface--link text-sm">Anpassning och tillg&#228;nglighet</a>
+                        </li>
+                </ul>
+        </nav>
+    </div>
+</section>
+
+    </div>
+
+</header>
+
+
+
+
+        
+    </div>
+
+    
+
+
+
+    <div class="js-cookiealert cookiealert theme-gray surface surface-medium hide-in-print" role="region" aria-label="Kakor (cookies)">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 cookiealert--wrapper">
+                    <div class="cookiealert--body">
+                        <div class="cookiealert--text">
+                            <h2>Kakor p&aring; uppsala.se</h2>
+<p>Vi anv&auml;nder n&ouml;dv&auml;ndiga kakor (cookies) f&ouml;r att webbplatsen ska fungera.</p>
+<p>Vi skulle vilja s&auml;tta lite fler kakor f&ouml;r olika funktioner som hj&auml;lper dig som anv&auml;ndare. <br />Vi vill ocks&aring; s&auml;tta kakor f&ouml;r statistik s&aring; vi kan analysera och f&ouml;rb&auml;ttra webbplatsen. <br />Du kan n&auml;r du vill &auml;ndra dina inst&auml;llningar.</p>
+
+                                <div class="cookiealert--anchor-wrapper">
+                                    <a href="/lankar-i-sidfoten/om-webbplatsen/kakor/" class="cookiealert--text--anchor surface--link">
+                                        Läs om vilka kakor vi använder och ändra dina inställningar
+                                    </a>
+                                </div>
+
+                        </div>
+                        <form id="cookie-alert-form" class="cookiealert--form" method="GET">
+                            <button type="submit" name="AcceptAllCookies"
+                                    class="button button-md button-cookie-all button-surfaceprimary cookie-button js-ripple">
+                                Tillåt alla kakor
+                            </button>
+                            <button type="submit" name="AcceptNecessaryCookies"
+                                    class="button button-md button-cookie-necessary button-surfaceprimary cookie-button js-ripple">
+                                Tillåt endast nödvändiga kakor
+                            </button>
+                        </form>
+                    </div>
+                    <div class="cookiealert--body cookie-confirm hidden">
+                        <div class="cookiealert--text">
+                            <p class="cookiealert--text--paragraf">
+                                
+                                <span id="js-cookie-save-text">Du har valt att till&#229;ta alla kakor. Du kan n&#228;r du vill &#228;ndra dina inst&#228;llningar.</span>
+                            </p>
+                                <div class="cookiealert--anchor-wrapper">
+                                    <a href='/lankar-i-sidfoten/om-webbplatsen/kakor/' class='cookiealert--text--anchor surface--link'>
+                                        &#196;ndra dina inst&#228;llningar f&#246;r kakor
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="cookiealert--form">
+                            <button id="button-cookie-confirm-close" class="button button-md button-surfaceprimary cookie-button js-ripple">
+                                <span aria-hidden="true">Stäng</span>
+                                <span class="visuallyhidden">Stäng informationsruta om kakor (cookies)</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main class="shadowoverlay js-autocompleteshadowoverlay">
+
+
+        <div class="hide-in-print rs_skip container">
+            <div class="row">
+                <div class="col-xs-12 subflexible-breadcrumbs">
+                        <nav aria-label="Brödsmulor">
+        <ul class="breadcrumbs  clearfix">
+                    <li class="breadcrumbs--listitem">
+                        <a href="/" >Startsidan</a>
+
+                            <span class="breadcrumbs--separator" aria-hidden="true">/</span>
+                    </li>
+                    <li class="breadcrumbs--listitem">
+                        <a href="/felsida-404/"   aria-current="page" class="active"  >Felsida 404</a>
+
+                    </li>
+
+                <li class="breadcrumbs--parent">
+                    <svg class="breadcrumbs--icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false" version="1.1" x="0px" y="0px" viewBox="0 0 12.2 9.3">
+                        <polygon points="4.7,9.3 5.5,8.5 2.2,5.2 12.2,5.2 12.2,4 2.3,4 5.5,0.8 4.7,0 0,4.7 " />
+                    </svg>
+                    <a href="/">Startsidan</a>
+                </li>
+        </ul>
+    </nav>
+
+                </div>
+            </div>
+        </div>
+
+        
+
+
+
+
+        <div id="main" lang="sv">
+                <!-- Matomo Image Tracker - fallback if user has disabled js -->
+                <noscript>
+                    <img referrerpolicy="no-referrer-when-downgrade" src="https://matomo.uppsala.se/matomo.php?idsite=3&amp;rec=1" class="no-border" alt="" />
+                </noscript>
+                <!-- End Matomo -->
+            <div id="print-logotype" class="container-fluid rs_skip">
+                <img src="/Content/Images/uppsala_logo.png" alt="Uppsala kommuns logotyp" />
+            </div>
+<div class='main-area container'>
+
+    <div id="content-header" class="col-xs-12">
+
+
+
+<div id="readspeaker_button1" 
+     class="readspeaker js-readspeaker-button rs_skip hide-in-print rsbtn rs_preserve">
+    <div class="readspeaker--wrapper">
+        <span class="readspeaker--icon"></span>
+        <a rel="nofollow"
+           class="rsbtn_play readspeaker--link"
+           title="Lyssna p&aring; sidans text med ReadSpeaker"
+           role="button"
+             aria-controls="js-cookie-notice-container" aria-expanded="false" 
+           id="js-functional-cookies-prompt"
+           href="//app-eu.readspeaker.com/cgi-bin/rsent?customerid=4863&amp;amp;lang=sv_se&amp;amp;voice=Maja&amp;amp;readid=main&amp;amp;url=https%3a%2f%2fwww.uppsala.se%3a443%2fViews%2fErrorHandling%2fErrorHandler%3f404%3bhttps%3a%2f%2fwww.uppsala.se%3a443%2fkommun-och-politik%2fstyrdokument">Lyssna</a>
+    </div>
+</div>
+
+
+<div class="readspeaker--cookienotice" aria-hidden="true" id="js-cookie-notice-container"></div>
+    </div>
+
+            
+
+<div class="row">
+    <div class="col-xs-12 col-md-8">
+        <div id="errorhandler" class="content-area">
+                    <header>
+                        <h1>Sidan du vill n&#229; kan inte hittas</h1>
+                    </header>
+                    <div class="info-text">
+                        <p>Kontrollera att du skrivit in rätt webbadress. Du kan också prova att söka i sökrutan eller gå till <a href="/">startsidan</a> för att hitta informationen du behöver.</p>
+                    </div>
+        </div>
+    </div>
+</div>
+
+</div>                    </div>
+    </main>
+    <footer class="shadowoverlay js-autocompleteshadowoverlay hide-in-print" aria-label="Allmänna sidfoten">
+        <div id="sitefooter">
+            
+            <div class="footer surface">
+    <div class="container">
+        <div class="layout-threecolumn layout-threecolumnnarrow">
+            <div class="footer--block">
+                <h2 id="contact-heading">Kontakt</h2>
+                <address>
+                    <ul class="layout-singlecolumn" itemscope itemtype="http://schema.org/Organization" aria-labelledby="contact-heading">
+                        <li itemscope itemtype="http://schema.org/ContactPoint" itemprop="contactPoint">
+                            <p itemprop="contactType">
+                                Kontaktcenter:
+                                <a class="phone-link" href="tel:018-7270000">
+                                    <span itemprop="telephone">018-727 00 00</span>
+                                </a>
+                            </p>
+                        </li>
+                        <li itemscope itemtype="http://schema.org/ContactPoint" itemprop="contactPoint">
+                            <p itemprop="contactType">
+                                E-post:
+                                <a href="mailto:uppsala.kommun@uppsala.se">
+                                    <span itemprop="email">uppsala.kommun@uppsala.se</span>
+                                </a>
+                            </p>
+                        </li>
+                            <li>
+                                <a href="/lankar-i-sidfoten/kontakta-uppsala-kommun/">Fler kontaktv&#228;gar</a>
+                            </li>
+                    </ul>
+                </address>
+
+                <div class="footer--pressblock">
+                    <ul class="layout-singlecolumn" aria-label="press">
+                        <li><a href="/lankar-i-sidfoten/press/">Pressrum</a></li>
+                        <li><a href="/kommun-och-politik/nyheter-och-pressmeddelanden/">Nyheter och pressmeddelanden</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer--block footer--aboutus">
+                <h2 id="about-website">Om webbplatsen</h2>
+ <ul class="layout-singlecolumn" aria-labelledby="about-website">
+        <li><a href="/lankar-i-sidfoten/om-webbplatsen/">Om webbplatsen</a></li>
+        <li><a href="/kommun-och-politik/arkiv-och-allmanna-handlingar/allmanna-handlingar-och-diarium/">Allm&#228;nna handlingar och diarium</a></li>
+        <li><a href="/kommun-och-politik/sa-fungerar-kommunen/behandling-av-personuppgifter/">Behandling av personuppgifter</a></li>
+        <li><a href="/lankar-i-sidfoten/om-webbplatsen/kakor/">Kakor</a></li>
+        <li><a href="/sprak/sprak/">Spr&#229;k (other languages)</a></li>
+        <li><a href="/lankar-i-sidfoten/tillganglighetsredogorelse/">Tillg&#228;nglighetsredog&#246;relse</a></li>
+</ul>
+
+            </div>
+            <div class="footer--block footer--followusblock">
+                <ul class="footer--socialmedia linklist" aria-label="Följ oss">
+                    <li><a href="http://www.facebook.com/uppsalakommun"><span><img src="/Content/Images/Svg/facebook_logo_white.svg" alt="Facebook" /></span></a></li>
+                    <li><a href="https://se.linkedin.com/company/uppsala-kommun"><span><img src="/Content/Images/Svg/linkedin_logo_white.svg" alt="Linkedin" /></span></a></li>
+                        <li>
+                            <a href="/lankar-i-sidfoten/om-webbplatsen/rss/"><span><img src="/Content/Images/Svg/rss.svg" alt="RSS" /></span></a>
+                        </li>
+                                            <li>
+                            <a href="/lankar-i-sidfoten/flera-satt-att-folja-oss/"><span>Fler s&#228;tt att f&#246;lja oss</span></a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p id="toplinkarea" class="visuallyhidden">
+        <a id="bottom" href="#top">Till toppen av sidan</a>
+    </p>
+</div>
+
+        </div>
+    </footer>
+
+    <script type="module">
+        import initUppsalaCommon from '/dist/newjs/Modules/common.js';
+        initUppsalaCommon();
+    </script>
+
+    <script type="module">
+        import { CookieSettings, CookieAlert } from '/dist/newjs/Modules/cookies/index.js';
+        
+        const cookieSettings = JSON.parse('{"readAboutCookiesLink":"/lankar-i-sidfoten/om-webbplatsen/kakor/","readAboutCookiesLinkText":"Läs om vilka kakor vi använder och ändra dina inställningar","allowFunctionalCookiesText":"Tillåt funktionella kakor","closeText":"Stäng","feedbackTextForOnlyNecessaryCookies":"Du har valt att bara tillåta nödvändiga kakor. Du kan när du vill ändra dina inställningar.","feedbackTextForAcceptAllCookies":"Du har valt att tillåta alla kakor. Du kan när du vill ändra dina inställningar.","functionalCookiesRequiredForReadspeakerInfoText":"För att kunna använda Lyssna behöver du tillåta funktionella kakor (cookies)."}');
+        const cookieSettingsInstance = new CookieSettings(cookieSettings);
+        CookieAlert.initCookieAlertSettings(
+                ".js-cookiealert",
+                "#cookie-alert-form",
+                "#js-cookie-save-text",
+                ".cookiealert--body",
+                "#button-cookie-confirm-close"
+        );
+        CookieAlert.init(cookieSettingsInstance);
+    </script>
+
+    <script type="module">
+        import { initReadSpeaker } from '/dist/newjs/Modules/readspeaker.js'
+        initReadSpeaker(
+            "För att kunna använda Lyssna behöver du tillåta funktionella kakor (cookies).",
+            "#js-cookie-notice-container",
+            "#js-functional-cookies-prompt",
+            "js-readspeaker-button"
+        );
+    </script>
+
+    <script src="/dist/js/jsbundle.min.js?cachebust=Release_6773"></script>
+
+
+
+    <script>
+        require(["uppsalainit", "datepickerwrapper", "matomowrapper", "formpage", "jquery", "toggleswitch"],
+            function (uppsalainit, datepickerwrapper, matomowrapper, formpage, $, toggleSwitch) {
+            uppsalainit.init();
+            formpage.init();
+            datepickerwrapper.init();
+
+
+            
+            matomowrapper.init({
+                matomoTagManagerContainerId: "3JY0lyAG",
+                matomoSiteId: "3"
+            });
+            
+
+            $.lazyLoadXT.onload.addClass = 'animated fadeIn';
+
+            // Toggle switch logic for switching between content areas within each block
+            $(".js-toggle-element-two").on("click", function () {
+                var $currentBlock = $(this).closest(".toggleblock-wrapper"); // Scope to the closest block container
+                var isActive = $(this).hasClass("active"); // Check if the clicked button is already active
+
+                // If the clicked button is not active, proceed with toggling
+                if (!isActive) {
+                    // Update active state for the buttons within the current block
+                    $currentBlock.find(".js-toggle-element-two").removeClass("active").attr("aria-selected", "false");
+                    $(this).addClass("active").attr("aria-selected", "true");
+
+                    // Show or hide the content areas based on the button clicked
+                    if ($(this).attr("id") === "section1-tab") {
+                        // Show section 1, hide section 2
+                        $currentBlock.find(".contentarea-section1").show();
+                        $currentBlock.find(".contentarea-section2").hide();
+                    } else {
+                        // Show section 2, hide section 1
+                        $currentBlock.find(".contentarea-section1").hide();
+                        $currentBlock.find(".contentarea-section2").show();
+                    }
+                }
+            });
+
+            // Initialize toggle switch for each block's buttons
+            $(".toggle-switch-container-fullwidth").each(function () {
+                var $container = $(this); // The current container for the toggle switch
+                var switchButton = $container.find(".toggle-switch-fullwidth"); // Find the toggle switch element
+                var buttonId = switchButton.attr("id"); // Get the ID of the toggle switch
+                var switchPointer = $container.find(".toggle-switch--pointer"); // Find the pointer element
+                var pointerId = switchPointer.attr("id"); // Get the ID of the pointer
+
+                // Initialize the toggle switch functionality using the found IDs
+                toggleSwitch.initButtonToggle(
+                    ".js-toggle-element-two", // Selector for the toggle buttons
+                    ".active.js-toggle-element-two", // Selector for the active toggle button
+                    "#" + pointerId, // ID of the pointer element
+                    "#" + buttonId // ID of the toggle switch element
+                );
+            });
+        });
+    </script>
+
+
+    
+    
+
+        <script>
+            require(["uppsala"],
+                function (uppsala) {
+                    uppsala.InitAutocomplete(".js-query", true);
+                });
+        </script>
+
+    
+
+
+    
+
+    
+    <script>
+
+        require(["urlservice", "opengraphhandler"], function (urlService, openGraphHandler) {
+
+            var params = {
+                tags: [
+                    { tagType: "property", selector: "og:url", content: window.location }
+                ]
+            };
+
+            urlService.initUrlChangeListener(openGraphHandler.updateMetaTags, params);
+        });
+    </script>
+
+</body>
+</html>

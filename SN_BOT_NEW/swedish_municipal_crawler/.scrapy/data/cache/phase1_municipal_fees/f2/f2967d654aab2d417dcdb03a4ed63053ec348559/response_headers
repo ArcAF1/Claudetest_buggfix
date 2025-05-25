@@ -1,0 +1,16 @@
+Content-Length: 795
+Alt-Svc: h3=":443"; ma=2592000
+Content-Type: text/html
+Cross-Origin-Embedder-Policy: unsafe-none;
+Cross-Origin-Opener-Policy: same-origin-allow-popups;
+Cross-Origin-Resource-Policy: same-origin;
+Date: Sun, 25 May 2025 17:35:47 GMT
+Location: https://helsingborg.se/sok/offentlig%2blivsmedelskontroll%2bavgift/
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Permissions-Policy: microphone=(), camera=(), geolocation=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none;
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

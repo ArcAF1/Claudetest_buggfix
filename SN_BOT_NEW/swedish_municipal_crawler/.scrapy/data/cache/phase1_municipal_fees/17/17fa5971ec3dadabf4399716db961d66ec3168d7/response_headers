@@ -1,0 +1,11 @@
+Alt-Svc: h3=":443"; ma=2592000
+Cache-Control: 
+Cache-Status: Souin; fwd=uri-miss; stored; key=GET-https-arvidsjaur.se-/utbildning/elevhalsan/
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 25 May 2025 21:10:35 GMT
+Link: <https://arvidsjaur.se/wp-json/>; rel="https://api.w.org/"
+Link: <https://arvidsjaur.se/wp-json/wp/v2/pages/1682>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://arvidsjaur.se/?p=1682>; rel=shortlink
+Vary: Accept-Encoding
+Vary: Origin

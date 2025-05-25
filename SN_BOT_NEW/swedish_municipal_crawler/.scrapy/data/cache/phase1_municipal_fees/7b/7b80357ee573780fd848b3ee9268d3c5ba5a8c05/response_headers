@@ -1,0 +1,10 @@
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Server: Microsoft-IIS/8.5
+Set-Cookie: ASP.NET_SessionId=b1rjjtmatpymwsylp41cc2o2; path=/; HttpOnly; SameSite=Lax
+X-Aspnetmvc-Version: 5.2
+X-Aspnet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Sun, 25 May 2025 21:04:07 GMT
+Cteonnt-Length: 286307
+Content-Encoding: gzip

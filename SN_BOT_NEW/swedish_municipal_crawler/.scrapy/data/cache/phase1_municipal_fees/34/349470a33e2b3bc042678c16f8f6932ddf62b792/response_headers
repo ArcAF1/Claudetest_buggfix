@@ -1,0 +1,9 @@
+Server: nginx/1.26.1
+Date: Sun, 25 May 2025 19:23:14 GMT
+Content-Type: text/html; charset=UTF-8
+X-Powered-By: PHP/8.2.20
+X-Litespeed-Tag: 8632_HTTP.404
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Link: <https://www.alingsas.se/wp-json/>; rel="https://api.w.org/"
+Content-Encoding: gzip

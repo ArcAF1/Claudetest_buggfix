@@ -1,0 +1,8 @@
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: no-referrer, same-origin
+Content-Security-Policy: default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; manifest-src 'self' data:; font-src 'self'; frame-ancestors 'self'; worker-src 'self'; img-src 'self' data:; object-src 'none'; script-src 'self' 'nonce-ieotvelTzdOwkqinFdqrkD4uz+tb50UbWtQQxnSxIaE='; style-src 'self'
+Date: Sun, 25 May 2025 20:05:03 GMT

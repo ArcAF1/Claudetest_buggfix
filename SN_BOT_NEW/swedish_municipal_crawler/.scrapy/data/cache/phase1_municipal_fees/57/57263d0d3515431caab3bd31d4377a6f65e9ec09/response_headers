@@ -1,0 +1,21 @@
+Content-Length: 0
+Alt-Svc: h3=":443"; ma=2592000
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Content-Type: text/html; charset=UTF-8
+Cross-Origin-Embedder-Policy: unsafe-none;
+Cross-Origin-Opener-Policy: same-origin-allow-popups;
+Cross-Origin-Resource-Policy: same-origin;
+Date: Sun, 25 May 2025 20:07:42 GMT
+Expires: Sun, 25 May 2025 21:07:42 GMT
+Location: https://foretagare.helsingborg.se/regler-tillstand-och-anmalan/for-alla-verksamheter/buller/
+P3P: policyref=\"/w3c/p3p.xml\", CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\"
+Permissions-Policy: microphone=(), camera=(), geolocation=()
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Litespeed-Cache-Control: no-cache
+X-Litespeed-Tag: 1722_HTTP.301,1722_HTTP.301
+X-Permitted-Cross-Domain-Policies: none;
+X-Redirect-By: redirection
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block

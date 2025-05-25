@@ -1,0 +1,6 @@
+Server: nginx/1.22.1
+Date: Sun, 25 May 2025 17:29:17 GMT
+Content-Type: text/html; charset=UTF-8
+X-Redirect-By: WordPress
+Location: https://www.alvesta.se/robots.txt
+X-Fastcgi-Cache: HIT

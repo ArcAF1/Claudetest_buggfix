@@ -1,0 +1,203 @@
+<!DOCTYPE html><html lang="sv">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="keywords" content="Open ePlatform, E-tj&auml;nster Malm&ouml; stad">
+<meta property="og:title" content="V&auml;lkommen till Malm&ouml; stads e-tj&auml;nster. H&auml;r kan du anv&auml;nda v&aring;ra digitala tj&auml;nster oavsett tid p&aring; dygnet.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/images/logo-share.png">
+<meta property="og:image:width" content="250">
+<meta property="og:image:height" content="250">
+<meta property="og:url" content="/oversikt/overview/809">
+<meta name="description" content="L&amp;auml;mna felanm&amp;auml;lan eller synpunkter p&amp;aring; stadens gator, torg eller parker.">
+<title>Felanm&auml;lan och synpunkter p&aring; stadsmilj&ouml;n - Sj&auml;lvservice Malm&ouml; stad</title>
+<link rel="shortcut icon" href="/images/favicon.ico"><!-- Matomo --><script src="/js/matomo-tracking.js"></script><!-- End Matomo Code -->
+<link rel="stylesheet" href="/css/global.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/header.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/layout.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/modules.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/interface.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/openhierarchy.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" href="/css/overrides.css?v=t7XhkiDE5UPYyOrh">
+<script type="text/javascript" src="/js/vendor/modernizr-2.6.2.min.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/static/global/jquery/jquery.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/static/global/jquery/jquery-migrate.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/static/global/jquery/jquery-ui.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/js/init-modernizr.js?v=t7XhkiDE5UPYyOrh"></script>
+<link rel="stylesheet" type="text/css" href="/static/global/modal/accessible-modal.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" type="text/css" href="/static/f/1/209/css/flowengine.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" type="text/css" href="/static/f/1/209/css/targetgroupflowbrowser.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" type="text/css" href="/static/b/1/28/css/targetgroupflowbrowser.css?v=t7XhkiDE5UPYyOrh">
+<link rel="stylesheet" type="text/css" href="/static/b/1/28/css/searchbackgroundmodule.css?v=t7XhkiDE5UPYyOrh">
+<script src="/static/global/js/focus-trapper.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/global/modal/accessible-modal.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/jquery.blockui.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/flowengine.helpdialog.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/flowengine.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/flowengine.step-navigator.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/jquery.expander.min.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/flowinstancebrowser.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/jquery.cookie.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/f/1/209/js/targetgroupflowbrowser.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/b/1/28/js/jquery.cookie.js?v=t7XhkiDE5UPYyOrh"></script><script src="/static/b/1/28/js/searchbackgroundmodule.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/js/fastclick.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/js/init-menus.js?v=t7XhkiDE5UPYyOrh"></script><script type="text/javascript" src="/js/init-malmo.js?v=t7XhkiDE5UPYyOrh"></script>
+</head>
+<body id="malmo">
+<a href="#main-content" class="skip-to-main">G&aring; direkt till inneh&aring;llet</a>
+<header>
+<div class="top container"><p><a aria-label="Till startsidan malmo.se" href="https://malmo.se" title="Till startsidan malmo.se"><img alt="Logotyp Malmö stad" height="27" src="/images/logo-x2.png?v=1" width="178" /></a></p>
+</div>
+<nav aria-label="Huvudmeny">
+<div class="container">
+<a role="button" class="only-mobile" href="#" id="toggle-primary" aria-controls="mainmenu" aria-expanded="false" data-icon-before="L">Meny</a>
+<ul class="primary" id="mainmenu">
+<li class="active selected">
+<a href="/oversikt"><span>Alla tj&auml;nster</span></a>
+</li>
+<li class="">
+<a href="/om"><span>Om</span></a>
+</li>
+</ul>
+<div class="user">
+<a href="/minasidor-start" class="logged-out">Mina sidor<i data-icon-after="u" class="vertical-align-middle" aria-hidden="true"></i></a>
+</div>
+</div>
+</nav>
+</header>
+<div id="main-content" class="main container" role="main">
+<div class="top-content"><div class="search-wrapper flowbrowser bg-search" id="bg-search-container">
+<script type="text/javascript"></script>
+<div class="inner">
+<h2 class="only-mobile" id="bg-search-title">S&ouml;k tj&auml;nst</h2>
+<input type="search" id="bg-search-field" aria-label="S&ouml;k tj&auml;nst, filtrerat resultat visas medan du skriver" name="search" class="search-field" data-searchmoduleuri="/api/v1" placeholder="T. ex. bygglov, skolval, l&auml;mna synpunkt"><span class="search-close-btn"></span><a href="#" role="button" class="btn btn-blue xl search-btn only-desktop">S&ouml;k</a><a href="#" role="button" class="btn btn-blue xl search-btn only-tablet-mobile"><span class="search-icon"></span></a>
+</div>
+<div class="search-result-wrapper grid-view">
+<div class="inner">
+<h2 tabindex="0" class="search-results-title" aria-live="polite">S&ouml;kningen p&aring; "<span class="title"></span>"&nbsp;gav&nbsp;<span class="hits"></span>&nbsp;tr&auml;ffar</h2>
+<div class="category-list">
+<a class="search-close-btn" role="button" href="#">St&auml;ng&nbsp;<i aria-hidden="true">x</i></a>
+<div class="column-1"></div>
+<div class="column-2"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="content-wide "><div id="FlowBrowser" class="contentitem">
+<script type="text/javascript">
+			userFavouriteModuleURI = '';
+		</script>
+<section class="no-pad-tablet flow-overview">
+<div class="section-inside">
+<div class="heading-wrapper">
+<figure>
+<img alt="" src="/oversikt/icon/1032"></figure>
+<div class="heading">
+<h1 id="flow_1032" class="xl">Felanm&auml;lan och synpunkter p&aring; stadsmilj&ouml;n</h1>
+</div>
+</div>
+<div class="description">
+<div class="position-relative">
+<div class="readmore-text"><p class="preamble">Har du f&ouml;rslag p&aring; vad som kan bli b&auml;ttre i Malm&ouml;s stadsmilj&ouml;&nbsp;eller vill du felanm&auml;la n&aring;got p&aring; stadens gator, torg eller parker kan du skicka in en anm&auml;lan till Malm&ouml; stad.</p>
+
+<p>Du kan enbart skicka in en synpunkt eller&nbsp;felanm&auml;lan&nbsp;per tillf&auml;lle.</p>
+
+<h2>Synpunkter</h2>
+
+<p>Du kan till exempel skicka in synpunkter och f&ouml;rb&auml;ttringsf&ouml;rslag g&auml;llande</p>
+
+<ul>
+	<li>gator och v&auml;gar</li>
+	<li>cykelbanor, g&aring;ngbanor och trottoarer</li>
+	<li>parker och naturomr&aring;den</li>
+	<li>parkering</li>
+	<li>utveckling och placeringar av hundrastplatser</li>
+	<li>sn&ouml;r&ouml;jning och halkbek&auml;mpning</li>
+	<li>offentliga toaletter</li>
+	<li>skyltning av platser</li>
+	<li>arrangemang i offentliga milj&ouml;er.</li>
+</ul>
+
+<h3>Malm&ouml;initiativet&nbsp;</h3>
+
+<p>F&ouml;r att uppm&auml;rksamma din synpunkt eller ett f&ouml;rslag kan du ocks&aring; skicka in ett initiativ till Malm&ouml; stad. Om ditt initiativ f&aring;r &ouml;ver 100 r&ouml;ster s&aring; tas det upp p&aring; politisk niv&aring; i en av stadens n&auml;mnder.&nbsp;</p>
+
+<p><a href="/oversikt/overview/929">Malm&ouml;initiativet - L&auml;mna ett initiativ till kommunen</a></p>
+
+<h2>Felanm&auml;lan</h2>
+
+<p>Exempel p&aring; saker du kan felanm&auml;la:</p>
+
+<ul>
+	<li>gatubelysning</li>
+	<li>trafiksignaler</li>
+	<li>papperskorgar</li>
+	<li>sn&ouml;r&ouml;jning och halkbek&auml;mpning</li>
+	<li>r&aring;ttbo i buskar eller om du ser m&aring;nga r&aring;ttor p&aring; ett specifikt st&auml;lle</li>
+	<li>skyltar</li>
+	<li>felparkering</li>
+	<li>offentliga toaletter</li>
+	<li>stopp i brunnar</li>
+	<li>gator och&nbsp;v&auml;gar</li>
+	<li>cykelbanor, g&aring;ngbanor, trottoarer</li>
+	<li>med mera.</li>
+</ul>
+
+<h3>Akut felanm&auml;lan p&aring; kv&auml;llar och helger</h3>
+
+<p>Om du vill felanm&auml;la n&aring;got som inte kan v&auml;nta p&aring; vardagar efter klockan 17.00&nbsp;eller p&aring; helger ringer du 040-34 10 00 och v&auml;ljer att bli kopplad till v&aring;r jourtj&auml;nst.</p>
+
+<h2>Efter att du skickat in din synpunkt eller felanm&auml;lan</h2>
+
+<p>Ditt &auml;rende&nbsp;kommer att f&aring; ett unikt &auml;rendenummer. Via&nbsp;&auml;rendenumret&nbsp;kan du f&aring; &aring;terkoppling p&aring; vad som har h&auml;nt senast tv&aring; veckor efter att du skickat in &auml;rendet.&nbsp;Det kan vara ett svar om vad som har gjorts eller planeras g&ouml;ras i&nbsp;&auml;rendet.</p>
+
+<p>Felanm&auml;lningar som utg&ouml;r en fara eller risk f&ouml;r olycksfall &aring;tg&auml;rdas s&aring; snart som m&ouml;jligt. &Auml;ven nedskr&auml;pning och klotter &aring;tg&auml;rdas med h&ouml;g prioritet.</p>
+
+<p><a href="https://malmo.se/Stadsplanering--trafik/Skotsel--underhall/Belysning/Trasig-gatlykta.html">Mer information om hur l&aring;ng tid det kan ta innan en trasig gatlykta lagas.</a></p></div>
+</div>
+<div class="about-flow">
+<div class="inner">
+<h2 class="h1">Kontaktuppgifter</h2>Fastighets- och gatukontoret<br>
+<a href="mailto:malmostad@malmo.se" title="Skicka e-post till: malmostad@malmo.se">malmostad@malmo.se</a>
+<br>
+<a href="tel:040-34 10 00" title="Ring nummer: 040-34 10 00">040-34 10 00</a>
+</div>
+<div class="inner">
+<h2 class="h1">Personuppgiftsansvarig</h2>Tekniska n&auml;mnden<br>
+<a href="mailto:fgk@malmo.se" title="Skicka e-post till: fgk@malmo.se">fgk@malmo.se</a>
+</div>
+</div>
+</div>
+</div>
+<div class="aside-inside start-flow-panel">
+<div class="section noborder">
+<div class="btn-wrapper">
+<a class="btn btn-green xl full" href="/oversikt/external/1032" data-icon-after="e" target="_blank" aria-label="Starta e-tj&auml;nsten&nbsp;-&nbsp;Felanm&auml;lan och synpunkter p&aring; stadsmilj&ouml;n">Starta e-tj&auml;nsten</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<footer id="malmo-footer">
+<address class="vcard">
+<div class="post-office-box">
+<span class="fn org">Malm&ouml; stad</span>, <span class="postal-code">205 80</span><span class="locality"> Malm&ouml;</span>
+</div>
+<div class="tel">040-34 10 00</div>
+<div class="email">malmostad@malmo.se</div>
+<div> Organisationsnummer <span class="vat-number">212000-1124</span>
+</div>
+</address>
+<nav class="alternatives">
+<ul>
+<li>
+<a href="https://malmo.se/teckensprak">Teckenspr&aring;k</a>
+</li>
+<li>
+<a href="https://malmo.se/other-languages" lang="en">Other languages</a>
+</li>
+<li>
+<a href="https://malmo.se/rss">RSS</a>
+</li>
+</ul>
+</nav>
+<nav class="about">
+<ul>
+<li>
+<a href="https://malmo.se/om-webbplatsen">Om webbplatsen</a>
+</li>
+<li>
+<a href="https://malmo.se/anstalld">Anst&auml;lld</a>
+</li>
+</ul>
+</nav>
+</footer>
+</body>
+</html>

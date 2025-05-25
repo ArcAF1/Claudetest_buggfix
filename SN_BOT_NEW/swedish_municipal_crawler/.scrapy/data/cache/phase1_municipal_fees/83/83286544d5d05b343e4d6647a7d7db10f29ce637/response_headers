@@ -1,0 +1,7 @@
+Content-Length: 0
+Server: Microsoft-IIS/10.0
+X-Powered-By: ASP.NET
+Access-Control-Allow-Origin: https://*.vizzit.se
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization
+Date: Sun, 25 May 2025 17:29:20 GMT

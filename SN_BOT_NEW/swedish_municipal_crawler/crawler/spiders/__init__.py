@@ -1,0 +1,1 @@
+# Spider modules for crawling Swedish municipal websites 

@@ -1,0 +1,2328 @@
+<!DOCTYPE html><!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]--><!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]--><!--[if IE 8]><html class="no-js lt-ie9"><![endif]--><!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]--><head><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="Open ePlatform, E-tj&auml;nster Aneby kommun">
+<meta name="description" content="Open ePlatform &auml;r en e-tj&auml;nsteplattform levererad av Nordic Peak">
+<title>Tj&auml;nster - Aneby kommun</title>
+<link rel="stylesheet" href="/css/global.css">
+<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/modules.css">
+<link rel="stylesheet" href="/css/interface.css">
+<link rel="stylesheet" href="/css/openhierarchy.css">
+<link rel="stylesheet" href="/css/overrides.css">
+<script type="text/javascript" src="/js/vendor/modernizr-2.6.2.min.js"></script><script type="text/javascript" src="/static/global/jquery/jquery.js"></script><script type="text/javascript" src="/static/global/jquery/jquery-migrate.js"></script><script type="text/javascript" src="/static/global/jquery/jquery-ui.js"></script><script type="text/javascript" src="/js/init-modernizr.js"></script>
+<link rel="stylesheet" type="text/css" href="/static/global/modal/accessible-modal.css?v=xm5PgcPkYbNlN1Kr">
+<link rel="stylesheet" type="text/css" href="/static/f/1/168/css/flowengine.css?v=xm5PgcPkYbNlN1Kr">
+<link rel="stylesheet" type="text/css" href="/static/f/1/168/css/targetgroupflowbrowser.css?v=xm5PgcPkYbNlN1Kr">
+<link rel="stylesheet" type="text/css" href="/static/b/1/14/css/targetgroupflowbrowser.css?v=xm5PgcPkYbNlN1Kr">
+<script src="/static/global/js/focus-trapper.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/global/modal/accessible-modal.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/jquery.blockui.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/flowengine.helpdialog.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/flowengine.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/flowengine.step-navigator.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/jquery.expander.min.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/flowinstancebrowser.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/jquery.cookie.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/f/1/168/js/targetgroupflowbrowser.js?v=xm5PgcPkYbNlN1Kr"></script><script src="/static/b/1/14/js/popularflowfamilies.js?v=xm5PgcPkYbNlN1Kr"></script><script type="text/javascript" src="/js/fastclick.js"></script><script type="text/javascript" src="/js/init-menus.js"></script>
+</head><body>
+<header>
+<div class="top container"><p><img alt="logo" height="80" src="/images/logo.png" /></p>
+</div>
+<nav>
+<div class="container">
+<a class="only-mobile" href="#" id="toggle-primary" data-icon-before="L">Meny</a>
+<ul class="primary">
+<li class="active selected">
+<a title="Tj&auml;nster" href="/oversikt"><span>Tj&auml;nster</span></a>
+</li>
+<li>
+<a href="/minasidor" title="Mina sidor">Mina sidor<i data-icon-before="u" title="Mina sidor kr&auml;ver inloggning." class="vertical-align-middle"></i></a>
+</li>
+<li class="">
+<a title="Tillg&auml;nglighetsredog&ouml;relse" href="https://aneby.se/admininstallningar/sidfot/om-aneby.se/information-om-webbplatsen/tillganglighetsredogorelse.html"><span>Tillg&auml;nglighetsredog&ouml;relse</span></a>
+</li>
+</ul>
+<div class="user">
+<a href="/oversikt?triggerlogin=1" class="logged-out" title="Logga in"><i>u</i>Logga in</a>
+</div>
+</div>
+</nav>
+</header>
+<div class="top-content"></div>
+<div class="main container" role="main">
+<div class="top-content"><section class="popular-flows-wrapper" aria-labelledby="popularflowmodule">
+<div class="inner">
+<h2 id="popularflowmodule">Mest anv&auml;nda tj&auml;nsterna</h2>
+<ul class="flow-list">
+<li id="popularflow_417" data-flowid="417" data-flowname="Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/417"></figure>
+<div>
+<a title="Till tj&auml;nsten Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" aria-label="Till tj&auml;nsten Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" href="/oversikt/overview/192">
+<h2>Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du g&ouml;ra en ans&ouml;kan om <u>fortsatt</u> f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd.</p></div>
+<div class="description-info">
+<a href="#" tabindex="0"></a>
+<div class="description-tooltip">
+<div><p>H&auml;r kan du g&ouml;ra en ans&ouml;kan om <u>fortsatt</u> f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" href="/oversikt/overview/192" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right" aria-hidden="true"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/192" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="popularflow_390" data-flowid="390" data-flowname="E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/390"></figure>
+<div>
+<a title="Till tj&auml;nsten E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" aria-label="Till tj&auml;nsten E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" href="/oversikt/overview/285">
+<h2>E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan till f&ouml;rskola och/eller fritidshem, inkomst&auml;ndring samt upps&auml;gning av ditt barns placering g&ouml;r du som v&aring;rdnadshavare via v&aring;r e-tj&auml;nst. H&auml;r ser du &auml;ven alla uppgifter om ditt barns placering och/eller k&ouml;status. Identifiering sker med Bank-ID</p></div>
+<div class="description-info">
+<a href="#" tabindex="0"></a>
+<div class="description-tooltip">
+<div><p>Ans&ouml;kan till f&ouml;rskola och/eller fritidshem, inkomst&auml;ndring samt upps&auml;gning av ditt barns placering g&ouml;r du som v&aring;rdnadshavare via v&aring;r e-tj&auml;nst. H&auml;r ser du &auml;ven alla uppgifter om ditt barns placering och/eller k&ouml;status. Identifiering sker med Bank-ID</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" href="/oversikt/overview/285" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right" aria-hidden="true"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/285" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="popularflow_597" data-flowid="597" data-flowname="Intyg fr&aring;n Aneby kommun" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/597"></figure>
+<div>
+<a title="Till tj&auml;nsten Intyg fr&aring;n Aneby kommun" aria-label="Till tj&auml;nsten Intyg fr&aring;n Aneby kommun" href="/oversikt/overview/179">
+<h2>Intyg fr&aring;n Aneby kommun</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som arbetar eller har arbetat i Aneby&nbsp;kommun best&auml;lla arbetsgivarintyg, tj&auml;nstg&ouml;ringsintyg, inkomstintyg eller intyg om f&ouml;rlorad arbetsinkomst.</p></div>
+<div class="description-info">
+<a href="#" tabindex="0"></a>
+<div class="description-tooltip">
+<div><p>H&auml;r kan du som arbetar eller har arbetat i Aneby&nbsp;kommun best&auml;lla arbetsgivarintyg, tj&auml;nstg&ouml;ringsintyg, inkomstintyg eller intyg om f&ouml;rlorad arbetsinkomst.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intyg fr&aring;n Aneby kommun" href="/oversikt/overview/179" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right" aria-hidden="true"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/179" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="popularflow_596" data-flowid="596" data-flowname="Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/596"></figure>
+<div>
+<a title="Till tj&auml;nsten Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" aria-label="Till tj&auml;nsten Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" href="/oversikt/overview/288">
+<h2>Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Som v&aring;rdnadshavare har du r&auml;tt att, med vissa begr&auml;nsningar, v&auml;lja skola f&ouml;r ditt barn. Du kan &auml;ven ans&ouml;ka om att byta skola i Aneby kommun.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="0"></a>
+<div class="description-tooltip">
+<div><p>Som v&aring;rdnadshavare har du r&auml;tt att, med vissa begr&auml;nsningar, v&auml;lja skola f&ouml;r ditt barn. Du kan &auml;ven ans&ouml;ka om att byta skola i Aneby kommun.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" href="/oversikt/overview/288" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right" aria-hidden="true"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/288" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="content-wide "><div id="FlowBrowser" class="contentitem">
+<div class="flow-wrapper">
+<script type="text/javascript">
+				searchFlowURI = '/oversikt/search';
+				resetLastSearchURI = '/oversikt/resetlastsearch';
+				userFavouriteModuleURI = '';
+			</script>
+<div class="search-wrapper flowbrowser">
+<div class="inner">
+<h2 class="only-mobile" id="search-title">S&ouml;k tj&auml;nst</h2>
+<div class="search-controls-wrapper">
+<input type="search" id="search-field" name="search" class="search-field" aria-labelledby="search-title" placeholder="S&ouml;k bland v&aring;ra e-tj&auml;nster"><span class="search-close-btn"></span><a href="#" class="btn btn-blue xl search-btn only-desktop">S&ouml;k</a><a href="#" class="btn btn-blue xl search-btn only-tablet-mobile" aria-label="S&ouml;k"><span class="search-icon" aria-hidden="true"></span></a>
+</div>
+</div>
+<div class="search-result-wrapper">
+<div class="inner">
+<a class="search-close-btn" role="button" href="#">St&auml;ng&nbsp;<i aria-hidden="true">x</i></a>
+<h2 class="search-results-title" aria-live="polite">"<span class="title"></span>"&nbsp;gav&nbsp;<span class="hits"></span>&nbsp;tr&auml;ffar</h2>
+<ul class="flow-list"></ul>
+</div>
+</div>
+</div>
+<div class="only-mobile full">
+<div class="clear-all-filter">
+<a href="#" role="button"><span class="icon" aria-hidden="true"></span><span class="text">Rensa alla filter</span></a>
+</div>
+</div>
+<a href="#" role="button" class="btn btn-dark xl hide-filter-btn only-mobile" aria-expanded="false" aria-controls="filter-list-options" data-show-text="Visa filter" data-hide-text="D&ouml;lj filter"><span class="text">D&ouml;lj filter</span>&nbsp;<span class="count"></span></a>
+<div class="filters-wrapper" id="filter-list-options">
+<div class="inner">
+<div class="only-desktop-tablet full">
+<div class="clear-all-filter">
+<a href="#" role="button"><span class="icon" aria-hidden="true"></span><span class="text">Rensa alla filter</span></a>
+</div>
+</div>
+<section data-cookiesuffix="FlowTypes" aria-labelledby="flowtype_section_title" class="filter-list flowtypes">
+<h2 id="flowtype_section_title">
+<span>Kategorier</span><a href="#" role="button" class="clear-filter-btn disabled" title="Rensa alla filter"><i class="material-icons" aria-hidden="true"></i></a>
+</h2>
+<a href="#" role="button" class="btn btn-blue xl toggle-list-btn filter-list-btn toggle-btn only-mobile" data-show-text="Visa kategorier" data-hide-text="D&ouml;lj kategorier"><span class="text">Visa kategorier</span>&nbsp;(<span class="count"></span>)</a>
+<ul style="display: none">
+<li>
+<a href="#category-2" data-flowtypeid="2" title="Filtrera p&aring; Barn och utbildning"><span class="text">Barn och utbildning</span><span class="count">11</span></a>
+</li>
+<li>
+<a href="#category-7" data-flowtypeid="7" title="Filtrera p&aring; Boende, milj&ouml; och trafik"><span class="text">Boende, milj&ouml; och trafik</span><span class="count">39</span></a>
+</li>
+<li>
+<a href="#category-8" data-flowtypeid="8" title="Filtrera p&aring; F&ouml;retag och n&auml;ringsliv"><span class="text">F&ouml;retag och n&auml;ringsliv</span><span class="count">3</span></a>
+</li>
+<li>
+<a href="#category-9" data-flowtypeid="9" title="Filtrera p&aring; Kommun och politik"><span class="text">Kommun och politik</span><span class="count">9</span></a>
+</li>
+<li>
+<a href="#category-6" data-flowtypeid="6" title="Filtrera p&aring; Kultur och fritid"><span class="text">Kultur och fritid</span><span class="count">5</span></a>
+</li>
+<li>
+<a href="#category-5" data-flowtypeid="5" title="Filtrera p&aring; Omsorg och st&ouml;d"><span class="text">Omsorg och st&ouml;d</span><span class="count">16</span></a>
+</li>
+<li>
+<a href="#category-10" data-flowtypeid="10" title="Filtrera p&aring; &Ouml;vriga e-tj&auml;nster"><span class="text">&Ouml;vriga e-tj&auml;nster</span><span class="count">3</span></a>
+</li>
+</ul>
+</section>
+<div class="only-mobile sorter full">
+<span class="btn btn-blue sort-btn filter-list-btn xl">Sortera<select><option value="FLOWTYPE">Kategori</option><option value="ALPHABETICAL">A-&Ouml;</option></select></span>
+</div>
+<a href="#" role="button" class="btn btn-red clear-all-filter-btn hidden">Tillbaka (rensa filter)<span></span></a>
+</div>
+</div>
+<div class="views-wrapper">
+<div class="settings only-desktop-tablet">
+<div class="sorter">
+<label for="sort-filter">Sortera:</label>&nbsp;&nbsp;&nbsp;<select id="sort-filter"><option value="FLOWTYPE">Kategori</option><option value="ALPHABETICAL">A-&Ouml;</option></select>
+</div>
+<div role="group" class="view-toggler">
+<span id="viewlabel">Vy:</span><a role="button" href="#" title="Visa som rutn&auml;t" aria-labelledby="viewlabel" aria-controls="flows-area" class="grid selected" aria-current="true"></a><a role="button" href="#" title="Visa som lista" aria-labelledby="viewlabel" aria-controls="flows-area" class="list" aria-current="false"></a>
+</div>
+</div>
+<script>
+							var defaultSorting = 'FLOWTYPE';
+						</script>
+<div class="clearfix">
+<a href="#" role="button" class="btn btn-red clear-all-filter-btn hidden floatright">Rensa alla filter</a>
+</div>
+<div id="flows-area" class="flowtype-list active-list">
+<section id="flowtype_2" data-flowtypeid="2" class="flowtype first" aria-labelledby="flowtype_2_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_2_section_title">Barn och utbildning&nbsp;(<span class="count">11</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_2_list" class="flow-list">
+<li id="flow_40" data-flowid="40" data-flowname="Auktorisation - ans&ouml;kan (pdf)" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/40?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Auktorisation - ans&ouml;kan (pdf)" href="/oversikt/overview/34" aria-describedby="description-tooltip-40">
+<h2>Auktorisation - ans&ouml;kan (pdf)</h2>
+<div class="icons only-desktop-tablet"></div>
+</a>
+<div class="description list-description"><p>Blankett och bilagor f&ouml;r ans&ouml;kan om auktorisation.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-40">
+<div><p>Blankett och bilagor f&ouml;r ans&ouml;kan om auktorisation.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Auktorisation - ans&ouml;kan (pdf)" href="/oversikt/overview/34" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/34" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_390" data-flowid="390" data-flowname="E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/390?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" href="/oversikt/overview/285" target="_blank" aria-describedby="description-tooltip-390">
+<h2>E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan till f&ouml;rskola och/eller fritidshem, inkomst&auml;ndring samt upps&auml;gning av ditt barns placering g&ouml;r du som v&aring;rdnadshavare via v&aring;r e-tj&auml;nst. H&auml;r ser du &auml;ven alla uppgifter om ditt barns placering och/eller k&ouml;status. Identifiering sker med Bank-ID</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-390">
+<div><p>Ans&ouml;kan till f&ouml;rskola och/eller fritidshem, inkomst&auml;ndring samt upps&auml;gning av ditt barns placering g&ouml;r du som v&aring;rdnadshavare via v&aring;r e-tj&auml;nst. H&auml;r ser du &auml;ven alla uppgifter om ditt barns placering och/eller k&ouml;status. Identifiering sker med Bank-ID</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten E-tj&auml;nst f&ouml;rskola, fritidshem samt inkomstuppgift" href="/oversikt/overview/285" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1" target="_blank">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/285" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1" target="_blank"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_428" data-flowid="428" data-flowname="Inackorderingstill&auml;gg" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/428?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Inackorderingstill&auml;gg" href="/oversikt/overview/219" aria-describedby="description-tooltip-428">
+<h2>Inackorderingstill&auml;gg</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om inackorderingstill&auml;gg om du studerar vid gymnasieskola och beh&ouml;ver ordna boende p&aring; skolorten p&aring; grund av l&aring;ng eller besv&auml;rlig resv&auml;g.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-428">
+<div><p>H&auml;r kan du ans&ouml;ka om inackorderingstill&auml;gg om du studerar vid gymnasieskola och beh&ouml;ver ordna boende p&aring; skolorten p&aring; grund av l&aring;ng eller besv&auml;rlig resv&auml;g.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Inackorderingstill&auml;gg" href="/oversikt/overview/219" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/219" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_557" data-flowid="557" data-flowname="Intresseanm&auml;lan att bli vikarie inom skola och barnomsorg" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/557?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Intresseanm&auml;lan att bli vikarie inom skola och barnomsorg" href="/oversikt/overview/95" aria-describedby="description-tooltip-557">
+<h2>Intresseanm&auml;lan att bli vikarie inom skola och barnomsorg</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>L&auml;mna din intresseanm&auml;lan om att bli vikarie inom skola och barnomsorg.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-557">
+<div><p>L&auml;mna din intresseanm&auml;lan om att bli vikarie inom skola och barnomsorg.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intresseanm&auml;lan att bli vikarie inom skola och barnomsorg" href="/oversikt/overview/95" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/95" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_379" data-flowid="379" data-flowname="Komvux - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/379?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Komvux - ans&ouml;kan" href="/oversikt/overview/278" aria-describedby="description-tooltip-379">
+<h2>Komvux - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som &auml;r folkbokf&ouml;rd i Aneby&nbsp;kommun ans&ouml;ka om utbildning p&aring; komvux.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-379">
+<div><p>H&auml;r kan du som &auml;r folkbokf&ouml;rd i Aneby&nbsp;kommun ans&ouml;ka om utbildning p&aring; komvux.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Komvux - ans&ouml;kan" href="/oversikt/overview/278" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/278" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_393" data-flowid="393" data-flowname="Kulturskolan - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/393?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Kulturskolan - anm&auml;lan" href="/oversikt/overview/286" target="_blank" aria-describedby="description-tooltip-393">
+<h2>Kulturskolan - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan dig till kulturskolan. Vi undervisar i olika instrument samt s&aring;ng och dans, b&aring;da i grupp och enskilt och arbetar med ensambler och orkestrar.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-393">
+<div><p>Anm&auml;lan dig till kulturskolan. Vi undervisar i olika instrument samt s&aring;ng och dans, b&aring;da i grupp och enskilt och arbetar med ensambler och orkestrar.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Kulturskolan - anm&auml;lan" href="/oversikt/overview/286" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1" target="_blank">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/286" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1" target="_blank"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_439" data-flowid="439" data-flowname="Resebidrag" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/439?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Resebidrag" href="/oversikt/overview/245" aria-describedby="description-tooltip-439">
+<h2>Resebidrag</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om reseers&auml;ttning&nbsp;om du studerar vid gymnasieskola och beh&ouml;ver ordna boende p&aring; skolorten p&aring; grund av l&aring;ng eller besv&auml;rlig resv&auml;g.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-439">
+<div><p>H&auml;r kan du ans&ouml;ka om reseers&auml;ttning&nbsp;om du studerar vid gymnasieskola och beh&ouml;ver ordna boende p&aring; skolorten p&aring; grund av l&aring;ng eller besv&auml;rlig resv&auml;g.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Resebidrag" href="/oversikt/overview/245" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/245" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_596" data-flowid="596" data-flowname="Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/596?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" href="/oversikt/overview/288" aria-describedby="description-tooltip-596">
+<h2>Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Som v&aring;rdnadshavare har du r&auml;tt att, med vissa begr&auml;nsningar, v&auml;lja skola f&ouml;r ditt barn. Du kan &auml;ven ans&ouml;ka om att byta skola i Aneby kommun.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-596">
+<div><p>Som v&aring;rdnadshavare har du r&auml;tt att, med vissa begr&auml;nsningar, v&auml;lja skola f&ouml;r ditt barn. Du kan &auml;ven ans&ouml;ka om att byta skola i Aneby kommun.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Skolbyte eller val av skola vid inflyttning till Aneby kommun (f&ouml;rskoleklass, grundskola) - ans&ouml;kan" href="/oversikt/overview/288" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/288" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_217" data-flowid="217" data-flowname="Specialkost - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/217?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Specialkost - ans&ouml;kan" href="/oversikt/overview/1" aria-describedby="description-tooltip-217">
+<h2>Specialkost - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om specialkost till ditt barn som g&aring;r i kommunal grundskola eller f&ouml;rskola. Specialkost kan f&aring;s&nbsp;om det finns&nbsp;medicinska sk&auml;l eller om det finns&nbsp;&ouml;nskem&aring;l om&nbsp;mat som &auml;r&nbsp;laktosreducerad, vegetarisk eller&nbsp;fri fr&aring;n fl&auml;sk och n&ouml;t.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-217">
+<div><p>H&auml;r kan du ans&ouml;ka om specialkost till ditt barn som g&aring;r i kommunal grundskola eller f&ouml;rskola. Specialkost kan f&aring;s&nbsp;om det finns&nbsp;medicinska sk&auml;l eller om det finns&nbsp;&ouml;nskem&aring;l om&nbsp;mat som &auml;r&nbsp;laktosreducerad, vegetarisk eller&nbsp;fri fr&aring;n fl&auml;sk och n&ouml;t.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Specialkost - ans&ouml;kan" href="/oversikt/overview/1" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/1" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_444" data-flowid="444" data-flowname="Svenska f&ouml;r invandrade (SFI) och Samh&auml;llsorientering - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/444?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Svenska f&ouml;r invandrade (SFI) och Samh&auml;llsorientering - ans&ouml;kan" href="/oversikt/overview/275" aria-describedby="description-tooltip-444">
+<h2>Svenska f&ouml;r invandrade (SFI) och Samh&auml;llsorientering - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om att l&auml;sa svenska f&ouml;r invandrare (SFI).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-444">
+<div><p>H&auml;r kan du ans&ouml;ka om att l&auml;sa svenska f&ouml;r invandrare (SFI).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Svenska f&ouml;r invandrade (SFI) och Samh&auml;llsorientering - ans&ouml;kan" href="/oversikt/overview/275" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/275" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_507" data-flowid="507" data-flowname="Utflyttning av elev (grundskola) - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/507?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Utflyttning av elev (grundskola) - anm&auml;lan" href="/oversikt/overview/291" aria-describedby="description-tooltip-507">
+<h2>Utflyttning av elev (grundskola) - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om utflyttning av elev&nbsp;fr&aring;n Aneby kommun.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-507">
+<div><p>Anm&auml;lan om utflyttning av elev&nbsp;fr&aring;n Aneby kommun.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Utflyttning av elev (grundskola) - anm&auml;lan" href="/oversikt/overview/291" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/291" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+<a href="#" role="button" class="show-all-btn" aria-label="Visa alla e-tj&auml;nster i kategorin Barn och utbildning" aria-controls="flowtype_2_list" aria-expanded="false">Visa alla</a><a href="#" role="button" class="show-fewer-btn" aria-label="Visa f&auml;rre e-tj&auml;nster i kategorin Barn och utbildning" aria-controls="flowtype_2_list" aria-expanded="false">Visa f&auml;rre</a>
+</div>
+</section>
+<section id="flowtype_7" data-flowtypeid="7" class="flowtype" aria-labelledby="flowtype_7_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_7_section_title">Boende, milj&ouml; och trafik&nbsp;(<span class="count">39</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_7_list" class="flow-list">
+<li id="flow_415" data-flowid="415" data-flowname="Ajourh&aring;llning av l&auml;genhetsregistret - Flerbostadshus inklusive specialbost&auml;der" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/415?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ajourh&aring;llning av l&auml;genhetsregistret - Flerbostadshus inklusive specialbost&auml;der" href="/oversikt/overview/135" aria-describedby="description-tooltip-415">
+<h2>Ajourh&aring;llning av l&auml;genhetsregistret - Flerbostadshus inklusive specialbost&auml;der</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>E-tj&auml;nst f&ouml;r ajourh&aring;llning av l&auml;genheter till l&auml;genhetsregistret.</p>
+
+<p>Uppgifterna ska fyllas i och skickas till kommunen senast 1 m&aring;nad efter f&auml;rdigst&auml;llandet.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-415">
+<div><p>E-tj&auml;nst f&ouml;r ajourh&aring;llning av l&auml;genheter till l&auml;genhetsregistret.</p>
+
+<p>Uppgifterna ska fyllas i och skickas till kommunen senast 1 m&aring;nad efter f&auml;rdigst&auml;llandet.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ajourh&aring;llning av l&auml;genhetsregistret - Flerbostadshus inklusive specialbost&auml;der" href="/oversikt/overview/135" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/135" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_416" data-flowid="416" data-flowname="Ajourh&aring;llning av l&auml;genhetsregistret - Sm&aring;hus inklusive fritidshus" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/416?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ajourh&aring;llning av l&auml;genhetsregistret - Sm&aring;hus inklusive fritidshus" href="/oversikt/overview/136" aria-describedby="description-tooltip-416">
+<h2>Ajourh&aring;llning av l&auml;genhetsregistret - Sm&aring;hus inklusive fritidshus</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>E-tj&auml;nst f&ouml;r ajourh&aring;llning av l&auml;genheter till l&auml;genhetsregistret.</p>
+
+<p>Uppgifterna ska fyllas i och skickas till kommunen senast 1 m&aring;nad efter f&auml;rdigst&auml;llandet.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-416">
+<div><p>E-tj&auml;nst f&ouml;r ajourh&aring;llning av l&auml;genheter till l&auml;genhetsregistret.</p>
+
+<p>Uppgifterna ska fyllas i och skickas till kommunen senast 1 m&aring;nad efter f&auml;rdigst&auml;llandet.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ajourh&aring;llning av l&auml;genhetsregistret - Sm&aring;hus inklusive fritidshus" href="/oversikt/overview/136" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/136" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_386" data-flowid="386" data-flowname="Anm&auml;lan om driftsst&ouml;rning - avvikelse" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/386?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Anm&auml;lan om driftsst&ouml;rning - avvikelse" href="/oversikt/overview/282" aria-describedby="description-tooltip-386">
+<h2>Anm&auml;lan om driftsst&ouml;rning - avvikelse</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Har det intr&auml;ffat en driftst&ouml;rning eller olycka vid din milj&ouml;farliga verksamhet? D&aring; ska du omg&aring;ende anm&auml;la det till din tillsynsmyndighet. Du kan g&ouml;ra en anm&auml;lan om driftst&ouml;rning i v&aring;r e-tj&auml;nst. Det g&aring;r &auml;ven bra att ladda upp foton och dokument.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-386">
+<div><p>Har det intr&auml;ffat en driftst&ouml;rning eller olycka vid din milj&ouml;farliga verksamhet? D&aring; ska du omg&aring;ende anm&auml;la det till din tillsynsmyndighet. Du kan g&ouml;ra en anm&auml;lan om driftst&ouml;rning i v&aring;r e-tj&auml;nst. Det g&aring;r &auml;ven bra att ladda upp foton och dokument.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Anm&auml;lan om driftsst&ouml;rning - avvikelse" href="/oversikt/overview/282" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/282" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_598" data-flowid="598" data-flowname="Avlopp - ans&ouml;kan om eget avlopp" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/598?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Avlopp - ans&ouml;kan om eget avlopp" href="/oversikt/overview/175" aria-describedby="description-tooltip-598">
+<h2>Avlopp - ans&ouml;kan om eget avlopp</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om att bygga nytt avlopp,&nbsp; eller anm&auml;lan om att &auml;ndra i befintligt avlopp.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-598">
+<div><p>Ans&ouml;kan om att bygga nytt avlopp,&nbsp; eller anm&auml;lan om att &auml;ndra i befintligt avlopp.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Avlopp - ans&ouml;kan om eget avlopp" href="/oversikt/overview/175" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/175" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_363" data-flowid="363" data-flowname="Avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/363?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar - ans&ouml;kan" href="/oversikt/overview/268" aria-describedby="description-tooltip-363">
+<h2>Avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om att avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-363">
+<div><p>Ans&ouml;kan om att avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Avregistrera eldst&auml;der/f&ouml;rbr&auml;nningsanordningar - ans&ouml;kan" href="/oversikt/overview/268" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/268" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_421" data-flowid="421" data-flowname="Bostadsanpassningsbidrag - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/421?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Bostadsanpassningsbidrag - ans&ouml;kan" href="/oversikt/overview/145" aria-describedby="description-tooltip-421">
+<h2>Bostadsanpassningsbidrag - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan&nbsp;du eller en anh&ouml;rig som&nbsp;har en funktionsneds&auml;ttning ans&ouml;ka om bidrag f&ouml;r att bygga om eller anpassa din bostad.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-421">
+<div><p>H&auml;r kan&nbsp;du eller en anh&ouml;rig som&nbsp;har en funktionsneds&auml;ttning ans&ouml;ka om bidrag f&ouml;r att bygga om eller anpassa din bostad.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Bostadsanpassningsbidrag - ans&ouml;kan" href="/oversikt/overview/145" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/145" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_566" data-flowid="566" data-flowname="Bygglov, rivningslov och marklov - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/566?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Bygglov, rivningslov och marklov - ans&ouml;kan" href="/oversikt/overview/133" aria-describedby="description-tooltip-566">
+<h2>Bygglov, rivningslov och marklov - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om bygglov, rivningslov och marklov.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-566">
+<div><p>Ans&ouml;kan om bygglov, rivningslov och marklov.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Bygglov, rivningslov och marklov - ans&ouml;kan" href="/oversikt/overview/133" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/133" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_526" data-flowid="526" data-flowname="Egensotning, medgivande eller upph&ouml;rande av annan sotare - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/526?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Egensotning, medgivande eller upph&ouml;rande av annan sotare - ans&ouml;kan" href="/oversikt/overview/315" aria-describedby="description-tooltip-526">
+<h2>Egensotning, medgivande eller upph&ouml;rande av annan sotare - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r har du m&ouml;jligheten att ans&ouml;ka om att som fastighets&auml;gare sj&auml;lv utf&ouml;ra sotning av din eldstad eller att anlita en annan sotare &auml;n den som kommunen har upphandlat. Du kan ocks&aring; beg&auml;ra att anv&auml;nda kommunens upphandlade sotare.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-526">
+<div><p>H&auml;r har du m&ouml;jligheten att ans&ouml;ka om att som fastighets&auml;gare sj&auml;lv utf&ouml;ra sotning av din eldstad eller att anlita en annan sotare &auml;n den som kommunen har upphandlat. Du kan ocks&aring; beg&auml;ra att anv&auml;nda kommunens upphandlade sotare.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Egensotning, medgivande eller upph&ouml;rande av annan sotare - ans&ouml;kan" href="/oversikt/overview/315" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/315" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_503" data-flowid="503" data-flowname="Eget omh&auml;ndertagande av slam/latrin/urin - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/503?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Eget omh&auml;ndertagande av slam/latrin/urin - ans&ouml;kan" href="/oversikt/overview/309" aria-describedby="description-tooltip-503">
+<h2>Eget omh&auml;ndertagande av slam/latrin/urin - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om&nbsp;eget omh&auml;ndertagande av latrin/slam/urin.&nbsp;Ans&ouml;kan ska l&auml;mnas in i god tid (fyra&nbsp;veckor) innan &ouml;nskad f&ouml;r&auml;ndring.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-503">
+<div><p>Ans&ouml;kan om&nbsp;eget omh&auml;ndertagande av latrin/slam/urin.&nbsp;Ans&ouml;kan ska l&auml;mnas in i god tid (fyra&nbsp;veckor) innan &ouml;nskad f&ouml;r&auml;ndring.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Eget omh&auml;ndertagande av slam/latrin/urin - ans&ouml;kan" href="/oversikt/overview/309" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/309" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_567" data-flowid="567" data-flowname="Ej bygglovspliktig &aring;tg&auml;rd - Anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/567?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ej bygglovspliktig &aring;tg&auml;rd - Anm&auml;lan" href="/oversikt/overview/137" aria-describedby="description-tooltip-567">
+<h2>Ej bygglovspliktig &aring;tg&auml;rd - Anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om ej bygglovspliktig &aring;tg&auml;rd.</p>
+
+<p>&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-567">
+<div><p>Anm&auml;lan om ej bygglovspliktig &aring;tg&auml;rd.</p>
+
+<p>&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ej bygglovspliktig &aring;tg&auml;rd - Anm&auml;lan" href="/oversikt/overview/137" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/137" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_538" data-flowid="538" data-flowname="F&ouml;rhandsbesked - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/538?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten F&ouml;rhandsbesked - ans&ouml;kan" href="/oversikt/overview/146" aria-describedby="description-tooltip-538">
+<h2>F&ouml;rhandsbesked - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Om du har planer p&aring; att bygga n&aring;got som kr&auml;ver bygglov, kan du f&ouml;rst s&ouml;ka f&ouml;rhandsbesked.</p>
+
+<p>&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-538">
+<div><p>Om du har planer p&aring; att bygga n&aring;got som kr&auml;ver bygglov, kan du f&ouml;rst s&ouml;ka f&ouml;rhandsbesked.</p>
+
+<p>&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten F&ouml;rhandsbesked - ans&ouml;kan" href="/oversikt/overview/146" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/146" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_541" data-flowid="541" data-flowname="Gr&auml;vtillst&aring;nd - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/541?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Gr&auml;vtillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/300" aria-describedby="description-tooltip-541">
+<h2>Gr&auml;vtillst&aring;nd - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>F&ouml;r att f&aring; gr&auml;va och schakta i kommunens mark kr&auml;vs att du har ett godk&auml;nt gr&auml;vtillst&aring;nd.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-541">
+<div><p>F&ouml;r att f&aring; gr&auml;va och schakta i kommunens mark kr&auml;vs att du har ett godk&auml;nt gr&auml;vtillst&aring;nd.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Gr&auml;vtillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/300" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/300" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_611" data-flowid="611" data-flowname="Hyresledig l&auml;genhet - anm&auml;lan f&ouml;r privat fastighets&auml;gare/hyresv&auml;rd" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/611?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Hyresledig l&auml;genhet - anm&auml;lan f&ouml;r privat fastighets&auml;gare/hyresv&auml;rd" href="/oversikt/overview/349" aria-describedby="description-tooltip-611">
+<h2>Hyresledig l&auml;genhet - anm&auml;lan f&ouml;r privat fastighets&auml;gare/hyresv&auml;rd</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anv&auml;nd denna e-tj&auml;nst n&auml;r du vill anm&auml;la bost&auml;der f&ouml;r registrering, avregistrering eller &auml;ndra uppgifter&nbsp;i l&auml;genhetsregistret.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-611">
+<div><p>Anv&auml;nd denna e-tj&auml;nst n&auml;r du vill anm&auml;la bost&auml;der f&ouml;r registrering, avregistrering eller &auml;ndra uppgifter&nbsp;i l&auml;genhetsregistret.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Hyresledig l&auml;genhet - anm&auml;lan f&ouml;r privat fastighets&auml;gare/hyresv&auml;rd" href="/oversikt/overview/349" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/349" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_603" data-flowid="603" data-flowname="H&auml;stdjur - anm&auml;lan f&ouml;r nedgr&auml;vning av d&ouml;tt h&auml;stdjur" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/603?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten H&auml;stdjur - anm&auml;lan f&ouml;r nedgr&auml;vning av d&ouml;tt h&auml;stdjur" href="/oversikt/overview/163" aria-describedby="description-tooltip-603">
+<h2>H&auml;stdjur - anm&auml;lan f&ouml;r nedgr&auml;vning av d&ouml;tt h&auml;stdjur</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om nedgr&auml;vning av sj&auml;lvd&ouml;tt eller avlivat h&auml;stdjur.<br />
+Grundregeln vid hantering av sj&auml;lvd&ouml;tt eller avlivat h&auml;stdjur &auml;r att det ska skickas till en steriliseringsanl&auml;ggning eller f&ouml;rbr&auml;nningsanl&auml;ggning. Undantag fr&aring;n dessa best&auml;mmelser kan medges f&ouml;r sj&auml;lvd&ouml;da eller avlivade h&auml;stdjur.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-603">
+<div><p>Anm&auml;lan om nedgr&auml;vning av sj&auml;lvd&ouml;tt eller avlivat h&auml;stdjur.<br />
+Grundregeln vid hantering av sj&auml;lvd&ouml;tt eller avlivat h&auml;stdjur &auml;r att det ska skickas till en steriliseringsanl&auml;ggning eller f&ouml;rbr&auml;nningsanl&auml;ggning. Undantag fr&aring;n dessa best&auml;mmelser kan medges f&ouml;r sj&auml;lvd&ouml;da eller avlivade h&auml;stdjur.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten H&auml;stdjur - anm&auml;lan f&ouml;r nedgr&auml;vning av d&ouml;tt h&auml;stdjur" href="/oversikt/overview/163" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/163" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_582" data-flowid="582" data-flowname="Installation av eldstad/r&ouml;kkanal - anm&auml;lan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/582?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Installation av eldstad/r&ouml;kkanal - anm&auml;lan" href="/oversikt/overview/138" aria-describedby="description-tooltip-582">
+<h2>Installation av eldstad/r&ouml;kkanal - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Om du vill installera ny&nbsp;eldstad,&nbsp;r&ouml;kkanal, braskamin eller kassett i en &ouml;ppen spis ska du&nbsp;g&ouml;ra en anm&auml;lan och f&aring; ett startbesked innan du p&aring;b&ouml;rjar &aring;tg&auml;rden.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-582">
+<div><p>Om du vill installera ny&nbsp;eldstad,&nbsp;r&ouml;kkanal, braskamin eller kassett i en &ouml;ppen spis ska du&nbsp;g&ouml;ra en anm&auml;lan och f&aring; ett startbesked innan du p&aring;b&ouml;rjar &aring;tg&auml;rden.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Installation av eldstad/r&ouml;kkanal - anm&auml;lan" href="/oversikt/overview/138" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/138" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_590" data-flowid="590" data-flowname="Jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/590?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter - anm&auml;lan" href="/oversikt/overview/340" aria-describedby="description-tooltip-590">
+<h2>Jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan av jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-590">
+<div><p>Anm&auml;lan av jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Jordbruksf&ouml;retag eller annan djurh&aring;llning med mer &auml;n 100 djurenheter - anm&auml;lan" href="/oversikt/overview/340" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/340" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_548" data-flowid="548" data-flowname="Kommunalt bidrag till enskilda v&auml;gar - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/548?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Kommunalt bidrag till enskilda v&auml;gar - ans&ouml;kan" href="/oversikt/overview/313" aria-describedby="description-tooltip-548">
+<h2>Kommunalt bidrag till enskilda v&auml;gar - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Aneby kommun ger bidrag till enskilda v&auml;gf&ouml;reningar och v&auml;gh&aring;llare f&ouml;r s&auml;rskilda &aring;tg&auml;rder, bidraget betalas ut en g&aring;ng om &aring;ret.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-548">
+<div><p>Aneby kommun ger bidrag till enskilda v&auml;gf&ouml;reningar och v&auml;gh&aring;llare f&ouml;r s&auml;rskilda &aring;tg&auml;rder, bidraget betalas ut en g&aring;ng om &aring;ret.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Kommunalt bidrag till enskilda v&auml;gar - ans&ouml;kan" href="/oversikt/overview/313" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/313" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_571" data-flowid="571" data-flowname="Kompostering av matavfall - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/571?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Kompostering av matavfall - anm&auml;lan" href="/oversikt/overview/283" aria-describedby="description-tooltip-571">
+<h2>Kompostering av matavfall - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om kompostering av matavfall.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-571">
+<div><p>Anm&auml;lan om kompostering av matavfall.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Kompostering av matavfall - anm&auml;lan" href="/oversikt/overview/283" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/283" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_579" data-flowid="579" data-flowname="Kontrollansvarig - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/579?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Kontrollansvarig - anm&auml;lan" href="/oversikt/overview/140" aria-describedby="description-tooltip-579">
+<h2>Kontrollansvarig - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om kontrollansvarig.</p>
+
+<p>&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-579">
+<div><p>Anm&auml;lan om kontrollansvarig.</p>
+
+<p>&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Kontrollansvarig - anm&auml;lan" href="/oversikt/overview/140" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/140" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_495" data-flowid="495" data-flowname="Livsmedelsverksamhet - omklassning eller registrering" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/495?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Livsmedelsverksamhet - omklassning eller registrering" href="/oversikt/overview/298" aria-describedby="description-tooltip-495">
+<h2>Livsmedelsverksamhet - omklassning eller registrering</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r l&auml;mnar du uppgifter om befintliga och nya&nbsp;livsmedelsverksamheter. T&auml;nk p&aring; att du m&aring;ste registrera verksamheten innan den startar eller byter &auml;gare. Samh&auml;llsbyggnadsavdelningen beh&ouml;ver uppgifterna f&ouml;r att placera verksamheten i r&auml;tt riskklass enligt Livsmedelsverkets nya riskklassningsmodell och f&ouml;r att registrera och riskklassa nya verksamheter.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-495">
+<div><p>H&auml;r l&auml;mnar du uppgifter om befintliga och nya&nbsp;livsmedelsverksamheter. T&auml;nk p&aring; att du m&aring;ste registrera verksamheten innan den startar eller byter &auml;gare. Samh&auml;llsbyggnadsavdelningen beh&ouml;ver uppgifterna f&ouml;r att placera verksamheten i r&auml;tt riskklass enligt Livsmedelsverkets nya riskklassningsmodell och f&ouml;r att registrera och riskklassa nya verksamheter.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Livsmedelsverksamhet - omklassning eller registrering" href="/oversikt/overview/298" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/298" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_432" data-flowid="432" data-flowname="Lokaler med bass&auml;ngbad, hygienisk behandling, skola, f&ouml;rskola, solarie - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/432?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Lokaler med bass&auml;ngbad, hygienisk behandling, skola, f&ouml;rskola, solarie - anm&auml;lan" href="/oversikt/overview/182" aria-describedby="description-tooltip-432">
+<h2>Lokaler med bass&auml;ngbad, hygienisk behandling, skola, f&ouml;rskola, solarie - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan&nbsp;enligt 38 &sect; (1p, 2p och 3p) f&ouml;rordningen om milj&ouml;farlig verksamhet och h&auml;lsoskydd, samt 10&nbsp;&sect;&nbsp;Str&aring;ls&auml;kerhetsmyndighetens f&ouml;reskrifter om solarier och artificiella solningsanl&auml;ggningar.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-432">
+<div><p>Anm&auml;lan&nbsp;enligt 38 &sect; (1p, 2p och 3p) f&ouml;rordningen om milj&ouml;farlig verksamhet och h&auml;lsoskydd, samt 10&nbsp;&sect;&nbsp;Str&aring;ls&auml;kerhetsmyndighetens f&ouml;reskrifter om solarier och artificiella solningsanl&auml;ggningar.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Lokaler med bass&auml;ngbad, hygienisk behandling, skola, f&ouml;rskola, solarie - anm&auml;lan" href="/oversikt/overview/182" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/182" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_580" data-flowid="580" data-flowname="Lov f&ouml;r skylt/ljusanordning - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/580?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Lov f&ouml;r skylt/ljusanordning - ans&ouml;kan" href="/oversikt/overview/148" aria-describedby="description-tooltip-580">
+<h2>Lov f&ouml;r skylt/ljusanordning - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om lov f&ouml;r skylt/ljusanordning.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-580">
+<div><p>Ans&ouml;kan om lov f&ouml;r skylt/ljusanordning.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Lov f&ouml;r skylt/ljusanordning - ans&ouml;kan" href="/oversikt/overview/148" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/148" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_604" data-flowid="604" data-flowname="Matf&ouml;rgiftning - anm&auml;lan om misstanke" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/604?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Matf&ouml;rgiftning - anm&auml;lan om misstanke" href="/oversikt/overview/141" aria-describedby="description-tooltip-604">
+<h2>Matf&ouml;rgiftning - anm&auml;lan om misstanke</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du anm&auml;la om du misst&auml;nker att du har blivit matf&ouml;rgiftad av livsmedel fr&aring;n butik, restaurang eller annat matst&auml;lle i Aneby kommun.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-604">
+<div><p>H&auml;r kan du anm&auml;la om du misst&auml;nker att du har blivit matf&ouml;rgiftad av livsmedel fr&aring;n butik, restaurang eller annat matst&auml;lle i Aneby kommun.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Matf&ouml;rgiftning - anm&auml;lan om misstanke" href="/oversikt/overview/141" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/141" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_605" data-flowid="605" data-flowname="Milj&ouml;farlig verksamhet - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/605?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Milj&ouml;farlig verksamhet - anm&auml;lan" href="/oversikt/overview/295" aria-describedby="description-tooltip-605">
+<h2>Milj&ouml;farlig verksamhet - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan enlig 10 &sect; i Milj&ouml;pr&ouml;vningsf&ouml;rordningen (2013:251)<br />
+Verksamhet med beteckning C</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-605">
+<div><p>Anm&auml;lan enlig 10 &sect; i Milj&ouml;pr&ouml;vningsf&ouml;rordningen (2013:251)<br />
+Verksamhet med beteckning C</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Milj&ouml;farlig verksamhet - anm&auml;lan" href="/oversikt/overview/295" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/295" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_581" data-flowid="581" data-flowname="Nybyggnadskarta - best&auml;llning" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/581?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Nybyggnadskarta - best&auml;llning" href="/oversikt/overview/158" aria-describedby="description-tooltip-581">
+<h2>Nybyggnadskarta - best&auml;llning</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Nybyggnadskarta &auml;r en handling som uppr&auml;ttas av kommunen i samband med ny- eller ombyggnation av byggnader.&nbsp;Den&nbsp;&auml;r en del av underlaget vid ans&ouml;kan om bygglov och med huset inritat bildar den en situationsplan.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-581">
+<div><p>Nybyggnadskarta &auml;r en handling som uppr&auml;ttas av kommunen i samband med ny- eller ombyggnation av byggnader.&nbsp;Den&nbsp;&auml;r en del av underlaget vid ans&ouml;kan om bygglov och med huset inritat bildar den en situationsplan.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Nybyggnadskarta - best&auml;llning" href="/oversikt/overview/158" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/158" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_606" data-flowid="606" data-flowname="Nyodling, uppodling av annan mark &auml;n jordbruksmark - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/606?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Nyodling, uppodling av annan mark &auml;n jordbruksmark - anm&auml;lan" href="/oversikt/overview/297" aria-describedby="description-tooltip-606">
+<h2>Nyodling, uppodling av annan mark &auml;n jordbruksmark - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om uppodling av annan mark &auml;n jordbruksmark.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-606">
+<div><p>Anm&auml;lan om uppodling av annan mark &auml;n jordbruksmark.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Nyodling, uppodling av annan mark &auml;n jordbruksmark - anm&auml;lan" href="/oversikt/overview/297" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/297" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_600" data-flowid="600" data-flowname="Ol&auml;genhet - anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/600?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ol&auml;genhet - anm&auml;lan" href="/oversikt/overview/284" aria-describedby="description-tooltip-600">
+<h2>Ol&auml;genhet - anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om ol&auml;genhet enligt milj&ouml;balken (1998:808) 9 kap 3 &sect;.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-600">
+<div><p>Anm&auml;lan om ol&auml;genhet enligt milj&ouml;balken (1998:808) 9 kap 3 &sect;.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ol&auml;genhet - anm&auml;lan" href="/oversikt/overview/284" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/284" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_438" data-flowid="438" data-flowname="Parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/438?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade - ans&ouml;kan" href="/oversikt/overview/149" aria-describedby="description-tooltip-438">
+<h2>Parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade</p>
+
+<p>&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-438">
+<div><p>Ans&ouml;kan om parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade</p>
+
+<p>&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Parkeringstillst&aring;nd f&ouml;r r&ouml;relsehindrade - ans&ouml;kan" href="/oversikt/overview/149" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/149" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_532" data-flowid="532" data-flowname="Strandskyddsdispens - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/532?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Strandskyddsdispens - ans&ouml;kan" href="/oversikt/overview/150" aria-describedby="description-tooltip-532">
+<h2>Strandskyddsdispens - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Om du vill bygga eller &auml;ndra n&aring;got inom strandskyddat omr&aring;de beh&ouml;ver du oftast s&ouml;ka dispens. I det flesta fall g&ouml;r du det hos kommunen.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-532">
+<div><p>Om du vill bygga eller &auml;ndra n&aring;got inom strandskyddat omr&aring;de beh&ouml;ver du oftast s&ouml;ka dispens. I det flesta fall g&ouml;r du det hos kommunen.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Strandskyddsdispens - ans&ouml;kan" href="/oversikt/overview/150" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/150" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_533" data-flowid="533" data-flowname="Tillst&aring;nd f&ouml;r hantering av brandfarliga varor - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/533?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r hantering av brandfarliga varor - ans&ouml;kan" href="/oversikt/overview/151" aria-describedby="description-tooltip-533">
+<h2>Tillst&aring;nd f&ouml;r hantering av brandfarliga varor - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om hantering av brandfarliga varor enligt SFS 2010:1011 &sect;9.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-533">
+<div><p>Anm&auml;lan om hantering av brandfarliga varor enligt SFS 2010:1011 &sect;9.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r hantering av brandfarliga varor - ans&ouml;kan" href="/oversikt/overview/151" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/151" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_534" data-flowid="534" data-flowname="Tillst&aring;nd f&ouml;r hantering av explosiva varor - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/534?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r hantering av explosiva varor - ans&ouml;kan" href="/oversikt/overview/152" aria-describedby="description-tooltip-534">
+<h2>Tillst&aring;nd f&ouml;r hantering av explosiva varor - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om tillst&aring;nd f&ouml;r hantering av explosiva varor.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-534">
+<div><p>Ans&ouml;kan om tillst&aring;nd f&ouml;r hantering av explosiva varor.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r hantering av explosiva varor - ans&ouml;kan" href="/oversikt/overview/152" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/152" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_549" data-flowid="549" data-flowname="Tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/549?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats - ans&ouml;kan" href="/oversikt/overview/155" aria-describedby="description-tooltip-549">
+<h2>Tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-549">
+<div><p>Ans&ouml;kan om tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r tillf&auml;llig f&ouml;rs&auml;ljning/hyra av torgplats - ans&ouml;kan" href="/oversikt/overview/155" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/155" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_504" data-flowid="504" data-flowname="Tobakstillst&aring;nd - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/504?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tobakstillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/310" aria-describedby="description-tooltip-504">
+<h2>Tobakstillst&aring;nd - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om f&ouml;rs&auml;ljningstillst&aring;nd f&ouml;r tobak enligt 5 kap. 1 &sect; Lag (2018:208) om tobak och liknande produkter. Ett f&ouml;rs&auml;ljningstillst&aring;nd kan g&auml;lla f&ouml;r en viss tid eller tills vidare. F&ouml;rs&auml;ljningstillst&aring;ndet varar s&aring; l&auml;nge verksamheten uppfyller lagar, krav och regler f&ouml;r f&ouml;rs&auml;ljning av tobaksvaror och inom s&ouml;kt tidsperiod.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-504">
+<div><p>H&auml;r kan du ans&ouml;ka om f&ouml;rs&auml;ljningstillst&aring;nd f&ouml;r tobak enligt 5 kap. 1 &sect; Lag (2018:208) om tobak och liknande produkter. Ett f&ouml;rs&auml;ljningstillst&aring;nd kan g&auml;lla f&ouml;r en viss tid eller tills vidare. F&ouml;rs&auml;ljningstillst&aring;ndet varar s&aring; l&auml;nge verksamheten uppfyller lagar, krav och regler f&ouml;r f&ouml;rs&auml;ljning av tobaksvaror och inom s&ouml;kt tidsperiod.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tobakstillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/310" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/310" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_506" data-flowid="506" data-flowname="Tobaksvaror - anm&auml;lan/avanm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/506?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tobaksvaror - anm&auml;lan/avanm&auml;lan" href="/oversikt/overview/312" aria-describedby="description-tooltip-506">
+<h2>Tobaksvaror - anm&auml;lan/avanm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan/avanm&auml;lan om f&ouml;rs&auml;ljning av&nbsp; tobaksfria nikotinprodukter och/eller elektroniska cigaretter och p&aring;fyllningsbeh&aring;llare (detaljhandel).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-506">
+<div><p>Anm&auml;lan/avanm&auml;lan om f&ouml;rs&auml;ljning av&nbsp; tobaksfria nikotinprodukter och/eller elektroniska cigaretter och p&aring;fyllningsbeh&aring;llare (detaljhandel).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tobaksvaror - anm&auml;lan/avanm&auml;lan" href="/oversikt/overview/312" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/312" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_511" data-flowid="511" data-flowname="Uppeh&aring;ll, befrielse och f&ouml;rl&auml;ngt t&ouml;mningsintervall av hush&aring;llsavfall och slam - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/511?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Uppeh&aring;ll, befrielse och f&ouml;rl&auml;ngt t&ouml;mningsintervall av hush&aring;llsavfall och slam - ans&ouml;kan" href="/oversikt/overview/281" aria-describedby="description-tooltip-511">
+<h2>Uppeh&aring;ll, befrielse och f&ouml;rl&auml;ngt t&ouml;mningsintervall av hush&aring;llsavfall och slam - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om uppeh&aring;ll,&nbsp;befrielse och t&ouml;mningsintervall&nbsp;av hush&aring;llsavfall och slam.&nbsp;</p>
+
+<p>Hush&aring;llsavfall - befrielse eller uppeh&aring;ll<br />
+Avloppsslam - uppeh&aring;ll, befrielse eller f&ouml;rl&auml;ngt t&ouml;mningsintervall (f&ouml;r dig som vill omh&auml;nderta slammet sj&auml;lv, se e-tj&auml;nst f&ouml;r detta).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-511">
+<div><p>Ans&ouml;kan om uppeh&aring;ll,&nbsp;befrielse och t&ouml;mningsintervall&nbsp;av hush&aring;llsavfall och slam.&nbsp;</p>
+
+<p>Hush&aring;llsavfall - befrielse eller uppeh&aring;ll<br />
+Avloppsslam - uppeh&aring;ll, befrielse eller f&ouml;rl&auml;ngt t&ouml;mningsintervall (f&ouml;r dig som vill omh&auml;nderta slammet sj&auml;lv, se e-tj&auml;nst f&ouml;r detta).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Uppeh&aring;ll, befrielse och f&ouml;rl&auml;ngt t&ouml;mningsintervall av hush&aring;llsavfall och slam - ans&ouml;kan" href="/oversikt/overview/281" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/281" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_77" data-flowid="77" data-flowname="Uts&auml;ttning av bloml&aring;dor - ans&ouml;kan (pdf)" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/77?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Uts&auml;ttning av bloml&aring;dor - ans&ouml;kan (pdf)" href="/oversikt/overview/71" aria-describedby="description-tooltip-77">
+<h2>Uts&auml;ttning av bloml&aring;dor - ans&ouml;kan (pdf)</h2>
+<div class="icons only-desktop-tablet"></div>
+</a>
+<div class="description list-description"><p>Blankett f&ouml;r ans&ouml;kan om uts&auml;ttning av bloml&aring;dor som farthinder. Blanketter finns som bilagor med information om ritning och placering av bloml&aring;dor.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-77">
+<div><p>Blankett f&ouml;r ans&ouml;kan om uts&auml;ttning av bloml&aring;dor som farthinder. Blanketter finns som bilagor med information om ritning och placering av bloml&aring;dor.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Uts&auml;ttning av bloml&aring;dor - ans&ouml;kan (pdf)" href="/oversikt/overview/71" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/71" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_389" data-flowid="389" data-flowname="Var finns din gr&ouml;na plats?" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/389?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Var finns din gr&ouml;na plats?" href="/oversikt/overview/274" aria-describedby="description-tooltip-389">
+<h2>Var finns din gr&ouml;na plats?</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Vilka gr&ouml;na omr&aring;den &auml;r viktiga f&ouml;r dig? Platser som du anv&auml;nder f&ouml;r reflektion, som vila eller motionering. Vi vill veta vilka platser i Aneby kommuns natur&nbsp;eller gr&ouml;nomr&aring;den som du tycker &auml;r v&auml;rdefulla f&ouml;r ditt v&auml;lbefinnande!&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-389">
+<div><p>Vilka gr&ouml;na omr&aring;den &auml;r viktiga f&ouml;r dig? Platser som du anv&auml;nder f&ouml;r reflektion, som vila eller motionering. Vi vill veta vilka platser i Aneby kommuns natur&nbsp;eller gr&ouml;nomr&aring;den som du tycker &auml;r v&auml;rdefulla f&ouml;r ditt v&auml;lbefinnande!&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Var finns din gr&ouml;na plats?" href="/oversikt/overview/274" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/274" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_575" data-flowid="575" data-flowname="V&auml;rmepumpsanl&auml;ggning - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/575?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten V&auml;rmepumpsanl&auml;ggning - ans&ouml;kan" href="/oversikt/overview/279" aria-describedby="description-tooltip-575">
+<h2>V&auml;rmepumpsanl&auml;ggning - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>N&auml;r du ska installera en bergv&auml;rmepump, jordv&auml;rmepump eller ytvattenpump m&aring;ste&nbsp;en anm&auml;lan g&ouml;ras till milj&ouml;- och byggn&auml;mnden senast sex&nbsp;veckor innan du p&aring;b&ouml;rjar installationen.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-575">
+<div><p>N&auml;r du ska installera en bergv&auml;rmepump, jordv&auml;rmepump eller ytvattenpump m&aring;ste&nbsp;en anm&auml;lan g&ouml;ras till milj&ouml;- och byggn&auml;mnden senast sex&nbsp;veckor innan du p&aring;b&ouml;rjar installationen.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten V&auml;rmepumpsanl&auml;ggning - ans&ouml;kan" href="/oversikt/overview/279" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/279" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_573" data-flowid="573" data-flowname="Yrkesm&auml;ssig anv&auml;ndning av v&auml;xtskyddsmedel - ans&ouml;kan/anm&auml;lan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/573?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Yrkesm&auml;ssig anv&auml;ndning av v&auml;xtskyddsmedel - ans&ouml;kan/anm&auml;lan" href="/oversikt/overview/333" aria-describedby="description-tooltip-573">
+<h2>Yrkesm&auml;ssig anv&auml;ndning av v&auml;xtskyddsmedel - ans&ouml;kan/anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>De v&auml;xtskyddsmedel du som privatperson f&aring;r anv&auml;nda ing&aring;r alla i beh&ouml;righetsklass 3. Vill du sprida bek&auml;mpningsmedel fr&aring;n n&aring;gon annan klass beh&ouml;ver du anlita en yrkesverksam person med beh&ouml;righetsutbildning. Om du ska sprida bek&auml;mpningsmedel, som till exempel v&auml;xtskyddsmedel, yrkesm&auml;ssigt m&aring;ste du i vissa fall anm&auml;la det och i andra fall ans&ouml;ka om tillst&aring;nd.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-573">
+<div><p>De v&auml;xtskyddsmedel du som privatperson f&aring;r anv&auml;nda ing&aring;r alla i beh&ouml;righetsklass 3. Vill du sprida bek&auml;mpningsmedel fr&aring;n n&aring;gon annan klass beh&ouml;ver du anlita en yrkesverksam person med beh&ouml;righetsutbildning. Om du ska sprida bek&auml;mpningsmedel, som till exempel v&auml;xtskyddsmedel, yrkesm&auml;ssigt m&aring;ste du i vissa fall anm&auml;la det och i andra fall ans&ouml;ka om tillst&aring;nd.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Yrkesm&auml;ssig anv&auml;ndning av v&auml;xtskyddsmedel - ans&ouml;kan/anm&auml;lan" href="/oversikt/overview/333" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/333" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+<a href="#" role="button" class="show-all-btn" aria-label="Visa alla e-tj&auml;nster i kategorin Boende, milj&ouml; och trafik" aria-controls="flowtype_7_list" aria-expanded="false">Visa alla</a><a href="#" role="button" class="show-fewer-btn" aria-label="Visa f&auml;rre e-tj&auml;nster i kategorin Boende, milj&ouml; och trafik" aria-controls="flowtype_7_list" aria-expanded="false">Visa f&auml;rre</a>
+</div>
+</section>
+<section id="flowtype_8" data-flowtypeid="8" class="flowtype" aria-labelledby="flowtype_8_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_8_section_title">F&ouml;retag och n&auml;ringsliv&nbsp;(<span class="count">3</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_8_list" class="flow-list">
+<li id="flow_448" data-flowid="448" data-flowname="Tillst&aring;nd f&ouml;r servering av alkoholdrycker - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/448?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker - ans&ouml;kan" href="/oversikt/overview/153" aria-describedby="description-tooltip-448">
+<h2>Tillst&aring;nd f&ouml;r servering av alkoholdrycker - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du&nbsp; ans&ouml;ka om tillst&aring;nd&nbsp; f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-448">
+<div><p>H&auml;r kan du&nbsp; ans&ouml;ka om tillst&aring;nd&nbsp; f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker - ans&ouml;kan" href="/oversikt/overview/153" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/153" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_449" data-flowid="449" data-flowname="Tillst&aring;nd f&ouml;r servering av alkoholdrycker till allm&auml;nheten vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/449?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker till allm&auml;nheten vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" href="/oversikt/overview/156" aria-describedby="description-tooltip-449">
+<h2>Tillst&aring;nd f&ouml;r servering av alkoholdrycker till allm&auml;nheten vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du&nbsp;ans&ouml;ka om tillst&aring;nd&nbsp;f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-449">
+<div><p>H&auml;r kan du&nbsp;ans&ouml;ka om tillst&aring;nd&nbsp;f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker till allm&auml;nheten vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" href="/oversikt/overview/156" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/156" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_197" data-flowid="197" data-flowname="Tillst&aring;nd f&ouml;r servering av alkoholdrycker till slutet s&auml;llskap vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/197?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker till slutet s&auml;llskap vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" href="/oversikt/overview/157" aria-describedby="description-tooltip-197">
+<h2>Tillst&aring;nd f&ouml;r servering av alkoholdrycker till slutet s&auml;llskap vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du&nbsp; ans&ouml;ka om tillst&aring;nd&nbsp; f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-197">
+<div><p>H&auml;r kan du&nbsp; ans&ouml;ka om tillst&aring;nd&nbsp; f&ouml;r att servera sprit, stark&ouml;l, vin och andra alkoholhaltiga drycker som &auml;r f&ouml;renligt med&nbsp;alkohollagen. 8 kap 2 &sect; Alkohollagen (2010:1622).</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Tillst&aring;nd f&ouml;r servering av alkoholdrycker till slutet s&auml;llskap vid enstaka tillf&auml;lle/tidsperiod - ans&ouml;kan" href="/oversikt/overview/157" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/157" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section id="flowtype_9" data-flowtypeid="9" class="flowtype" aria-labelledby="flowtype_9_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_9_section_title">Kommun och politik&nbsp;(<span class="count">9</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_9_list" class="flow-list">
+<li id="flow_420" data-flowid="420" data-flowname="Avs&auml;g dig politiskt uppdrag i Aneby kommun" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/420?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Avs&auml;g dig politiskt uppdrag i Aneby kommun" href="/oversikt/overview/226" aria-describedby="description-tooltip-420">
+<h2>Avs&auml;g dig politiskt uppdrag i Aneby kommun</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du avs&auml;ga dig ett eller flera kommunala f&ouml;rtroendeuppdrag i Aneby kommun.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-420">
+<div><p>H&auml;r kan du avs&auml;ga dig ett eller flera kommunala f&ouml;rtroendeuppdrag i Aneby kommun.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Avs&auml;g dig politiskt uppdrag i Aneby kommun" href="/oversikt/overview/226" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/226" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_302" data-flowid="302" data-flowname="Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst f&ouml;r f&ouml;rtroendevald" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/302?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst f&ouml;r f&ouml;rtroendevald" href="/oversikt/overview/225" aria-describedby="description-tooltip-302">
+<h2>Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst f&ouml;r f&ouml;rtroendevald</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-302">
+<div><p>Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Beg&auml;ran om ers&auml;ttning f&ouml;r f&ouml;rlorad arbetsinkomst f&ouml;r f&ouml;rtroendevald" href="/oversikt/overview/225" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/225" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_488" data-flowid="488" data-flowname="L&auml;mna samtycke f&ouml;r foto och film" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/488?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten L&auml;mna samtycke f&ouml;r foto och film" href="/oversikt/overview/303" aria-describedby="description-tooltip-488">
+<h2>L&auml;mna samtycke f&ouml;r foto och film</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du l&auml;mna samtycke till att bild eller film f&aring;r anv&auml;ndas&nbsp;i kommunens kanaler s&aring;som webbplats, intran&auml;t, sociala medier, digitala presentationer eller tryckt material.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-488">
+<div><p>H&auml;r kan du l&auml;mna samtycke till att bild eller film f&aring;r anv&auml;ndas&nbsp;i kommunens kanaler s&aring;som webbplats, intran&auml;t, sociala medier, digitala presentationer eller tryckt material.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten L&auml;mna samtycke f&ouml;r foto och film" href="/oversikt/overview/303" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/303" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_237" data-flowid="237" data-flowname="L&auml;mna synpunkt till kommunen" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/237?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten L&auml;mna synpunkt till kommunen" href="/oversikt/overview/89" aria-describedby="description-tooltip-237">
+<h2>L&auml;mna synpunkt till kommunen</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Dina synpunkter &auml;r viktiga. Om det &auml;r n&aring;got&nbsp;i kommunens service som&nbsp;inte motsvarar dina f&ouml;rv&auml;ntningar vill vi g&auml;rna ha din synpunkt f&ouml;r att vi ska kunna bli b&auml;ttre.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-237">
+<div><p>Dina synpunkter &auml;r viktiga. Om det &auml;r n&aring;got&nbsp;i kommunens service som&nbsp;inte motsvarar dina f&ouml;rv&auml;ntningar vill vi g&auml;rna ha din synpunkt f&ouml;r att vi ska kunna bli b&auml;ttre.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten L&auml;mna synpunkt till kommunen" href="/oversikt/overview/89" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/89" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_521" data-flowid="521" data-flowname="Medborgarf&ouml;rslag - l&auml;mna in" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/521?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Medborgarf&ouml;rslag - l&auml;mna in" href="/oversikt/overview/93" aria-describedby="description-tooltip-521">
+<h2>Medborgarf&ouml;rslag - l&auml;mna in</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Inv&aring;nare och medborgare folkbokf&ouml;rda&nbsp;i Aneby kommun har m&ouml;jlighet att p&aring;verka och vara delaktiga i kommunens arbete och utveckling. P&aring;verkan sker genom att du l&auml;mnar in ett medborgarf&ouml;rslag.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-521">
+<div><p>Inv&aring;nare och medborgare folkbokf&ouml;rda&nbsp;i Aneby kommun har m&ouml;jlighet att p&aring;verka och vara delaktiga i kommunens arbete och utveckling. P&aring;verkan sker genom att du l&auml;mnar in ett medborgarf&ouml;rslag.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Medborgarf&ouml;rslag - l&auml;mna in" href="/oversikt/overview/93" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/93" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_608" data-flowid="608" data-flowname="Motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/608?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige" href="/oversikt/overview/347" aria-describedby="description-tooltip-608">
+<h2>Motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r l&auml;mnar du som ledamot eller tj&auml;nstg&ouml;rande ers&auml;ttare in motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-608">
+<div><p>H&auml;r l&auml;mnar du som ledamot eller tj&auml;nstg&ouml;rande ers&auml;ttare in motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Motion, interpellation eller fr&aring;ga till kommunfullm&auml;ktige" href="/oversikt/overview/347" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/347" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_561" data-flowid="561" data-flowname="Ny f&ouml;rtroendevald" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/561?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ny f&ouml;rtroendevald" href="/oversikt/overview/331" aria-describedby="description-tooltip-561">
+<h2>Ny f&ouml;rtroendevald</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som blivit utsedd till nya&nbsp;kommunala f&ouml;rtroendeuppdrag i Aneby kommun meddela dina kontaktuppgifter till politiska administrationen. F&ouml;rfarandet inneb&auml;r medgivande om personuppgiftsbehandling.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-561">
+<div><p>H&auml;r kan du som blivit utsedd till nya&nbsp;kommunala f&ouml;rtroendeuppdrag i Aneby kommun meddela dina kontaktuppgifter till politiska administrationen. F&ouml;rfarandet inneb&auml;r medgivande om personuppgiftsbehandling.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ny f&ouml;rtroendevald" href="/oversikt/overview/331" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/331" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_584" data-flowid="584" data-flowname="Redovisning av erh&aring;llet kommunalt partist&ouml;d" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/584?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Redovisning av erh&aring;llet kommunalt partist&ouml;d" href="/oversikt/overview/262" aria-describedby="description-tooltip-584">
+<h2>Redovisning av erh&aring;llet kommunalt partist&ouml;d</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Kommunfullm&auml;ktige har att &aring;rligen enligt fastlagda regler besluta om det kommunala partist&ouml;det. En mottagare a partist&ouml;d ska &aring;rligen l&auml;mna en skriftlig redovisning som visar att partist&ouml;det anv&auml;nts f&ouml;r det &auml;ndam&aring;l som avses i Kommunallagen 4 kap 29-33 &sect;&sect;.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-584">
+<div><p>Kommunfullm&auml;ktige har att &aring;rligen enligt fastlagda regler besluta om det kommunala partist&ouml;det. En mottagare a partist&ouml;d ska &aring;rligen l&auml;mna en skriftlig redovisning som visar att partist&ouml;det anv&auml;nts f&ouml;r det &auml;ndam&aring;l som avses i Kommunallagen 4 kap 29-33 &sect;&sect;.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Redovisning av erh&aring;llet kommunalt partist&ouml;d" href="/oversikt/overview/262" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/262" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_236" data-flowid="236" data-flowname="Synpunkter webbplatsens tillg&auml;nglighet" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/236?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Synpunkter webbplatsens tillg&auml;nglighet" href="/oversikt/overview/181" aria-describedby="description-tooltip-236">
+<h2>Synpunkter webbplatsens tillg&auml;nglighet</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p><strong>Hj&auml;lp oss g&ouml;ra webbplatsen tillg&auml;nglig</strong></p>
+
+<p>Har du synpunkter p&aring; webbplatsen, till exempel tillg&auml;nglighet, kan du skicka in dem via denna e-tj&auml;nst.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-236">
+<div><p><strong>Hj&auml;lp oss g&ouml;ra webbplatsen tillg&auml;nglig</strong></p>
+
+<p>Har du synpunkter p&aring; webbplatsen, till exempel tillg&auml;nglighet, kan du skicka in dem via denna e-tj&auml;nst.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Synpunkter webbplatsens tillg&auml;nglighet" href="/oversikt/overview/181" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/181" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+<a href="#" role="button" class="show-all-btn" aria-label="Visa alla e-tj&auml;nster i kategorin Kommun och politik" aria-controls="flowtype_9_list" aria-expanded="false">Visa alla</a><a href="#" role="button" class="show-fewer-btn" aria-label="Visa f&auml;rre e-tj&auml;nster i kategorin Kommun och politik" aria-controls="flowtype_9_list" aria-expanded="false">Visa f&auml;rre</a>
+</div>
+</section>
+<section id="flowtype_6" data-flowtypeid="6" class="flowtype" aria-labelledby="flowtype_6_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_6_section_title">Kultur och fritid&nbsp;(<span class="count">5</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_6_list" class="flow-list">
+<li id="flow_110" data-flowid="110" data-flowname="Boka flytv&auml;st hos turistbyr&aring;n" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/110?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Boka flytv&auml;st hos turistbyr&aring;n" href="/oversikt/overview/98" aria-describedby="description-tooltip-110">
+<h2>Boka flytv&auml;st hos turistbyr&aring;n</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du boka flytv&auml;st om du ska ut p&aring; sj&ouml;n. Du h&auml;mtar och &aring;terl&auml;mnar flytv&auml;sten i kommunhusets reception, Aneby kommun.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-110">
+<div><p>H&auml;r kan du boka flytv&auml;st om du ska ut p&aring; sj&ouml;n. Du h&auml;mtar och &aring;terl&auml;mnar flytv&auml;sten i kommunhusets reception, Aneby kommun.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Boka flytv&auml;st hos turistbyr&aring;n" href="/oversikt/overview/98" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/98" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_360" data-flowid="360" data-flowname="Hyra/boka lokal" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/360?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Hyra/boka lokal" href="/oversikt/overview/266" aria-describedby="description-tooltip-360">
+<h2>Hyra/boka lokal</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>I Aneby kommun erbjuder vi uthyrning i vissa av v&aring;ra lokaler och idrottsanl&auml;ggningar till f&ouml;reningar, f&ouml;retag och privatpersoner. Vi st&ouml;djer v&aring;ra f&ouml;reningar, vilket g&ouml;r att de har f&ouml;rtur f&ouml;r s&auml;songsbokningar.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-360">
+<div><p>I Aneby kommun erbjuder vi uthyrning i vissa av v&aring;ra lokaler och idrottsanl&auml;ggningar till f&ouml;reningar, f&ouml;retag och privatpersoner. Vi st&ouml;djer v&aring;ra f&ouml;reningar, vilket g&ouml;r att de har f&ouml;rtur f&ouml;r s&auml;songsbokningar.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Hyra/boka lokal" href="/oversikt/overview/266" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/266" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_79" data-flowid="79" data-flowname="Kultur- och f&ouml;reningsst&ouml;d - ans&ouml;kan (pdf)" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/79?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Kultur- och f&ouml;reningsst&ouml;d - ans&ouml;kan (pdf)" href="/oversikt/overview/73" aria-describedby="description-tooltip-79">
+<h2>Kultur- och f&ouml;reningsst&ouml;d - ans&ouml;kan (pdf)</h2>
+<div class="icons only-desktop-tablet"></div>
+</a>
+<div class="description list-description"><p>Blankett f&ouml;r ans&ouml;kan om kultur- och f&ouml;reningsst&ouml;d.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-79">
+<div><p>Blankett f&ouml;r ans&ouml;kan om kultur- och f&ouml;reningsst&ouml;d.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Kultur- och f&ouml;reningsst&ouml;d - ans&ouml;kan (pdf)" href="/oversikt/overview/73" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/73" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_78" data-flowid="78" data-flowname="Lotteritillst&aring;nd - ans&ouml;kan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/78?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Lotteritillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/72" aria-describedby="description-tooltip-78">
+<h2>Lotteritillst&aring;nd - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Lotterier &auml;r, och har l&auml;nge varit, en av f&ouml;reningslivets viktigaste inkomstk&auml;llor. I Sverige regleras lotteriverksamheten i spellagen och spelf&ouml;rordningen. F&ouml;r att f&ouml;reningar ska f&aring; s&auml;lja lotter kr&auml;vs det tillst&aring;nd. Kommunen registrerar tillst&aring;nd f&ouml;r upp till fem &aring;r f&ouml;r registreringslotterier. &Ouml;vriga tillst&aring;nd ansvarar spelinspektionen f&ouml;r.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-78">
+<div><p>Lotterier &auml;r, och har l&auml;nge varit, en av f&ouml;reningslivets viktigaste inkomstk&auml;llor. I Sverige regleras lotteriverksamheten i spellagen och spelf&ouml;rordningen. F&ouml;r att f&ouml;reningar ska f&aring; s&auml;lja lotter kr&auml;vs det tillst&aring;nd. Kommunen registrerar tillst&aring;nd f&ouml;r upp till fem &aring;r f&ouml;r registreringslotterier. &Ouml;vriga tillst&aring;nd ansvarar spelinspektionen f&ouml;r.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Lotteritillst&aring;nd - ans&ouml;kan" href="/oversikt/overview/72" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/72" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_565" data-flowid="565" data-flowname="L&auml;gg till evenemang" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/565?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten L&auml;gg till evenemang" href="/oversikt/overview/322" aria-describedby="description-tooltip-565">
+<h2>L&auml;gg till evenemang</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som arrang&ouml;r skicka in ditt evenemang f&ouml;r publicering p&aring; kommunens webbplats. Evenemanget m&aring;ste vara offentligt och av allm&auml;nt intresse f&ouml;r att godk&auml;nnas och publiceras.</p>
+
+<p>&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-565">
+<div><p>H&auml;r kan du som arrang&ouml;r skicka in ditt evenemang f&ouml;r publicering p&aring; kommunens webbplats. Evenemanget m&aring;ste vara offentligt och av allm&auml;nt intresse f&ouml;r att godk&auml;nnas och publiceras.</p>
+
+<p>&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten L&auml;gg till evenemang" href="/oversikt/overview/322" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/322" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+</div>
+</section>
+<section id="flowtype_5" data-flowtypeid="5" class="flowtype" aria-labelledby="flowtype_5_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_5_section_title">Omsorg och st&ouml;d&nbsp;(<span class="count">16</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_5_list" class="flow-list">
+<li id="flow_210" data-flowid="210" data-flowname="Anh&ouml;rigst&ouml;d - intresseanm&auml;lan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/210?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Anh&ouml;rigst&ouml;d - intresseanm&auml;lan" href="/oversikt/overview/168" aria-describedby="description-tooltip-210">
+<h2>Anh&ouml;rigst&ouml;d - intresseanm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som s&ouml;ker kontakt med anh&ouml;rigsamordnare l&auml;mna en intresseanm&auml;lan.&nbsp;Aneby&nbsp;kommun&nbsp;st&ouml;ttar anh&ouml;riga som st&ouml;djer eller hj&auml;lper n&aring;gon n&auml;rst&aring;ende. Det g&auml;ller oavsett om den anh&ouml;rige st&ouml;djer eller hj&auml;lper en person med funktionsvariationer, psykisk oh&auml;lsa, missbruksproblem eller &auml;ldre och barn med s&auml;rskilda behov.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-210">
+<div><p>H&auml;r kan du som s&ouml;ker kontakt med anh&ouml;rigsamordnare l&auml;mna en intresseanm&auml;lan.&nbsp;Aneby&nbsp;kommun&nbsp;st&ouml;ttar anh&ouml;riga som st&ouml;djer eller hj&auml;lper n&aring;gon n&auml;rst&aring;ende. Det g&auml;ller oavsett om den anh&ouml;rige st&ouml;djer eller hj&auml;lper en person med funktionsvariationer, psykisk oh&auml;lsa, missbruksproblem eller &auml;ldre och barn med s&auml;rskilda behov.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Anh&ouml;rigst&ouml;d - intresseanm&auml;lan" href="/oversikt/overview/168" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/168" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_585" data-flowid="585" data-flowname="Ans&ouml;kan om bist&aring;nd enligt socialtj&auml;nstlagen" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/585?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ans&ouml;kan om bist&aring;nd enligt socialtj&auml;nstlagen" href="/oversikt/overview/336" aria-describedby="description-tooltip-585">
+<h2>Ans&ouml;kan om bist&aring;nd enligt socialtj&auml;nstlagen</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Beh&ouml;ver du hj&auml;lp och st&ouml;d i hemmet, &auml;r i behov av &auml;ldreboende eller beh&ouml;ver du f&ouml;r&auml;ndra den hj&auml;lp som du redan har? D&aring; ska du skicka in en ans&ouml;kan till kommunen.&nbsp;</p>
+
+<p style="margin-top:8px">&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-585">
+<div><p>Beh&ouml;ver du hj&auml;lp och st&ouml;d i hemmet, &auml;r i behov av &auml;ldreboende eller beh&ouml;ver du f&ouml;r&auml;ndra den hj&auml;lp som du redan har? D&aring; ska du skicka in en ans&ouml;kan till kommunen.&nbsp;</p>
+
+<p style="margin-top:8px">&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ans&ouml;kan om bist&aring;nd enligt socialtj&auml;nstlagen" href="/oversikt/overview/336" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/336" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_417" data-flowid="417" data-flowname="Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/417?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" href="/oversikt/overview/192" aria-describedby="description-tooltip-417">
+<h2>Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du g&ouml;ra en ans&ouml;kan om <u>fortsatt</u> f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-417">
+<div><p>H&auml;r kan du g&ouml;ra en ans&ouml;kan om <u>fortsatt</u> f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ans&ouml;kan om fortsatt f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd" href="/oversikt/overview/192" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/192" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_613" data-flowid="613" data-flowname="Ans&ouml;kan om f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd - nyans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/613?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ans&ouml;kan om f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd - nyans&ouml;kan" href="/oversikt/overview/256" aria-describedby="description-tooltip-613">
+<h2>Ans&ouml;kan om f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd - nyans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du g&ouml;ra en <u>nyans&ouml;kan</u> om ekonomiskt bist&aring;nd.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-613">
+<div><p>H&auml;r kan du g&ouml;ra en <u>nyans&ouml;kan</u> om ekonomiskt bist&aring;nd.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ans&ouml;kan om f&ouml;rs&ouml;rjningsst&ouml;d/ekonomiskt bist&aring;nd - nyans&ouml;kan" href="/oversikt/overview/256" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/256" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_241" data-flowid="241" data-flowname="D&ouml;dsfall, anm&auml;lan" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/241?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten D&ouml;dsfall, anm&auml;lan" href="/oversikt/overview/184" aria-describedby="description-tooltip-241">
+<h2>D&ouml;dsfall, anm&auml;lan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du ans&ouml;ka om d&ouml;dsboanm&auml;lan samt ekonomiskt bist&aring;nd till begravningskostnader.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-241">
+<div><p>H&auml;r kan du ans&ouml;ka om d&ouml;dsboanm&auml;lan samt ekonomiskt bist&aring;nd till begravningskostnader.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten D&ouml;dsfall, anm&auml;lan" href="/oversikt/overview/184" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/184" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_587" data-flowid="587" data-flowname="Ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/587?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans - ans&ouml;kan" href="/oversikt/overview/338" aria-describedby="description-tooltip-587">
+<h2>Ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du s&ouml;ka ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-587">
+<div><p>H&auml;r kan du s&ouml;ka ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Ekonomiskt st&ouml;d vid tillf&auml;llig ut&ouml;kning av personlig assistans - ans&ouml;kan" href="/oversikt/overview/338" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/338" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_588" data-flowid="588" data-flowname="Fullmakt att ans&ouml;ka om insats enligt 9 &sect; LSS" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/588?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Fullmakt att ans&ouml;ka om insats enligt 9 &sect; LSS" href="/oversikt/overview/339" aria-describedby="description-tooltip-588">
+<h2>Fullmakt att ans&ouml;ka om insats enligt 9 &sect; LSS</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Denna e-tj&auml;nst &auml;r till f&ouml;r dig som vill ge en person fullmakt att f&ouml;retr&auml;da dig i &auml;renden om ans&ouml;kan om ekonomiskt st&ouml;d enligt 9 &sect; LSS i Aneby&nbsp;kommun. Fullmakten kan n&auml;r som helst &aring;terkallas av fullmaktsgivaren.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-588">
+<div><p>Denna e-tj&auml;nst &auml;r till f&ouml;r dig som vill ge en person fullmakt att f&ouml;retr&auml;da dig i &auml;renden om ans&ouml;kan om ekonomiskt st&ouml;d enligt 9 &sect; LSS i Aneby&nbsp;kommun. Fullmakten kan n&auml;r som helst &aring;terkallas av fullmaktsgivaren.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Fullmakt att ans&ouml;ka om insats enligt 9 &sect; LSS" href="/oversikt/overview/339" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/339" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_569" data-flowid="569" data-flowname="Intresseanm&auml;lan att bli kontaktperson och kontaktfamilj f&ouml;r barn med funktionsneds&auml;ttning eller st&ouml;d f&ouml;r en vuxen" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/569?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Intresseanm&auml;lan att bli kontaktperson och kontaktfamilj f&ouml;r barn med funktionsneds&auml;ttning eller st&ouml;d f&ouml;r en vuxen" href="/oversikt/overview/209" aria-describedby="description-tooltip-569">
+<h2>Intresseanm&auml;lan att bli kontaktperson och kontaktfamilj f&ouml;r barn med funktionsneds&auml;ttning eller st&ouml;d f&ouml;r en vuxen</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som &auml;r intresserad av att bli&nbsp;kontaktperson eller kontaktfamilj i&nbsp;kommun skicka in en intresseanm&auml;lan.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-569">
+<div><p>H&auml;r kan du som &auml;r intresserad av att bli&nbsp;kontaktperson eller kontaktfamilj i&nbsp;kommun skicka in en intresseanm&auml;lan.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intresseanm&auml;lan att bli kontaktperson och kontaktfamilj f&ouml;r barn med funktionsneds&auml;ttning eller st&ouml;d f&ouml;r en vuxen" href="/oversikt/overview/209" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/209" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_574" data-flowid="574" data-flowname="Intresseanm&auml;lan att bli kontaktperson, kontaktfamilj och jourhem f&ouml;r barn och unga" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/574?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Intresseanm&auml;lan att bli kontaktperson, kontaktfamilj och jourhem f&ouml;r barn och unga" href="/oversikt/overview/334" aria-describedby="description-tooltip-574">
+<h2>Intresseanm&auml;lan att bli kontaktperson, kontaktfamilj och jourhem f&ouml;r barn och unga</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ibland beh&ouml;ver barn och ungdomar ett extra st&ouml;d fr&aring;n trygga vuxna. Har du tid, ork, f&ouml;rst&aring;else och engagemang f&ouml;r att ge ett utsatt barn eller ungdom en b&auml;ttre start i livet l&auml;mna din intresseanm&auml;lan att bli kontaktperson,&nbsp;kontaktfamilj eller jourhem&nbsp;h&auml;r.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-574">
+<div><p>Ibland beh&ouml;ver barn och ungdomar ett extra st&ouml;d fr&aring;n trygga vuxna. Har du tid, ork, f&ouml;rst&aring;else och engagemang f&ouml;r att ge ett utsatt barn eller ungdom en b&auml;ttre start i livet l&auml;mna din intresseanm&auml;lan att bli kontaktperson,&nbsp;kontaktfamilj eller jourhem&nbsp;h&auml;r.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intresseanm&auml;lan att bli kontaktperson, kontaktfamilj och jourhem f&ouml;r barn och unga" href="/oversikt/overview/334" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/334" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_338" data-flowid="338" data-flowname="Intresseanm&auml;lan familjehem" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/338?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Intresseanm&auml;lan familjehem" href="/oversikt/overview/252" aria-describedby="description-tooltip-338">
+<h2>Intresseanm&auml;lan familjehem</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Ans&ouml;kan om att vara ett familjehem.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-338">
+<div><p>Ans&ouml;kan om att vara ett familjehem.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intresseanm&auml;lan familjehem" href="/oversikt/overview/252" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/252" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_357" data-flowid="357" data-flowname="M&aring;nadsrapport f&ouml;r kontaktperson/kontaktfamilj" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/357?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten M&aring;nadsrapport f&ouml;r kontaktperson/kontaktfamilj" href="/oversikt/overview/254" aria-describedby="description-tooltip-357">
+<h2>M&aring;nadsrapport f&ouml;r kontaktperson/kontaktfamilj</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>E-tj&auml;nst f&ouml;r att fylla i m&aring;nadsrapporten som kontaktperson eller kontaktfamilj.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-357">
+<div><p>E-tj&auml;nst f&ouml;r att fylla i m&aring;nadsrapporten som kontaktperson eller kontaktfamilj.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten M&aring;nadsrapport f&ouml;r kontaktperson/kontaktfamilj" href="/oversikt/overview/254" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/254" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_546" data-flowid="546" data-flowname="Pluspolarekort" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/546?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Pluspolarekort" href="/oversikt/overview/218" aria-describedby="description-tooltip-546">
+<h2>Pluspolarekort</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Du som har n&aring;gon form av funktionsvariation kan ans&ouml;ka om pluspolarekort f&ouml;r att f&aring; ha med medf&ouml;ljare till evenemang inom kultur- och fritidsomr&aring;det.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-546">
+<div><p>Du som har n&aring;gon form av funktionsvariation kan ans&ouml;ka om pluspolarekort f&ouml;r att f&aring; ha med medf&ouml;ljare till evenemang inom kultur- och fritidsomr&aring;det.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Pluspolarekort" href="/oversikt/overview/218" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/218" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_555" data-flowid="555" data-flowname="Samtycke enligt Offentlighets- och sekretesslagen enligt 10 kap 1 &sect; Socialtj&auml;nstlagen (SoL)" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/555?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Samtycke enligt Offentlighets- och sekretesslagen enligt 10 kap 1 &sect; Socialtj&auml;nstlagen (SoL)" href="/oversikt/overview/276" aria-describedby="description-tooltip-555">
+<h2>Samtycke enligt Offentlighets- och sekretesslagen enligt 10 kap 1 &sect; Socialtj&auml;nstlagen (SoL)</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p><span style="font-size:11pt"><span style="line-height:106%"><span style="font-family:Calibri,sans-serif">Vid ans&ouml;kan om ekonomiskt bist&aring;nd beh&ouml;ver du signera ett samtycke d&auml;r du godk&auml;nner att socialtj&auml;nsten f&aring;r ta kontakt med myndigheter/akt&ouml;rer. Detta beh&ouml;vs f&ouml;r att kunna handl&auml;gga ditt &auml;rende samt planera din v&auml;g till egen f&ouml;rs&ouml;rjning</span></span></span></p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-555">
+<div><p><span style="font-size:11pt"><span style="line-height:106%"><span style="font-family:Calibri,sans-serif">Vid ans&ouml;kan om ekonomiskt bist&aring;nd beh&ouml;ver du signera ett samtycke d&auml;r du godk&auml;nner att socialtj&auml;nsten f&aring;r ta kontakt med myndigheter/akt&ouml;rer. Detta beh&ouml;vs f&ouml;r att kunna handl&auml;gga ditt &auml;rende samt planera din v&auml;g till egen f&ouml;rs&ouml;rjning</span></span></span></p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Samtycke enligt Offentlighets- och sekretesslagen enligt 10 kap 1 &sect; Socialtj&auml;nstlagen (SoL)" href="/oversikt/overview/276" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/276" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_595" data-flowid="595" data-flowname="Samtycke f&ouml;r Kommunalt aktivitetsansvar (KAA)" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/595?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Samtycke f&ouml;r Kommunalt aktivitetsansvar (KAA)" href="/oversikt/overview/345" aria-describedby="description-tooltip-595">
+<h2>Samtycke f&ouml;r Kommunalt aktivitetsansvar (KAA)</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p><span style="font-size:11pt"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">F&ouml;r att kommunen i arbetet med det kommunala aktivitetsansvaret skall kunna st&ouml;tta och hj&auml;lpa p&aring; r&auml;tt s&auml;tt &auml;r det av stor vikt att vi f&aring;r ett samtycke fr&aring;n ungdomen (samt v&aring;rdnadshavare om ungdom &auml;r under 18 &aring;r).</span></span></span></p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-595">
+<div><p><span style="font-size:11pt"><span style="font-family:Aptos,sans-serif"><span style="font-family:&quot;Calibri&quot;,sans-serif">F&ouml;r att kommunen i arbetet med det kommunala aktivitetsansvaret skall kunna st&ouml;tta och hj&auml;lpa p&aring; r&auml;tt s&auml;tt &auml;r det av stor vikt att vi f&aring;r ett samtycke fr&aring;n ungdomen (samt v&aring;rdnadshavare om ungdom &auml;r under 18 &aring;r).</span></span></span></p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Samtycke f&ouml;r Kommunalt aktivitetsansvar (KAA)" href="/oversikt/overview/345" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/345" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_602" data-flowid="602" data-flowname="St&ouml;d till v&aring;ldsut&ouml;vare - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/602?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten St&ouml;d till v&aring;ldsut&ouml;vare - ans&ouml;kan" href="/oversikt/overview/346" aria-describedby="description-tooltip-602">
+<h2>St&ouml;d till v&aring;ldsut&ouml;vare - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Om du &auml;r &ouml;ver 18 &aring;r och anv&auml;nder v&aring;ld mot din partner eller ditt barn, eller &auml;r r&auml;dd f&ouml;r att du kommer att g&ouml;ra det, kan du f&aring; hj&auml;lp att &auml;ndra ditt beteende.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-602">
+<div><p>Om du &auml;r &ouml;ver 18 &aring;r och anv&auml;nder v&aring;ld mot din partner eller ditt barn, eller &auml;r r&auml;dd f&ouml;r att du kommer att g&ouml;ra det, kan du f&aring; hj&auml;lp att &auml;ndra ditt beteende.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten St&ouml;d till v&aring;ldsut&ouml;vare - ans&ouml;kan" href="/oversikt/overview/346" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/346" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_586" data-flowid="586" data-flowname="S&auml;rskilda insatser enligt LSS - ans&ouml;kan" class="">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/586?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten S&auml;rskilda insatser enligt LSS - ans&ouml;kan" href="/oversikt/overview/337" aria-describedby="description-tooltip-586">
+<h2>S&auml;rskilda insatser enligt LSS - ans&ouml;kan</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p><font face="Calibri"><span style="font-size:14.6667px">Du som har en funktionsneds&auml;ttning kan ans&ouml;ka om att f&aring; st&ouml;d. Du kan f&aring; insatser beviljade enligt lagen om st&ouml;d och service till vissa funktionshindrade (LSS) eller socialtj&auml;nstlagen (Sol).</span></font></p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-586">
+<div><p><font face="Calibri"><span style="font-size:14.6667px">Du som har en funktionsneds&auml;ttning kan ans&ouml;ka om att f&aring; st&ouml;d. Du kan f&aring; insatser beviljade enligt lagen om st&ouml;d och service till vissa funktionshindrade (LSS) eller socialtj&auml;nstlagen (Sol).</span></font></p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten S&auml;rskilda insatser enligt LSS - ans&ouml;kan" href="/oversikt/overview/337" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/337" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+<a href="#" role="button" class="show-all-btn" aria-label="Visa alla e-tj&auml;nster i kategorin Omsorg och st&ouml;d" aria-controls="flowtype_5_list" aria-expanded="false">Visa alla</a><a href="#" role="button" class="show-fewer-btn" aria-label="Visa f&auml;rre e-tj&auml;nster i kategorin Omsorg och st&ouml;d" aria-controls="flowtype_5_list" aria-expanded="false">Visa f&auml;rre</a>
+</div>
+</section>
+<section id="flowtype_10" data-flowtypeid="10" class="flowtype" aria-labelledby="flowtype_10_section_title">
+<div class="heading-wrapper">
+<h2 id="flowtype_10_section_title">&Ouml;vriga e-tj&auml;nster&nbsp;(<span class="count">3</span>)<a href="#" role="button" class="clear-filter-btn" aria-label=""><i aria-hidden="true" class="material-icons"></i></a>
+</h2>
+<ul id="flowtype_10_list" class="flow-list">
+<li id="flow_93" data-flowid="93" data-flowname="Anm&auml;lan om fel" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/93?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Anm&auml;lan om fel" href="/oversikt/overview/87" aria-describedby="description-tooltip-93">
+<h2>Anm&auml;lan om fel</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons external-link icon-launch" title="Det h&auml;r &auml;r en extern tj&auml;nst utanf&ouml;r denna webbplats" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>Anm&auml;lan om fel som uppm&auml;rksammats kring gatubelysningar, trafik, lekplatser, badplatser eller park- och gr&ouml;nomr&aring;den.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-93">
+<div><p>Anm&auml;lan om fel som uppm&auml;rksammats kring gatubelysningar, trafik, lekplatser, badplatser eller park- och gr&ouml;nomr&aring;den.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Anm&auml;lan om fel" href="/oversikt/overview/87" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/87" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_462" data-flowid="462" data-flowname="Inrapportering" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/462?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Inrapportering" href="/oversikt/overview/190" aria-describedby="description-tooltip-462">
+<h2>Inrapportering</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>EST st&aring;r f&ouml;r Effektiv samordning f&ouml;r trygghet och &auml;r kommunens analysgrupp f&ouml;r det brottsf&ouml;rebyggande och trygghetsskapande arbetet. Genom att rapportera in incidenter som din verksamhet eller medarbetare uppt&auml;ckte kan EST-gruppen f&aring; en samlad l&auml;gesbild av vad som h&auml;nder i kommunen.&nbsp;</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-462">
+<div><p>EST st&aring;r f&ouml;r Effektiv samordning f&ouml;r trygghet och &auml;r kommunens analysgrupp f&ouml;r det brottsf&ouml;rebyggande och trygghetsskapande arbetet. Genom att rapportera in incidenter som din verksamhet eller medarbetare uppt&auml;ckte kan EST-gruppen f&aring; en samlad l&auml;gesbild av vad som h&auml;nder i kommunen.&nbsp;</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Inrapportering" href="/oversikt/overview/190" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/190" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+<li id="flow_597" data-flowid="597" data-flowname="Intyg fr&aring;n Aneby kommun" class="popular show ">
+<div class="flow">
+<figure>
+<img alt="" src="/oversikt/icon/597?"></figure>
+<div>
+<a aria-label="Till tj&auml;nsten Intyg fr&aring;n Aneby kommun" href="/oversikt/overview/179" aria-describedby="description-tooltip-597">
+<h2>Intyg fr&aring;n Aneby kommun</h2>
+<div class="icons only-desktop-tablet">
+<i class="material-icons icon-computer" title="Den h&auml;r tj&auml;nsten kan fyllas i via webbl&auml;saren" aria-hidden="true"></i><i class="material-icons icon-person" title="Den h&auml;r tj&auml;nsten kr&auml;ver inloggning" aria-hidden="true"></i>
+</div>
+</a>
+<div class="description list-description"><p>H&auml;r kan du som arbetar eller har arbetat i Aneby&nbsp;kommun best&auml;lla arbetsgivarintyg, tj&auml;nstg&ouml;ringsintyg, inkomstintyg eller intyg om f&ouml;rlorad arbetsinkomst.</p></div>
+<div class="description-info">
+<a href="#" tabindex="-1"></a>
+<div class="description-tooltip" role="tooltip" id="description-tooltip-597">
+<div><p>H&auml;r kan du som arbetar eller har arbetat i Aneby&nbsp;kommun best&auml;lla arbetsgivarintyg, tj&auml;nstg&ouml;ringsintyg, inkomstintyg eller intyg om f&ouml;rlorad arbetsinkomst.</p><div class="marker"></div>
+</div>
+</div>
+</div>
+</div>
+<a title="Till tj&auml;nsten Intyg fr&aring;n Aneby kommun" href="/oversikt/overview/179" class="btn btn-blue btn-inline only-desktop-tablet" aria-hidden="true" tabindex="-1">Till tj&auml;nsten<i class="material-icons icon-arrow-right"></i></a><a title="Till tj&auml;nsten" href="/oversikt/overview/179" class="btn btn-blue btn-inline only-mobile" aria-hidden="true" tabindex="-1"><span class="arrow"></span></a>
+</div>
+</li>
+</ul>
+</div>
+</section>
+</div>
+<div class="alpabetical-list"></div>
+<div class="targetgroup-list"></div>
+<a href="#" role="button" class="btn btn-red clear-all-filter-btn hidden">Tillbaka (rensa filter)</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer>
+<div class="container">
+<div class="eight columns alpha">
+<p class="subFooterOrg">
+						        Copyright &copy; Aneby kommun
+						    </p>
+</div>
+</div>
+</footer>
+</body></html>

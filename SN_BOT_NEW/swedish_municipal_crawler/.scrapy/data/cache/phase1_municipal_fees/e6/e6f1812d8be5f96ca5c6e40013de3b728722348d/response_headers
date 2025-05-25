@@ -1,0 +1,14 @@
+Content-Length: 256
+Strict-Transport-Security: max-age=31536000
+Strict-Transport-Security: max-age=2147483647; includeSubDomains
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/plain;charset=UTF-8
+Cteonnt-Length: 539
+Date: Sun, 25 May 2025 17:26:19 GMT
+Set-Cookie: NSC_ESNS=0c0446cb-543b-1833-9678-2eff84332d79_2618959034_3704558386_00000000000201374530; Expires=Sun, 25-May-2025 17:26:34 GMT; Path=/; SameSite=Lax
+Set-Cookie: NSC_mc-nbmnp-tf-ttm=ffffffffa23c11d245525d5f4f58455e445a4a42378b; Path=/; SameSite=Lax; Secure; HttpOnly
+Set-Cookie: adc_id=AAA7O1QzaDtkCloAAAAAADs54ITjhkt5hEsfO5EjbADOkQvEhkumOB_J5Dd6eWVuOw==v1czaA==sL0HB-e4-qe81y77n5U3-VOSC-A=; Domain=.malmo.se; Path=/; SameSite=Lax
+Content-Encoding: gzip

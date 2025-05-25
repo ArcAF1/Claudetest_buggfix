@@ -1,0 +1,37 @@
+{
+  "extraction_metadata": {
+    "extraction_date": "2025-05-25T17:52:01.168568",
+    "total_municipalities": 5,
+    "processing_time_minutes": 2.5,
+    "items_processed": 5,
+    "items_exported": 5,
+    "errors_count": 0
+  },
+  "completeness_analysis": {
+    "complete_data": 2,
+    "partial_data": 3,
+    "no_data": 0
+  },
+  "field_coverage": {
+    "timtaxa_livsmedel": {
+      "municipalities_with_data": 3,
+      "coverage_percentage": 60.0,
+      "total_municipalities": 5
+    },
+    "debitering_livsmedel": {
+      "municipalities_with_data": 3,
+      "coverage_percentage": 60.0,
+      "total_municipalities": 5
+    },
+    "timtaxa_bygglov": {
+      "municipalities_with_data": 4,
+      "coverage_percentage": 80.0,
+      "total_municipalities": 5
+    }
+  },
+  "success_metrics": {
+    "overall_success_rate": 100.0,
+    "complete_data_rate": 40.0,
+    "average_fields_per_municipality": 2.2
+  }
+}

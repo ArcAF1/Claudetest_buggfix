@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Request Rejected</title>
+    </head>
+    <body>
+        <p><img src="https://www.jonkoping.se/images/18.74fef9ab15548f0b800ac63/1537167268517/Logo_vit_bg.gif"></p>
+        <p>Ditt anrop har blivit nekat<br />
+        Referens ID: 83aefb79-b410-4a59-8be1-8e4571cca19c<br />
+        <a href="javascript:history.back()">[&Aring;terg&aring;]</a>
+        </p>    
+    </body>
+</html>

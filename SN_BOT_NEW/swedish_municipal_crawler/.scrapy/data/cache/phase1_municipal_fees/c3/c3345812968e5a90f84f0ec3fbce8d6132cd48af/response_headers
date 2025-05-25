@@ -1,0 +1,24 @@
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Set-Cookie: JSESSIONID=120228DF9E7E3A21772D3193A419F1A3; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: SiteVisionLTM=!zvWW34TEn2jhT1Mlh3PZmb7OpT3Ur0mNdP5Jk0iHOGdk0OPVrZdVEU8BcS/vyjFleXGeUWMfhbY=; path=/; Httponly; Secure; SameSite=None
+Content-Security-Policy: script-src 'self' 'unsafe-eval' 'unsafe-inline' karta.orebro.se svanalytics.containers.piwik.pro view.rekai.se static.rekai.se *.readspeaker.com storage.ebbot.eu storage.gra.cloud.ovh.net ebbot-experimental.storage.googleapis.com code.jquery.com oppnadata.skl.se oppnadata.skr.se *.mediaflow.com mfstatic.com code.highcharts.com; connect-src 'self' view.rekai.se api.kolada.se *.mediaflow.com mfstatic.com karta.orebro.se *.piwik.pro *.readspeaker.com storage.gra.cloud.ovh.net oppnadata.skl.se oppnadata.skr.se wss://ebbot.eu https://ebbot.eu api.paloma.se; frame-ancestors 'self'; form-action 'self' https://futureweb.orebro.se/FutureWeb; base-uri 'self'; object-src 'none';
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Link: </2.3342eaed15109c3d1d1a581/1747801831579/sitevision-responsive-grids.css>; rel=preload; as=style
+Link: </2.3342eaed15109c3d1d1a581/auto/1748030450961/SiteVision.css>; rel=preload; as=style
+Link: </2.3342eaed15109c3d1d1a581/509/7822/SiteVision.css>; rel=preload; as=style
+Link: </sitevision/system-resource/2a721cc485763b55de3251fef22713c09bf3a29aa721871787299e2289a5d4b8/css/portlets.css>; rel=preload; as=style
+Link: </sitevision/system-resource/2a721cc485763b55de3251fef22713c09bf3a29aa721871787299e2289a5d4b8/envision/envision.css>; rel=preload; as=style
+Link: </2.3342eaed15109c3d1d1a581/91.720a5aaf1524e3420a854e/1747802100819/0/sv-template-asset.css>; rel=preload; as=style
+Link: </2.3342eaed15109c3d1d1a581/1747802072251/sitevision-spacing.css>; rel=preload; as=style
+Link: </webapp-resource/4.3342eaed15109c3d1d197e/360.704bec36195ad7923e521dac/1743698736447/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/4.3342eaed15109c3d1d197e/360.6fefd2551967cc08baf1491/1745945157680/webapp-assets.css>; rel=preload; as=style
+Vary: accept-encoding
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 25 May 2025 19:09:00 GMT

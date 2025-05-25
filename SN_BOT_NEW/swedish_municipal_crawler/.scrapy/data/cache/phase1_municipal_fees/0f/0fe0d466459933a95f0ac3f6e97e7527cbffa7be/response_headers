@@ -1,0 +1,7 @@
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' *.malmo.se 'unsafe-inline' 'unsafe-eval';
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Type: text/html;charset=ISO-8859-1
+Date: Sun, 25 May 2025 19:01:57 GMT

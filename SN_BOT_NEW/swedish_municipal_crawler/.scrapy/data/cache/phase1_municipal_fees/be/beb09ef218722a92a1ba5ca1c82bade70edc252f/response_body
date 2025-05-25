@@ -1,0 +1,28 @@
+
+
+
+
+    <!doctype html>
+    <html lang="en">
+        <head>
+            
+<link rel="icon" type="image/x-icon" href="/flexite/favicon.ico?v=911118"/>
+            <title>flexite</title>
+            <script type="text/javascript">
+                //
+                try {
+                    if(parent && parent.frames["ButtonFrame"]) {
+                        var btn = parent.frames["ButtonFrame"].document.getElementById("btnOK");
+                        if(btn) {
+                            btn.style.display = "none";
+                        }
+                    }
+                }
+                catch(ex) {  }
+                //
+                window.location.replace("/flexite/testbrowsersettings.jsp?wsp=XBE69817C347A9D49C31440E624DD5BAB9B245464A0B6E7238C32D3B13FE3A10A9B67D0B8A5E77B861D523C495A19F507357EDF594988413CF9E2BE37F90076489E6AE038FFE2724038443FC05FA4057860E952BB9C606E4AEDC76D0741F14B73D720CD59A63E8E054110C5251455CA6EF20F78FE956DE9B79089BB7F82A07FEB&fxsid=737B76C727BA30A81C3709F695BD750E~7820");
+            </script>
+        </head>
+        <body>
+        </body>
+    </html>

@@ -1,0 +1,15 @@
+Cache-Control: private,max-age=60
+Content-Type: text/html; charset=utf-8
+Vary: Cookie
+Server: Microsoft-IIS/10.0
+Set-Cookie: EPiStateMarker=true; path=/; secure
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Permissions-Policy: accelerometer=(), camera=(), geolocation=(self), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.stockholm *.stockholm.se *.imbox.io static.mediaflowpro.com *.inviewer.se *.piwik.pro https://cdn.jsdelivr.net https://dl.episerver.net/; img-src data: 'self' *.stockholm *.stockholm.se *.cloudfront.net *.inviewer.se https://static.mediaflowpro.com *.piwik.pro https://dl.episerver.net/ blob:; style-src 'self' 'unsafe-inline' *.stockholm *.stockholm.se *.cloudfront.net https://cdn.jsdelivr.net https://fonts.googleapis.com static.mediaflowpro.com *.piwik.pro https://dl.episerver.net; connect-src 'self' *.stockholm *.stockholm.se *.piwik.pro https://dservices-eu1.arcgis.com/81H0sgjoIWj6WxIM/arcgis/services/; font-src *.stockholm *.stockholm.se *.cloudfront.net https://fonts.gstatic.com static.mediaflowpro.com https://dl.episerver.net; frame-src *.stockholm.se play.mediaflowpro.com play.mediaflow.com *.imbox.io *.find.episerver.net; frame-ancestors 'self' https://eu.opencitiesplanner.bentley.com http://localhost:9999; base-uri 'self'; form-action 'self';
+X-Powered-By: ASP.NET
+Date: Sun, 25 May 2025 19:01:47 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains; preload

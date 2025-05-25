@@ -1,0 +1,11 @@
+Content-Length: 108
+Alt-Svc: h3=":443"; ma=2592000
+Cache-Control: 
+Cache-Status: Souin; fwd=uri-miss; stored; key=GET-https-arvidsjaur.se-/robots.txt
+Content-Encoding: gzip
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 25 May 2025 17:29:17 GMT
+Link: <https://arvidsjaur.se/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding
+Vary: Origin
+X-Robots-Tag: noindex

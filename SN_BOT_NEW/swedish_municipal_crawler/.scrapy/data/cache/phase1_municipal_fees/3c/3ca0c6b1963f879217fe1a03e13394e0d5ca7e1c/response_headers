@@ -1,0 +1,33 @@
+Set-Cookie: JSESSIONID=C0593A097A52F5B8DD07E6CC28CBBA19; Path=/; Secure; HttpOnly; SameSite=None
+Set-Cookie: SiteVisionLTM=!+q5MEd2un/pw438lh3PZmb7OpT3UryRvrAA6tOfdHy5ac0Pw3ZtG/ekPz8K2T6hygQab0hVbBx4=; path=/; Httponly; Secure; SameSite=None
+Content-Security-Policy: default-src 'none'; media-src 'self'; connect-src 'self' https://svanalytics.containers.piwik.pro/ https://svanalytics.piwik.pro/; img-src 'self' data: https://bolle.sporthallen.nu/ https://im11.inviewer.se/; base-uri 'self'; form-action 'self' https://bollnas.uc.standout.se/; font-src 'self'; frame-src 'self' https://svanalytics.piwik.pro/ https://bollnas.varbi.com https://play.mediaflow.com https://play.mediaflowpro.com https://www.temperatur.nu https://bollnas.uc.standout.se https://bollnas.actorsmartbook.se; frame-ancestors 'self'; style-src 'self' 'unsafe-inline'; script-src-elem 'unsafe-eval' 'self' 'unsafe-inline' https://svanalytics.containers.piwik.pro/; script-src-attr 'self' 'unsafe-eval' 'unsafe-inline'; script-src 'self' 'unsafe-eval'
+Referrer-Policy: no-referrer
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+P3P: CP="This is not a P3P policy!"
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Link: </2.457d8b9a17a75b11c7e4ae83/1747889771097/sitevision-responsive-grids.css?gridConfigs=651.457d8b9a17a75b11c7e4aef0_FLUID_GRID&pushPull=true>; rel=preload; as=style
+Link: </2.457d8b9a17a75b11c7e4ae83/2331/4996/print/slim/SiteVision.css>; rel=preload; as=style
+Link: </sitevision/system-resource/53fd12d5826c11c2f5022e89a9f1b5481a44a4eac75b78e0b402b89e0901b560/css/portlets-slim.css>; rel=preload; as=style
+Link: </sitevision/system-resource/53fd12d5826c11c2f5022e89a9f1b5481a44a4eac75b78e0b402b89e0901b560/envision/envision.css>; rel=preload; as=style
+Link: </2.457d8b9a17a75b11c7e4ae83/91.457d8b9a17a75b11c7e4af0e/1747889967410/0/sv-template-asset.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.457d8b9a17a75b11c7e4ae9f/1697011325352/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.457d8b9a17a75b11c7e7c16d/1645794225948/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.1f9e4e841960963479d3ee2e/1744113969918/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.2c737fab1817fcd5de0db615/1663760670132/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.2142dcb817dc2624481eb6c/1644837089497/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.23b86de517f44a713881419/1747142113281/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.457d8b9a17a75b11c7e4aece/1726640499756/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.ee4f6e719680bbfa976196/1745945407378/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.457d8b9a17a75b11c7e4aea2/1644836987689/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.1debe705190538681277a4e/1719852622090/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.1a5d982217e487d93acbf3ea/1707308731727/webapp-assets.css>; rel=preload; as=style
+Link: </webapp-resource/2.457d8b9a17a75b11c7e4ae83/360.5db42dbd18df2afdfe228ec5/1747391450615/webapp-assets.css>; rel=preload; as=style
+Vary: accept-encoding
+Content-Encoding: gzip
+Content-Type: text/html;charset=UTF-8
+Date: Sun, 25 May 2025 17:29:18 GMT
