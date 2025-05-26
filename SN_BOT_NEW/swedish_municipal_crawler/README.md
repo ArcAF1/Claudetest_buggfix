@@ -562,6 +562,7 @@ The script sends lightweight HTTP `HEAD` requests to the previously collected
 source URLs and lists the pages where a newer `Last-Modified` timestamp is
 observed.
 
+
 ## Data Standardization
 
 After a crawl you can normalize municipality names and billing model values in
@@ -574,6 +575,7 @@ python crawler/utils/data_standardizer.py --db data/output/phase1_municipal_data
 
 The tool cleans up common suffixes in municipality names and converts billing
 model descriptions to either `förskott` or `efterhand`.
+
 
 ## Monitoring and Logging
 
