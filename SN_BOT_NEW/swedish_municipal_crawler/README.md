@@ -13,6 +13,7 @@ Enhanced Swedish municipal fee crawler with CMS-aware architecture, JavaScript r
 - **Duplicate Detection**: Filters out duplicate fee entries
 - **Caching**: HTTP caching for efficient re-crawling
 - **Respectful Crawling**: Auto-throttling and configurable delays
+- **ML Page Classifier**: Lightweight model filters irrelevant pages
 
 ### 🆕 Enhanced Pipeline Components
 
@@ -371,6 +372,7 @@ Edit `config/crawler_config.json` to customize:
 - **CMS Detector** (`extractors/cms_detector.py`): Identifies website CMS type
 - **URL Prioritizer** (`utils/url_prioritizer.py`): Scores and prioritizes URLs
 - **Municipality Classifier** (`utils/municipality_classifier.py`): Classifies municipalities by size
+- **Page Classifier** (`crawler/ml/page_classifier.py`): ML model filtering irrelevant pages
 - **Validators** (`utils/validators.py`): Validates Swedish data formats
 - **Pipelines**: Data processing, validation, and export
 
@@ -379,6 +381,15 @@ Edit `config/crawler_config.json` to customize:
 - **SwedishPDFExtractor** (`extractors/pdf_extractor.py`): Multi-method PDF extraction engine
 - **BygglovExtractor** (`extractors/bygglov_extractor.py`): Specialized building permit extraction
 - **Swedish Parser** (`utils/swedish_parser.py`): Advanced Swedish text analysis
+
+### Machine Learning Classifier
+
+`crawler/ml/page_classifier.py` implements a simple logistic regression model
+that filters out pages unlikely to contain fee information. Train the model with:
+
+```bash
+python -m crawler.ml.train_page_classifier
+```
 
 ### Data Flow
 
