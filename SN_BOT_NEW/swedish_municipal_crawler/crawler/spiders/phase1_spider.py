@@ -21,6 +21,7 @@ from ..extractors.phase1_extractors import Phase1ExtractorManager
 from ..extractors.phase1_pdf_extractor import Phase1PDFExtractor
 from ..utils.url_prioritizer import Phase1URLPrioritizer
 from ..utils.validators import SwedishValidators
+from ..ml.page_classifier import PageClassifier
 
 class Phase1Spider(scrapy.Spider):
     """Phase 1 focused spider for Swedish municipal fee extraction"""
@@ -72,6 +73,7 @@ class Phase1Spider(scrapy.Spider):
         # Initialize extractors
         self.phase1_extractor = Phase1ExtractorManager()
         self.phase1_pdf_extractor = Phase1PDFExtractor()
+        self.page_classifier = PageClassifier()
         
         # Load municipalities
         self.municipalities_file = municipalities_file
@@ -844,7 +846,12 @@ class Phase1Spider(scrapy.Spider):
             self.logger.debug(f"Extracted {len(clean_text)} characters from {response.url}")
             if len(clean_text) > 200:
                 self.logger.debug(f"Text sample: {clean_text[:200]}...")
-            
+
+            # Use ML classifier to skip irrelevant pages
+            if not self.page_classifier.is_relevant(clean_text):
+                self.logger.debug(f"Page not classified as relevant: {response.url}")
+                return
+
             # Use the Phase 1 extractor manager
             extracted_data = self.phase1_extractor.extract_all_phase1_data(clean_text, response.url)
             
