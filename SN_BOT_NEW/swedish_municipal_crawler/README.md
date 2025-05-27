@@ -548,6 +548,48 @@ Resume data is stored in `crawls/swedish_municipalities/` and includes:
 - Spider statistics
 - **PDF cache state**
 
+## Update Detection
+
+Use the `update_checker.py` helper to find municipalities that may have
+changed their fee information since the last crawl. This allows targeted
+recrawling so the dataset stays fresh.
+
+```bash
+python crawler/utils/update_checker.py --db data/output/phase1_municipal_data_YYYYMMDD_HHMM.db
+```
+
+The script sends lightweight HTTP `HEAD` requests to the previously collected
+source URLs and lists the pages where a newer `Last-Modified` timestamp is
+observed.
+
+## Data Standardization
+
+Normalize municipality names and billing model values after a crawl:
+
+```bash
+python crawler/utils/data_standardizer.py --db data/output/phase1_municipal_data_YYYYMMDD_HHMM.db
+```
+
+This updates the database in place so reports remain consistent across municipalities.
+
+## Access Checks
+
+Identify domains that block crawling via robots.txt or require login:
+
+```bash
+python crawler/utils/access_checker.py --db data/output/phase1_municipal_data_YYYYMMDD_HHMM.db
+```
+
+Problematic sites will be listed for manual follow‑up.
+
+## Missing Data Report
+
+Generate a list of municipalities missing any Phase 1 fields:
+
+```bash
+python crawler/utils/missing_data_report.py --db data/output/phase1_municipal_data_YYYYMMDD_HHMM.db
+```
+
 ## Monitoring and Logging
 
 ### Log Levels

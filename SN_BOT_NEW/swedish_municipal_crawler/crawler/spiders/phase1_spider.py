@@ -15,6 +15,7 @@ from urllib.parse import urljoin, urlparse
 from pathlib import Path
 import re
 import time
+import json
 
 from ..items import Phase1DataItem
 from ..extractors.phase1_extractors import Phase1ExtractorManager
@@ -87,6 +88,11 @@ class Phase1Spider(scrapy.Spider):
         # Track municipalities with complete data to stop early
         self.municipality_complete_data = set()
         self.municipality_visited_urls = {}
+
+        # Error logging setup
+        timestamp = datetime.now().strftime('%Y%m%d_%H%M')
+        self.error_log = []
+        self.error_log_path = Path('data/output') / f'phase1_errors_{timestamp}.json'
         
         # Set allowed domains from municipalities
         self.allowed_domains = []
@@ -1045,6 +1051,13 @@ class Phase1Spider(scrapy.Spider):
         if error_type not in self.error_stats:
             self.error_stats[error_type] = 0
         self.error_stats[error_type] += 1
+
+        # Store detailed error for later review
+        self.error_log.append({
+            'municipality': municipality_name,
+            'url': request.url,
+            'error': failure.value.__class__.__name__,
+        })
     
     def closed(self, reason):
         """Log final statistics when spider closes with enhanced error reporting"""
@@ -1068,7 +1081,16 @@ class Phase1Spider(scrapy.Spider):
         if self.stats['total_phase1_items'] > 0:
             success_rate = (self.stats['complete_items'] / self.stats['total_phase1_items']) * 100
             self.logger.info(f"Phase 1 success rate: {success_rate:.1f}% (complete items)")
-        
+
+        # Write error log if any errors were recorded
+        if self.error_log:
+            try:
+                with open(self.error_log_path, 'w', encoding='utf-8') as f:
+                    json.dump(self.error_log, f, ensure_ascii=False, indent=2)
+                self.logger.info(f"Detailed errors written to {self.error_log_path}")
+            except Exception as e:
+                self.logger.error(f"Failed to write error log: {e}")
+
         self.logger.info(f"Spider closed: {reason}")
 
     def _is_valid_municipal_url(self, url, base_domain):
